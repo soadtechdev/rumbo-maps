@@ -2,25 +2,459 @@
   "formatVersion": 1,
   "packages": [
     {
+      "id": "es-an",
+      "code": "ES-AN",
+      "country": "ES",
+      "name": "Andalucía",
+      "summary": "Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga y Sevilla",
+      "bounds": [
+        -7.545,
+        35.92,
+        -1.61,
+        38.75
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-an.pmtiles",
+      "sizeBytes": 138236294,
+      "sha256": "bdd5e668e3efc06370215e2a63baeaad229424cf8184496bf489553a3edb89d1",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-an.valhalla.tar",
+        "sizeBytes": 279060480,
+        "sha256": "451e60fd504e16ad4da9bbbee45f8a47fc3fbcde4ea28da501740e9276329b3b",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ar",
+      "code": "ES-AR",
+      "country": "ES",
+      "name": "Aragón",
+      "summary": "Huesca, Teruel y Zaragoza",
+      "bounds": [
+        -2.195,
+        39.825,
+        0.79,
+        42.945
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ar.pmtiles",
+      "sizeBytes": 118441232,
+      "sha256": "a7f64700b9fb0290a648b26bd28632760af64fcd87c027e3952d51ccd08c4a50",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ar.valhalla.tar",
+        "sizeBytes": 189992960,
+        "sha256": "5b683793411be300688f0f6460e765d69602222496dca144b2b5707ac95a29af",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-as",
+      "code": "ES-AS",
+      "country": "ES",
+      "name": "Asturias",
+      "summary": "Principado de Asturias",
+      "bounds": [
+        -7.205,
+        42.865,
+        -4.49,
+        43.68
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-as.pmtiles",
+      "sizeBytes": 34391222,
+      "sha256": "8e686ee1c52606d59396125a4553f53ac255b1eb368d6f596a6828dacf606473",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-as.valhalla.tar",
+        "sizeBytes": 68986880,
+        "sha256": "94b76399e83a8adc0444e8c479519cb1099f6364d2a43d732f3c07a2edc802ec",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ib",
+      "code": "ES-IB",
+      "country": "ES",
+      "name": "Islas Baleares",
+      "summary": "Mallorca, Menorca, Ibiza y Formentera",
+      "bounds": [
+        1.135,
+        38.62,
+        4.35,
+        40.115
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ib.pmtiles",
+      "sizeBytes": 24060859,
+      "sha256": "2998ad69e1159959f8934d68323361ccc40cfe0ae008597bf1bf99432e6daf06",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ib.valhalla.tar",
+        "sizeBytes": 46520320,
+        "sha256": "eee232bfbddefc437730bb0598df74ad53ede883df3ff60007fe24b30e5acdcf",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-cn",
+      "code": "ES-CN",
+      "country": "ES",
+      "name": "Canarias",
+      "summary": "Las Palmas y Santa Cruz de Tenerife",
+      "bounds": [
+        -18.18,
+        27.62,
+        -13.31,
+        29.435
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cn.pmtiles",
+      "sizeBytes": 28475402,
+      "sha256": "1eb644ebb4547c410783d97f420aa7feff91d23e257e4804737785931c637891",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cn.valhalla.tar",
+        "sizeBytes": 48998400,
+        "sha256": "d480380c01508e761e2815b77e1d6298d6b5bddab49301532ab32baf4d79343e",
+        "graph": "es-cn-2026.10.13"
+      }
+    },
+    {
+      "id": "es-cb",
+      "code": "ES-CB",
+      "country": "ES",
+      "name": "Cantabria",
+      "summary": "Cantabria",
+      "bounds": [
+        -4.87,
+        42.74,
+        -3.13,
+        43.535
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cb.pmtiles",
+      "sizeBytes": 27795387,
+      "sha256": "f637d70ec01ca63b1a30eaa87170c097f8f18f342d2a2efa58052773a6c7c1f7",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cb.valhalla.tar",
+        "sizeBytes": 67491840,
+        "sha256": "ee248f80a51dc3dd97a98106900d2d5c7bfb25e20db6134ed44a09690279c526",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-cm",
+      "code": "ES-CM",
+      "country": "ES",
+      "name": "Castilla-La Mancha",
+      "summary": "Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo",
+      "bounds": [
+        -5.425,
+        38.0,
+        -0.895,
+        41.35
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cm.pmtiles",
+      "sizeBytes": 121773230,
+      "sha256": "3e9e9fcfa1a6f4f3ea7fdce7a85dbbb50346b70db3d2f06bdbe93f6c1fe7f664",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cm.valhalla.tar",
+        "sizeBytes": 260423680,
+        "sha256": "2057c3c4bbb3290ef8f517e3f4dd7cef035aefd90583972b686f52da238dd227",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-cl",
+      "code": "ES-CL",
+      "country": "ES",
+      "name": "Castilla y León",
+      "summary": "Ávila, Burgos, León, Palencia, Salamanca, Segovia, Soria, Valladolid y Zamora",
+      "bounds": [
+        -7.095,
+        40.065,
+        -1.755,
+        43.26
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cl.pmtiles",
+      "sizeBytes": 209774562,
+      "sha256": "05ca69a309565c9c834bba4baf6b9e821397c0903f76a72b7ba5c9dfefdcd737",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cl.valhalla.tar",
+        "sizeBytes": 358246400,
+        "sha256": "4732949675fcf7539cf0637a23b4e665d0c651c9d59493a110cf13aa056f6b76",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ct",
+      "code": "ES-CT",
+      "country": "ES",
+      "name": "Cataluña",
+      "summary": "Barcelona, Girona, Lleida y Tarragona",
+      "bounds": [
+        0.14,
+        40.505,
+        3.34,
+        42.88
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ct.pmtiles",
+      "sizeBytes": 157290240,
+      "sha256": "ef1db69cd0bbb07f30c761ee85a5cbfb4640d7585454a2a58077af956878af24",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ct.valhalla.tar",
+        "sizeBytes": 230471680,
+        "sha256": "3fab0f06c4ebde964b1e04a85db26440bcfd642ce8280ed66ee39f01cdc43df4",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ce",
+      "code": "ES-CE",
+      "country": "ES",
+      "name": "Ceuta",
+      "summary": "Ciudad autónoma de Ceuta",
+      "bounds": [
+        -5.426,
+        35.867,
+        -5.274,
+        35.922
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ce.pmtiles",
+      "sizeBytes": 1022113,
+      "sha256": "d61963159a642afc060b0c1c35f7a4b614a6dbecad63ad66fbbcdf6d0f7eacb0",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ce.valhalla.tar",
+        "sizeBytes": 7249920,
+        "sha256": "6836766cf871280ecc50039b1707074a43ea8a40da77282199084258f3cc139e",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
       "id": "es-vc",
       "code": "ES-VC",
+      "country": "ES",
       "name": "Comunidad Valenciana",
       "summary": "Castellón, Valencia y Alicante",
       "bounds": [
         -1.55,
-        37.83,
-        0.7,
-        40.8
+        37.825,
+        0.71,
+        40.81
       ],
       "version": "2026.10.13",
       "dataDate": "2026-10-13",
-      "sizeBytes": 112178109,
-      "sha256": "eedfcb3742c325bc4472d38027c125fde1260b16cd8de2e0dc3f42c738e22c78",
-      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/comunidad-valenciana.pmtiles",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-vc.pmtiles",
+      "sizeBytes": 83742006,
+      "sha256": "0732da01048b6e65d70791096e12eccbc3c60207cec4b0d1c7bfee3b8d911243",
       "routing": {
-        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/comunidad-valenciana.valhalla.tar",
-        "sizeBytes": 151941120,
-        "sha256": "9bb7b869909d30706faad0a9e816b4cd94eccca652a7b6da482ea13fe05bd2d3"
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-vc.valhalla.tar",
+        "sizeBytes": 226846720,
+        "sha256": "75c365916ebfd18937f0cb352737097137f27d8a477654467b639c2617e66ecf",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ex",
+      "code": "ES-EX",
+      "country": "ES",
+      "name": "Extremadura",
+      "summary": "Badajoz y Cáceres",
+      "bounds": [
+        -7.56,
+        37.92,
+        -4.63,
+        40.505
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ex.pmtiles",
+      "sizeBytes": 48459089,
+      "sha256": "24462767494c6a97f6768cbfec4cbb3a0a7ace05bb01c11ce1c9b3fad8713084",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ex.valhalla.tar",
+        "sizeBytes": 94914560,
+        "sha256": "548125d4bed7baa7a9ff96c4a6f37f61b876306d439a8daff68bd1c978d937e4",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ga",
+      "code": "ES-GA",
+      "country": "ES",
+      "name": "Galicia",
+      "summary": "A Coruña, Lugo, Ourense y Pontevedra",
+      "bounds": [
+        -9.32,
+        41.785,
+        -6.715,
+        43.81
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ga.pmtiles",
+      "sizeBytes": 106616493,
+      "sha256": "779d96090411bc36bcf4aea5dd83b83feafb8b9c3b5ce41959df9e07995b983e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ga.valhalla.tar",
+        "sizeBytes": 177244160,
+        "sha256": "637697cbf33b2a732e06092133c700dcfb4313692c9c3d959391c1746a6cbc5a",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ri",
+      "code": "ES-RI",
+      "country": "ES",
+      "name": "La Rioja",
+      "summary": "La Rioja",
+      "bounds": [
+        -3.155,
+        41.9,
+        -1.66,
+        42.66
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ri.pmtiles",
+      "sizeBytes": 17784382,
+      "sha256": "78b7f21642ca1b2ff6117fb64dbfca9e4eecfa02b04a0c24243d9c2355996f86",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ri.valhalla.tar",
+        "sizeBytes": 74536960,
+        "sha256": "6bc666ae167b0dd7a42465c44cfe087b7d4244ee31ff69e1ddd870c214d584f7",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-md",
+      "code": "ES-MD",
+      "country": "ES",
+      "name": "Madrid",
+      "summary": "Comunidad de Madrid",
+      "bounds": [
+        -4.6,
+        39.865,
+        -3.035,
+        41.185
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-md.pmtiles",
+      "sizeBytes": 40422080,
+      "sha256": "8a872d5379bbbeef8c27cfe779082fc1d32f53e0a8f40fe2b849235233a83f86",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-md.valhalla.tar",
+        "sizeBytes": 130560000,
+        "sha256": "8724b9f7efec002462287bdca48745d01d0b862a14976826d98b8a9de22c0609",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-ml",
+      "code": "ES-ML",
+      "country": "ES",
+      "name": "Melilla",
+      "summary": "Ciudad autónoma de Melilla",
+      "bounds": [
+        -4.32,
+        35.15,
+        -2.4,
+        35.34
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ml.pmtiles",
+      "sizeBytes": 1808569,
+      "sha256": "fb14799b39a6f2777c3b7415e658f96e956f12ed50bb297378e661338f3cf949",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ml.valhalla.tar",
+        "sizeBytes": 13742080,
+        "sha256": "f7e204da270b0a36067991d94634c1083c21eee3d4f1e3c0e91941855fc5650c",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-mc",
+      "code": "ES-MC",
+      "country": "ES",
+      "name": "Murcia",
+      "summary": "Región de Murcia",
+      "bounds": [
+        -2.365,
+        37.355,
+        -0.625,
+        38.775
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-mc.pmtiles",
+      "sizeBytes": 32712796,
+      "sha256": "8851243cca83ed83812d772d8ccfcce3fded36943b192378e3f08abcb038562c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-mc.valhalla.tar",
+        "sizeBytes": 113080320,
+        "sha256": "9203e927e0c8348f3d6fc46505dae9521c9dc207a51c59cafcaa0231e96755e3",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-nc",
+      "code": "ES-NC",
+      "country": "ES",
+      "name": "Navarra",
+      "summary": "Comunidad Foral de Navarra",
+      "bounds": [
+        -2.52,
+        41.89,
+        -0.705,
+        43.335
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-nc.pmtiles",
+      "sizeBytes": 47161327,
+      "sha256": "8035e7fafb6e4c9bac1924acc4803c064d4179bcb1de18a4cb1cbee9524854db",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-nc.valhalla.tar",
+        "sizeBytes": 95477760,
+        "sha256": "a31ed117268e270de46e82aab5675f1f52a1af40d5b508b7cfce429db06deef0",
+        "graph": "es-2026.10.13"
+      }
+    },
+    {
+      "id": "es-pv",
+      "code": "ES-PV",
+      "country": "ES",
+      "name": "País Vasco",
+      "summary": "Álava, Gipuzkoa y Bizkaia",
+      "bounds": [
+        -3.47,
+        42.45,
+        -1.71,
+        43.475
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-pv.pmtiles",
+      "sizeBytes": 62194746,
+      "sha256": "bbb98e1d5ec663b521261b2b6f1f39c9c01f817aec9284197aa82da6e3640ac2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-pv.valhalla.tar",
+        "sizeBytes": 95610880,
+        "sha256": "c2365045612812f4354d525840e5fd250cfd38443d0a512d991345455c75589a",
+        "graph": "es-2026.10.13"
       }
     }
   ]
