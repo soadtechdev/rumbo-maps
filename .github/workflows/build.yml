@@ -78,12 +78,17 @@ jobs:
   graph:
     needs: plan
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     strategy:
       fail-fast: false
+      max-parallel: 8
       matrix:
         graph: ${{ fromJson(needs.plan.outputs.graphs) }}
     steps:
       - uses: actions/checkout@v4
+      - name: Hacer sitio
+        # La red de un país grande ocupa decenas de gigas mientras se genera.
+        run: sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android /opt/hostedtoolcache/CodeQL
       - name: Generar
         run: ./build.py graph "${{ matrix.graph }}" "${{ needs.plan.outputs.build }}"
       - name: Publicar
