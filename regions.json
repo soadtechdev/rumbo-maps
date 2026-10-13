@@ -6,7 +6,8 @@
     "group": "es",
     "name": "Andalucía",
     "summary": "Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga y Sevilla",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/andalucia-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/andalucia-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ar",
@@ -15,7 +16,8 @@
     "group": "es",
     "name": "Aragón",
     "summary": "Huesca, Teruel y Zaragoza",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/aragon-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/aragon-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-as",
@@ -24,7 +26,8 @@
     "group": "es",
     "name": "Asturias",
     "summary": "Principado de Asturias",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/asturias-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/asturias-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ib",
@@ -33,7 +36,8 @@
     "group": "es",
     "name": "Islas Baleares",
     "summary": "Mallorca, Menorca, Ibiza y Formentera",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/illes_balears-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/illes_balears-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-cn",
@@ -42,7 +46,8 @@
     "group": "es",
     "name": "Canarias",
     "summary": "Las Palmas y Santa Cruz de Tenerife",
-    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/canarias-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/canarias-latest.osm.pbf",
+    "graph": "es-cn"
   },
   {
     "id": "es-cb",
@@ -51,7 +56,8 @@
     "group": "es",
     "name": "Cantabria",
     "summary": "Cantabria",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/cantabria-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/cantabria-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-cm",
@@ -60,7 +66,8 @@
     "group": "es",
     "name": "Castilla-La Mancha",
     "summary": "Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/castilla_la_mancha-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/castilla_la_mancha-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-cl",
@@ -69,7 +76,8 @@
     "group": "es",
     "name": "Castilla y León",
     "summary": "Ávila, Burgos, León, Palencia, Salamanca, Segovia, Soria, Valladolid y Zamora",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/castilla_y_leon-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/castilla_y_leon-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ct",
@@ -78,7 +86,8 @@
     "group": "es",
     "name": "Cataluña",
     "summary": "Barcelona, Girona, Lleida y Tarragona",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/catalunya-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/catalunya-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ce",
@@ -87,7 +96,8 @@
     "group": "es",
     "name": "Ceuta",
     "summary": "Ciudad autónoma de Ceuta",
-    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/ceuta-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/ceuta-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-vc",
@@ -96,7 +106,8 @@
     "group": "es",
     "name": "Comunidad Valenciana",
     "summary": "Castellón, Valencia y Alicante",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunitat_valenciana-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunitat_valenciana-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ex",
@@ -105,7 +116,8 @@
     "group": "es",
     "name": "Extremadura",
     "summary": "Badajoz y Cáceres",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/extremadura-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/extremadura-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ga",
@@ -114,7 +126,8 @@
     "group": "es",
     "name": "Galicia",
     "summary": "A Coruña, Lugo, Ourense y Pontevedra",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/galicia-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/galicia-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ri",
@@ -123,7 +136,8 @@
     "group": "es",
     "name": "La Rioja",
     "summary": "La Rioja",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/la_rioja-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/la_rioja-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-md",
@@ -132,7 +146,8 @@
     "group": "es",
     "name": "Madrid",
     "summary": "Comunidad de Madrid",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunidad_de_madrid-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunidad_de_madrid-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-ml",
@@ -141,7 +156,8 @@
     "group": "es",
     "name": "Melilla",
     "summary": "Ciudad autónoma de Melilla",
-    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/melilla-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/melilla-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-mc",
@@ -150,7 +166,8 @@
     "group": "es",
     "name": "Murcia",
     "summary": "Región de Murcia",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/region_de_murcia-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/region_de_murcia-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-nc",
@@ -159,7 +176,8 @@
     "group": "es",
     "name": "Navarra",
     "summary": "Comunidad Foral de Navarra",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunidad_foral_de_navarra-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunidad_foral_de_navarra-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "es-pv",
@@ -168,7 +186,8 @@
     "group": "es",
     "name": "País Vasco",
     "summary": "Álava, Gipuzkoa y Bizkaia",
-    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/euskadi-latest.osm.pbf"
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/euskadi-latest.osm.pbf",
+    "graph": "es"
   },
   {
     "id": "al",
@@ -177,7 +196,8 @@
     "group": "eu",
     "name": "Albania",
     "summary": "Albania",
-    "osm": "https://download.geofabrik.de/europe/albania-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/albania-latest.osm.pbf",
+    "graph": "al"
   },
   {
     "id": "ad",
@@ -186,7 +206,8 @@
     "group": "eu",
     "name": "Andorra",
     "summary": "Andorra",
-    "osm": "https://download.geofabrik.de/europe/andorra-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/andorra-latest.osm.pbf",
+    "graph": "ad"
   },
   {
     "id": "at",
@@ -195,7 +216,8 @@
     "group": "eu",
     "name": "Austria",
     "summary": "Austria",
-    "osm": "https://download.geofabrik.de/europe/austria-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/austria-latest.osm.pbf",
+    "graph": "at"
   },
   {
     "id": "pt-20",
@@ -204,7 +226,8 @@
     "group": "eu",
     "name": "Azores",
     "summary": "Azores",
-    "osm": "https://download.geofabrik.de/europe/azores-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/azores-latest.osm.pbf",
+    "graph": "pt"
   },
   {
     "id": "by",
@@ -213,7 +236,8 @@
     "group": "eu",
     "name": "Bielorrusia",
     "summary": "Bielorrusia",
-    "osm": "https://download.geofabrik.de/europe/belarus-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/belarus-latest.osm.pbf",
+    "graph": "by"
   },
   {
     "id": "be",
@@ -222,7 +246,8 @@
     "group": "eu",
     "name": "Bélgica",
     "summary": "Bélgica",
-    "osm": "https://download.geofabrik.de/europe/belgium-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/belgium-latest.osm.pbf",
+    "graph": "be"
   },
   {
     "id": "ba",
@@ -231,7 +256,8 @@
     "group": "eu",
     "name": "Bosnia y Herzegovina",
     "summary": "Bosnia y Herzegovina",
-    "osm": "https://download.geofabrik.de/europe/bosnia-herzegovina-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/bosnia-herzegovina-latest.osm.pbf",
+    "graph": "ba"
   },
   {
     "id": "bg",
@@ -240,7 +266,8 @@
     "group": "eu",
     "name": "Bulgaria",
     "summary": "Bulgaria",
-    "osm": "https://download.geofabrik.de/europe/bulgaria-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/bulgaria-latest.osm.pbf",
+    "graph": "bg"
   },
   {
     "id": "hr",
@@ -249,7 +276,8 @@
     "group": "eu",
     "name": "Croacia",
     "summary": "Croacia",
-    "osm": "https://download.geofabrik.de/europe/croatia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/croatia-latest.osm.pbf",
+    "graph": "hr"
   },
   {
     "id": "cy",
@@ -258,7 +286,8 @@
     "group": "eu",
     "name": "Chipre",
     "summary": "Chipre",
-    "osm": "https://download.geofabrik.de/europe/cyprus-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/cyprus-latest.osm.pbf",
+    "graph": "cy"
   },
   {
     "id": "cz-jihomoravsky",
@@ -267,7 +296,8 @@
     "group": "eu",
     "name": "Jihomoravský kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/jihomoravsky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/jihomoravsky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-jihocesky",
@@ -276,7 +306,8 @@
     "group": "eu",
     "name": "Jihočeský kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/jihocesky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/jihocesky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-karlovarsky",
@@ -285,7 +316,8 @@
     "group": "eu",
     "name": "Karlovarský kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/karlovarsky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/karlovarsky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-vysocina",
@@ -294,7 +326,8 @@
     "group": "eu",
     "name": "Kraj Vysočina",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/vysocina-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/vysocina-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-kralovehradecky",
@@ -303,7 +336,8 @@
     "group": "eu",
     "name": "Královéhradecký kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/kralovehradecky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/kralovehradecky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-liberecky",
@@ -312,7 +346,8 @@
     "group": "eu",
     "name": "Liberecký kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/liberecky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/liberecky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-moravskoslezky",
@@ -321,7 +356,8 @@
     "group": "eu",
     "name": "Moravskoslezský kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/moravskoslezky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/moravskoslezky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-olomoucky",
@@ -330,7 +366,8 @@
     "group": "eu",
     "name": "Olomoucký kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/olomoucky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/olomoucky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-pardubicky",
@@ -339,7 +376,8 @@
     "group": "eu",
     "name": "Pardubický kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/pardubicky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/pardubicky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-plzensky",
@@ -348,7 +386,8 @@
     "group": "eu",
     "name": "Plzeňský kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/plzensky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/plzensky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-praha",
@@ -357,7 +396,8 @@
     "group": "eu",
     "name": "Praha",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/praha-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/praha-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-stredocesky",
@@ -366,7 +406,8 @@
     "group": "eu",
     "name": "Středočeský kraj (with Praha)",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/stredocesky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/stredocesky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-zlinsky",
@@ -375,7 +416,8 @@
     "group": "eu",
     "name": "Zlínský kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/zlinsky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/zlinsky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "cz-ustecky",
@@ -384,7 +426,8 @@
     "group": "eu",
     "name": "Ústecký kraj",
     "summary": "Chequia",
-    "osm": "https://download.geofabrik.de/europe/czech-republic/ustecky-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/czech-republic/ustecky-latest.osm.pbf",
+    "graph": "cz"
   },
   {
     "id": "dk",
@@ -393,7 +436,8 @@
     "group": "eu",
     "name": "Dinamarca",
     "summary": "Dinamarca",
-    "osm": "https://download.geofabrik.de/europe/denmark-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/denmark-latest.osm.pbf",
+    "graph": "dk"
   },
   {
     "id": "ee",
@@ -402,7 +446,8 @@
     "group": "eu",
     "name": "Estonia",
     "summary": "Estonia",
-    "osm": "https://download.geofabrik.de/europe/estonia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/estonia-latest.osm.pbf",
+    "graph": "ee"
   },
   {
     "id": "fo",
@@ -411,7 +456,8 @@
     "group": "eu",
     "name": "Islas Feroe",
     "summary": "Islas Feroe",
-    "osm": "https://download.geofabrik.de/europe/faroe-islands-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/faroe-islands-latest.osm.pbf",
+    "graph": "fo"
   },
   {
     "id": "fi",
@@ -420,7 +466,8 @@
     "group": "eu",
     "name": "Finlandia",
     "summary": "Finlandia",
-    "osm": "https://download.geofabrik.de/europe/finland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/finland-latest.osm.pbf",
+    "graph": "fi"
   },
   {
     "id": "fr-alsace",
@@ -429,7 +476,8 @@
     "group": "eu",
     "name": "Alsace",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/alsace-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/alsace-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-aquitaine",
@@ -438,7 +486,8 @@
     "group": "eu",
     "name": "Aquitaine",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/aquitaine-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/aquitaine-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-auvergne",
@@ -447,7 +496,8 @@
     "group": "eu",
     "name": "Auvergne",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/auvergne-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/auvergne-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-basse-normandie",
@@ -456,7 +506,8 @@
     "group": "eu",
     "name": "Basse-Normandie",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/basse-normandie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/basse-normandie-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-bourgogne",
@@ -465,7 +516,8 @@
     "group": "eu",
     "name": "Bourgogne",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/bourgogne-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/bourgogne-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-bretagne",
@@ -474,7 +526,8 @@
     "group": "eu",
     "name": "Bretagne",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/bretagne-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/bretagne-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-centre",
@@ -483,7 +536,8 @@
     "group": "eu",
     "name": "Centre",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/centre-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/centre-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-champagne-ardenne",
@@ -492,7 +546,8 @@
     "group": "eu",
     "name": "Champagne Ardenne",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/champagne-ardenne-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/champagne-ardenne-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-corse",
@@ -501,7 +556,8 @@
     "group": "eu",
     "name": "Corse",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/corse-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/corse-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-franche-comte",
@@ -510,7 +566,8 @@
     "group": "eu",
     "name": "Franche Comte",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/franche-comte-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/franche-comte-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-guadeloupe",
@@ -519,7 +576,8 @@
     "group": "eu",
     "name": "Guadeloupe",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/guadeloupe-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/guadeloupe-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-guyane",
@@ -528,7 +586,8 @@
     "group": "eu",
     "name": "Guyane",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/guyane-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/guyane-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-haute-normandie",
@@ -537,7 +596,8 @@
     "group": "eu",
     "name": "Haute-Normandie",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/haute-normandie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/haute-normandie-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-ile-de-france",
@@ -546,7 +606,8 @@
     "group": "eu",
     "name": "Ile-de-France",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/ile-de-france-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/ile-de-france-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-languedoc-roussillon",
@@ -555,7 +616,8 @@
     "group": "eu",
     "name": "Languedoc-Roussillon",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/languedoc-roussillon-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/languedoc-roussillon-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-limousin",
@@ -564,7 +626,8 @@
     "group": "eu",
     "name": "Limousin",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/limousin-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/limousin-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-lorraine",
@@ -573,7 +636,8 @@
     "group": "eu",
     "name": "Lorraine",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/lorraine-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/lorraine-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-martinique",
@@ -582,7 +646,8 @@
     "group": "eu",
     "name": "Martinique",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/martinique-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/martinique-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-mayotte",
@@ -591,7 +656,8 @@
     "group": "eu",
     "name": "Mayotte",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/mayotte-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/mayotte-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-midi-pyrenees",
@@ -600,7 +666,8 @@
     "group": "eu",
     "name": "Midi-Pyrenees",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/midi-pyrenees-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/midi-pyrenees-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-nord-pas-de-calais",
@@ -609,7 +676,8 @@
     "group": "eu",
     "name": "Nord-Pas-de-Calais",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/nord-pas-de-calais-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/nord-pas-de-calais-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-pays-de-la-loire",
@@ -618,7 +686,8 @@
     "group": "eu",
     "name": "Pays de la Loire",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/pays-de-la-loire-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/pays-de-la-loire-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-picardie",
@@ -627,7 +696,8 @@
     "group": "eu",
     "name": "Picardie",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/picardie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/picardie-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-poitou-charentes",
@@ -636,7 +706,8 @@
     "group": "eu",
     "name": "Poitou-Charentes",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/poitou-charentes-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/poitou-charentes-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-provence-alpes-cote-d-azur",
@@ -645,7 +716,8 @@
     "group": "eu",
     "name": "Provence Alpes-Cote-d'Azur",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/provence-alpes-cote-d-azur-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/provence-alpes-cote-d-azur-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-reunion",
@@ -654,7 +726,8 @@
     "group": "eu",
     "name": "Reunion",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/reunion-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/reunion-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "fr-rhone-alpes",
@@ -663,7 +736,8 @@
     "group": "eu",
     "name": "Rhone-Alpes",
     "summary": "Francia",
-    "osm": "https://download.geofabrik.de/europe/france/rhone-alpes-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/france/rhone-alpes-latest.osm.pbf",
+    "graph": "fr"
   },
   {
     "id": "ge",
@@ -672,7 +746,8 @@
     "group": "eu",
     "name": "Georgia",
     "summary": "Georgia",
-    "osm": "https://download.geofabrik.de/europe/georgia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/georgia-latest.osm.pbf",
+    "graph": "ge"
   },
   {
     "id": "de-baden-wuerttemberg",
@@ -681,7 +756,8 @@
     "group": "eu",
     "name": "Baden-Württemberg",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/baden-wuerttemberg-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/baden-wuerttemberg-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-bayern",
@@ -690,7 +766,8 @@
     "group": "eu",
     "name": "Bayern",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/bayern-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/bayern-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-berlin",
@@ -699,7 +776,8 @@
     "group": "eu",
     "name": "Berlin",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/berlin-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-brandenburg",
@@ -708,7 +786,8 @@
     "group": "eu",
     "name": "Brandenburg (mit Berlin)",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/brandenburg-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/brandenburg-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-bremen",
@@ -717,7 +796,8 @@
     "group": "eu",
     "name": "Bremen",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/bremen-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-hamburg",
@@ -726,7 +806,8 @@
     "group": "eu",
     "name": "Hamburg",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/hamburg-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/hamburg-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-hessen",
@@ -735,7 +816,8 @@
     "group": "eu",
     "name": "Hessen",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/hessen-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/hessen-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-mecklenburg-vorpommern",
@@ -744,7 +826,8 @@
     "group": "eu",
     "name": "Mecklenburg-Vorpommern",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/mecklenburg-vorpommern-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/mecklenburg-vorpommern-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-niedersachsen",
@@ -753,7 +836,8 @@
     "group": "eu",
     "name": "Niedersachsen (mit Bremen)",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/niedersachsen-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/niedersachsen-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-nordrhein-westfalen",
@@ -762,7 +846,8 @@
     "group": "eu",
     "name": "Nordrhein-Westfalen",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/nordrhein-westfalen-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/nordrhein-westfalen-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-rheinland-pfalz",
@@ -771,7 +856,8 @@
     "group": "eu",
     "name": "Rheinland-Pfalz",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/rheinland-pfalz-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/rheinland-pfalz-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-saarland",
@@ -780,7 +866,8 @@
     "group": "eu",
     "name": "Saarland",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/saarland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/saarland-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-sachsen",
@@ -789,7 +876,8 @@
     "group": "eu",
     "name": "Sachsen",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/sachsen-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/sachsen-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-sachsen-anhalt",
@@ -798,7 +886,8 @@
     "group": "eu",
     "name": "Sachsen-Anhalt",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/sachsen-anhalt-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/sachsen-anhalt-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-schleswig-holstein",
@@ -807,7 +896,8 @@
     "group": "eu",
     "name": "Schleswig-Holstein",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/schleswig-holstein-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/schleswig-holstein-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "de-thueringen",
@@ -816,7 +906,8 @@
     "group": "eu",
     "name": "Thüringen",
     "summary": "Alemania",
-    "osm": "https://download.geofabrik.de/europe/germany/thueringen-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/germany/thueringen-latest.osm.pbf",
+    "graph": "de"
   },
   {
     "id": "gr",
@@ -825,7 +916,8 @@
     "group": "eu",
     "name": "Grecia",
     "summary": "Grecia",
-    "osm": "https://download.geofabrik.de/europe/greece-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/greece-latest.osm.pbf",
+    "graph": "gr"
   },
   {
     "id": "gg",
@@ -834,7 +926,8 @@
     "group": "eu",
     "name": "Guernsey y Jersey",
     "summary": "Guernsey y Jersey",
-    "osm": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/guernsey-jersey-latest.osm.pbf",
+    "graph": "gg"
   },
   {
     "id": "hu",
@@ -843,7 +936,8 @@
     "group": "eu",
     "name": "Hungría",
     "summary": "Hungría",
-    "osm": "https://download.geofabrik.de/europe/hungary-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/hungary-latest.osm.pbf",
+    "graph": "hu"
   },
   {
     "id": "is",
@@ -852,7 +946,8 @@
     "group": "eu",
     "name": "Islandia",
     "summary": "Islandia",
-    "osm": "https://download.geofabrik.de/europe/iceland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/iceland-latest.osm.pbf",
+    "graph": "is"
   },
   {
     "id": "ie",
@@ -861,7 +956,8 @@
     "group": "eu",
     "name": "Irlanda e Irlanda del Norte",
     "summary": "Irlanda e Irlanda del Norte",
-    "osm": "https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/ireland-and-northern-ireland-latest.osm.pbf",
+    "graph": "ie"
   },
   {
     "id": "im",
@@ -870,7 +966,8 @@
     "group": "eu",
     "name": "Isla de Man",
     "summary": "Isla de Man",
-    "osm": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/isle-of-man-latest.osm.pbf",
+    "graph": "im"
   },
   {
     "id": "it-centro",
@@ -879,7 +976,8 @@
     "group": "eu",
     "name": "Centro",
     "summary": "Italia",
-    "osm": "https://download.geofabrik.de/europe/italy/centro-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/italy/centro-latest.osm.pbf",
+    "graph": "it"
   },
   {
     "id": "it-isole",
@@ -888,7 +986,8 @@
     "group": "eu",
     "name": "Isole",
     "summary": "Italia",
-    "osm": "https://download.geofabrik.de/europe/italy/isole-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/italy/isole-latest.osm.pbf",
+    "graph": "it"
   },
   {
     "id": "it-nord-est",
@@ -897,7 +996,8 @@
     "group": "eu",
     "name": "Nord-Est",
     "summary": "Italia",
-    "osm": "https://download.geofabrik.de/europe/italy/nord-est-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/italy/nord-est-latest.osm.pbf",
+    "graph": "it"
   },
   {
     "id": "it-nord-ovest",
@@ -906,7 +1006,8 @@
     "group": "eu",
     "name": "Nord-Ovest",
     "summary": "Italia",
-    "osm": "https://download.geofabrik.de/europe/italy/nord-ovest-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/italy/nord-ovest-latest.osm.pbf",
+    "graph": "it"
   },
   {
     "id": "it-sud",
@@ -915,7 +1016,8 @@
     "group": "eu",
     "name": "Sud",
     "summary": "Italia",
-    "osm": "https://download.geofabrik.de/europe/italy/sud-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/italy/sud-latest.osm.pbf",
+    "graph": "it"
   },
   {
     "id": "xk",
@@ -924,7 +1026,8 @@
     "group": "eu",
     "name": "Kosovo",
     "summary": "Kosovo",
-    "osm": "https://download.geofabrik.de/europe/kosovo-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/kosovo-latest.osm.pbf",
+    "graph": "xk"
   },
   {
     "id": "lv",
@@ -933,7 +1036,8 @@
     "group": "eu",
     "name": "Letonia",
     "summary": "Letonia",
-    "osm": "https://download.geofabrik.de/europe/latvia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/latvia-latest.osm.pbf",
+    "graph": "lv"
   },
   {
     "id": "li",
@@ -942,7 +1046,8 @@
     "group": "eu",
     "name": "Liechtenstein",
     "summary": "Liechtenstein",
-    "osm": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/liechtenstein-latest.osm.pbf",
+    "graph": "li"
   },
   {
     "id": "lt",
@@ -951,7 +1056,8 @@
     "group": "eu",
     "name": "Lituania",
     "summary": "Lituania",
-    "osm": "https://download.geofabrik.de/europe/lithuania-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/lithuania-latest.osm.pbf",
+    "graph": "lt"
   },
   {
     "id": "lu",
@@ -960,7 +1066,8 @@
     "group": "eu",
     "name": "Luxemburgo",
     "summary": "Luxemburgo",
-    "osm": "https://download.geofabrik.de/europe/luxembourg-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/luxembourg-latest.osm.pbf",
+    "graph": "lu"
   },
   {
     "id": "mk",
@@ -969,7 +1076,8 @@
     "group": "eu",
     "name": "Macedonia del Norte",
     "summary": "Macedonia del Norte",
-    "osm": "https://download.geofabrik.de/europe/macedonia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/macedonia-latest.osm.pbf",
+    "graph": "mk"
   },
   {
     "id": "mt",
@@ -978,7 +1086,8 @@
     "group": "eu",
     "name": "Malta",
     "summary": "Malta",
-    "osm": "https://download.geofabrik.de/europe/malta-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/malta-latest.osm.pbf",
+    "graph": "mt"
   },
   {
     "id": "md",
@@ -987,7 +1096,8 @@
     "group": "eu",
     "name": "Moldavia",
     "summary": "Moldavia",
-    "osm": "https://download.geofabrik.de/europe/moldova-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/moldova-latest.osm.pbf",
+    "graph": "md"
   },
   {
     "id": "mc",
@@ -996,7 +1106,8 @@
     "group": "eu",
     "name": "Mónaco",
     "summary": "Mónaco",
-    "osm": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/monaco-latest.osm.pbf",
+    "graph": "mc"
   },
   {
     "id": "me",
@@ -1005,7 +1116,8 @@
     "group": "eu",
     "name": "Montenegro",
     "summary": "Montenegro",
-    "osm": "https://download.geofabrik.de/europe/montenegro-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/montenegro-latest.osm.pbf",
+    "graph": "me"
   },
   {
     "id": "nl-drenthe",
@@ -1014,7 +1126,8 @@
     "group": "eu",
     "name": "Drenthe",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/drenthe-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/drenthe-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-flevoland",
@@ -1023,7 +1136,8 @@
     "group": "eu",
     "name": "Flevoland",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/flevoland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/flevoland-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-friesland",
@@ -1032,7 +1146,8 @@
     "group": "eu",
     "name": "Friesland",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/friesland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/friesland-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-gelderland",
@@ -1041,7 +1156,8 @@
     "group": "eu",
     "name": "Gelderland",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/gelderland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/gelderland-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-groningen",
@@ -1050,7 +1166,8 @@
     "group": "eu",
     "name": "Groningen",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/groningen-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/groningen-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-limburg",
@@ -1059,7 +1176,8 @@
     "group": "eu",
     "name": "Limburg",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/limburg-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/limburg-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-noord-brabant",
@@ -1068,7 +1186,8 @@
     "group": "eu",
     "name": "Noord-Brabant",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/noord-brabant-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/noord-brabant-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-noord-holland",
@@ -1077,7 +1196,8 @@
     "group": "eu",
     "name": "Noord-Holland",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/noord-holland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/noord-holland-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-overijssel",
@@ -1086,7 +1206,8 @@
     "group": "eu",
     "name": "Overijssel",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/overijssel-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/overijssel-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-utrecht",
@@ -1095,7 +1216,8 @@
     "group": "eu",
     "name": "Utrecht",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/utrecht-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/utrecht-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-zeeland",
@@ -1104,7 +1226,8 @@
     "group": "eu",
     "name": "Zeeland",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/zeeland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/zeeland-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "nl-zuid-holland",
@@ -1113,7 +1236,8 @@
     "group": "eu",
     "name": "Zuid-Holland",
     "summary": "Países Bajos",
-    "osm": "https://download.geofabrik.de/europe/netherlands/zuid-holland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/netherlands/zuid-holland-latest.osm.pbf",
+    "graph": "nl"
   },
   {
     "id": "no-nord-norge",
@@ -1122,7 +1246,8 @@
     "group": "eu",
     "name": "Nord-Norge<br />(Northern Norway)",
     "summary": "Noruega",
-    "osm": "https://download.geofabrik.de/europe/norway/nord-norge-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/norway/nord-norge-latest.osm.pbf",
+    "graph": "no"
   },
   {
     "id": "no-sorlandet",
@@ -1131,7 +1256,8 @@
     "group": "eu",
     "name": "Sørlandet<br />(Southern Norway)",
     "summary": "Noruega",
-    "osm": "https://download.geofabrik.de/europe/norway/sorlandet-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/norway/sorlandet-latest.osm.pbf",
+    "graph": "no"
   },
   {
     "id": "no-trondelag",
@@ -1140,7 +1266,8 @@
     "group": "eu",
     "name": "Trøndelag<br />(Central Norway)",
     "summary": "Noruega",
-    "osm": "https://download.geofabrik.de/europe/norway/trondelag-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/norway/trondelag-latest.osm.pbf",
+    "graph": "no"
   },
   {
     "id": "no-vestlandet",
@@ -1149,7 +1276,8 @@
     "group": "eu",
     "name": "Vestlandet<br />(Western Norway)",
     "summary": "Noruega",
-    "osm": "https://download.geofabrik.de/europe/norway/vestlandet-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/norway/vestlandet-latest.osm.pbf",
+    "graph": "no"
   },
   {
     "id": "no-ostlandet",
@@ -1158,7 +1286,8 @@
     "group": "eu",
     "name": "Østlandet<br />(Eastern Norway)",
     "summary": "Noruega",
-    "osm": "https://download.geofabrik.de/europe/norway/ostlandet-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/norway/ostlandet-latest.osm.pbf",
+    "graph": "no"
   },
   {
     "id": "pl-dolnoslaskie",
@@ -1167,7 +1296,8 @@
     "group": "eu",
     "name": "Województwo dolnośląskie<br />(Lower Silesian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/dolnoslaskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/dolnoslaskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-kujawsko-pomorskie",
@@ -1176,7 +1306,8 @@
     "group": "eu",
     "name": "Województwo kujawsko-pomorskie<br />(Kuyavian-Pomeranian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/kujawsko-pomorskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/kujawsko-pomorskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-lubelskie",
@@ -1185,7 +1316,8 @@
     "group": "eu",
     "name": "Województwo lubelskie<br />(Lublin Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/lubelskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/lubelskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-lubuskie",
@@ -1194,7 +1326,8 @@
     "group": "eu",
     "name": "Województwo lubuskie<br />(Lubusz Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/lubuskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/lubuskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-mazowieckie",
@@ -1203,7 +1336,8 @@
     "group": "eu",
     "name": "Województwo mazowieckie<br />(Mazovian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/mazowieckie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/mazowieckie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-malopolskie",
@@ -1212,7 +1346,8 @@
     "group": "eu",
     "name": "Województwo małopolskie<br />(Lesser Poland Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/malopolskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/malopolskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-opolskie",
@@ -1221,7 +1356,8 @@
     "group": "eu",
     "name": "Województwo opolskie<br />(Opole Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/opolskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/opolskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-podkarpackie",
@@ -1230,7 +1366,8 @@
     "group": "eu",
     "name": "Województwo podkarpackie<br />(Subcarpathian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/podkarpackie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/podkarpackie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-podlaskie",
@@ -1239,7 +1376,8 @@
     "group": "eu",
     "name": "Województwo podlaskie<br />(Podlaskie Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/podlaskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/podlaskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-pomorskie",
@@ -1248,7 +1386,8 @@
     "group": "eu",
     "name": "Województwo pomorskie<br />(Pomeranian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/pomorskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/pomorskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-warminsko-mazurskie",
@@ -1257,7 +1396,8 @@
     "group": "eu",
     "name": "Województwo warmińsko-mazurskie<br />(Warmian-Masurian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/warminsko-mazurskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/warminsko-mazurskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-wielkopolskie",
@@ -1266,7 +1406,8 @@
     "group": "eu",
     "name": "Województwo wielkopolskie<br />(Greater Poland Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/wielkopolskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/wielkopolskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-zachodniopomorskie",
@@ -1275,7 +1416,8 @@
     "group": "eu",
     "name": "Województwo zachodniopomorskie<br />(West Pomeranian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/zachodniopomorskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/zachodniopomorskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-lodzkie",
@@ -1284,7 +1426,8 @@
     "group": "eu",
     "name": "Województwo łódzkie<br />(Łódź Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/lodzkie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/lodzkie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-slaskie",
@@ -1293,7 +1436,8 @@
     "group": "eu",
     "name": "Województwo śląskie<br />(Silesian Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/slaskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/slaskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pl-swietokrzyskie",
@@ -1302,7 +1446,8 @@
     "group": "eu",
     "name": "Województwo świętokrzyskie<br />(Świętokrzyskie Voivodeship)",
     "summary": "Polonia",
-    "osm": "https://download.geofabrik.de/europe/poland/swietokrzyskie-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/poland/swietokrzyskie-latest.osm.pbf",
+    "graph": "pl"
   },
   {
     "id": "pt",
@@ -1311,7 +1456,8 @@
     "group": "eu",
     "name": "Portugal",
     "summary": "Portugal",
-    "osm": "https://download.geofabrik.de/europe/portugal-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/portugal-latest.osm.pbf",
+    "graph": "pt"
   },
   {
     "id": "ro",
@@ -1320,7 +1466,8 @@
     "group": "eu",
     "name": "Rumanía",
     "summary": "Rumanía",
-    "osm": "https://download.geofabrik.de/europe/romania-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/romania-latest.osm.pbf",
+    "graph": "ro"
   },
   {
     "id": "rs",
@@ -1329,7 +1476,8 @@
     "group": "eu",
     "name": "Serbia",
     "summary": "Serbia",
-    "osm": "https://download.geofabrik.de/europe/serbia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/serbia-latest.osm.pbf",
+    "graph": "rs"
   },
   {
     "id": "sk",
@@ -1338,7 +1486,8 @@
     "group": "eu",
     "name": "Eslovaquia",
     "summary": "Eslovaquia",
-    "osm": "https://download.geofabrik.de/europe/slovakia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/slovakia-latest.osm.pbf",
+    "graph": "sk"
   },
   {
     "id": "si",
@@ -1347,7 +1496,8 @@
     "group": "eu",
     "name": "Eslovenia",
     "summary": "Eslovenia",
-    "osm": "https://download.geofabrik.de/europe/slovenia-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/slovenia-latest.osm.pbf",
+    "graph": "si"
   },
   {
     "id": "se",
@@ -1356,7 +1506,8 @@
     "group": "eu",
     "name": "Suecia",
     "summary": "Suecia",
-    "osm": "https://download.geofabrik.de/europe/sweden-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/sweden-latest.osm.pbf",
+    "graph": "se"
   },
   {
     "id": "ch",
@@ -1365,7 +1516,8 @@
     "group": "eu",
     "name": "Suiza",
     "summary": "Suiza",
-    "osm": "https://download.geofabrik.de/europe/switzerland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/switzerland-latest.osm.pbf",
+    "graph": "ch"
   },
   {
     "id": "tr",
@@ -1374,7 +1526,8 @@
     "group": "eu",
     "name": "Turquía",
     "summary": "Turquía",
-    "osm": "https://download.geofabrik.de/europe/turkey-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/turkey-latest.osm.pbf",
+    "graph": "tr"
   },
   {
     "id": "ua",
@@ -1383,7 +1536,8 @@
     "group": "eu",
     "name": "Ucrania",
     "summary": "Ucrania",
-    "osm": "https://download.geofabrik.de/europe/ukraine-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/ukraine-latest.osm.pbf",
+    "graph": "ua"
   },
   {
     "id": "gb-england",
@@ -1392,7 +1546,8 @@
     "group": "eu",
     "name": "England",
     "summary": "Reino Unido",
-    "osm": "https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf",
+    "graph": "gb"
   },
   {
     "id": "gb-scotland",
@@ -1401,7 +1556,8 @@
     "group": "eu",
     "name": "Scotland",
     "summary": "Reino Unido",
-    "osm": "https://download.geofabrik.de/europe/united-kingdom/scotland-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/scotland-latest.osm.pbf",
+    "graph": "gb"
   },
   {
     "id": "gb-wales",
@@ -1410,6 +1566,7 @@
     "group": "eu",
     "name": "Wales",
     "summary": "Reino Unido",
-    "osm": "https://download.geofabrik.de/europe/united-kingdom/wales-latest.osm.pbf"
+    "osm": "https://download.geofabrik.de/europe/united-kingdom/wales-latest.osm.pbf",
+    "graph": "gb"
   }
 ]

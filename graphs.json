@@ -1,0 +1,10 @@
+{
+  "es": {
+    "group": "es",
+    "osm": "https://download.geofabrik.de/europe/spain-latest.osm.pbf"
+  },
+  "es-cn": {
+    "group": "es",
+    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/canarias-latest.osm.pbf"
+  }
+}
