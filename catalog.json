@@ -16,7 +16,12 @@
       "dataDate": "2026-10-13",
       "sizeBytes": 112178109,
       "sha256": "eedfcb3742c325bc4472d38027c125fde1260b16cd8de2e0dc3f42c738e22c78",
-      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/comunidad-valenciana.pmtiles"
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/comunidad-valenciana.pmtiles",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/comunidad-valenciana.valhalla.tar",
+        "sizeBytes": 151941120,
+        "sha256": "9bb7b869909d30706faad0a9e816b4cd94eccca652a7b6da482ea13fe05bd2d3"
+      }
     }
   ]
 }

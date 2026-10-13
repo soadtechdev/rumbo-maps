@@ -5,7 +5,14 @@
     "name": "Comunidad Valenciana",
     "summary": "Castellón, Valencia y Alicante",
     "file": "comunidad-valenciana.pmtiles",
-    "bounds": [-1.55, 37.83, 0.70, 40.80],
-    "maxZoom": 14
+    "bounds": [
+      -1.55,
+      37.83,
+      0.7,
+      40.8
+    ],
+    "maxZoom": 14,
+    "routingFile": "comunidad-valenciana.valhalla.tar",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunitat_valenciana-latest.osm.pbf"
   }
 ]
