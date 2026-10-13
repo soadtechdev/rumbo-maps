@@ -1,0 +1,11 @@
+[
+  {
+    "id": "es-vc",
+    "code": "ES-VC",
+    "name": "Comunidad Valenciana",
+    "summary": "Castellón, Valencia y Alicante",
+    "file": "comunidad-valenciana.pmtiles",
+    "bounds": [-1.55, 37.83, 0.70, 40.80],
+    "maxZoom": 14
+  }
+]

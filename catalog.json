@@ -1,0 +1,22 @@
+{
+  "formatVersion": 1,
+  "packages": [
+    {
+      "id": "es-vc",
+      "code": "ES-VC",
+      "name": "Comunidad Valenciana",
+      "summary": "Castellón, Valencia y Alicante",
+      "bounds": [
+        -1.55,
+        37.83,
+        0.7,
+        40.8
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "sizeBytes": 112178109,
+      "sha256": "eedfcb3742c325bc4472d38027c125fde1260b16cd8de2e0dc3f42c738e22c78",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/comunidad-valenciana.pmtiles"
+    }
+  ]
+}
