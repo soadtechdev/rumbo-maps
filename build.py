@@ -11,7 +11,7 @@ en un .tar, generadas del extracto de OpenStreetMap de la zona). Junto a ellos q
 lo que el catálogo dice del paquete. Los ficheros se publican como adjuntos de una Release con el
 nombre de la versión (2026.10.13).
 
-Necesita `pmtiles`, `osmium` y Docker.
+Necesita `pmtiles` y Docker.
 """
 import hashlib
 import json
@@ -23,8 +23,6 @@ REPOSITORY = "soadtechdev/rumbo-maps"
 # La misma versión de Valhalla que lleva la app: el grafo solo lo lee el motor que lo generó.
 VALHALLA_IMAGE = "ghcr.io/valhalla/valhalla:3.9.1"
 MAX_ZOOM = 14
-# Margen alrededor de la zona, en grados, para que el mapa no acabe justo en la frontera.
-MARGIN = 0.05
 ROOT = pathlib.Path(__file__).parent
 DIST = ROOT / "dist"
 
@@ -45,13 +43,38 @@ def regions():
     return json.loads((ROOT / "regions.json").read_text())
 
 
-def bounds_of(extract):
-    """Oeste, sur, este y norte de lo que contiene el extracto de OpenStreetMap."""
-    info = json.loads(subprocess.run(
-        ["osmium", "fileinfo", "--extended", "--json", str(extract)], check=True, capture_output=True, text=True
-    ).stdout)
-    west, south, east, north = info["data"]["bbox"]
-    return [round(west - MARGIN, 4), round(south - MARGIN, 4), round(east + MARGIN, 4), round(north + MARGIN, 4)]
+def boundary_of(region, work):
+    """El contorno de la zona, que acompaña a su extracto como fichero .poly, pasado a GeoJSON.
+
+    Devuelve dónde queda el GeoJSON y el rectángulo que lo contiene: oeste, sur, este y norte.
+    """
+    url = region["osm"].replace("-latest.osm.pbf", ".poly").replace("/extracts/", "/polygons/")
+    text = subprocess.run(["curl", "-fsSL", "--retry", "3", url], check=True, capture_output=True, text=True).stdout
+    # Tras el nombre, cada anillo es un título, sus puntos «longitud latitud» y END; los huecos empiezan por «!».
+    polygons, ring, is_hole = [], None, False
+    for line in text.splitlines()[1:]:
+        words = line.split()
+        if not words:
+            continue
+        if words[0] == "END":
+            if ring is not None:
+                if len(ring) >= 3 and not is_hole:
+                    polygons.append([ring + [ring[0]]])
+                ring = None
+        elif ring is None:
+            ring, is_hole = [], words[0].startswith("!")
+        else:
+            ring.append([float(words[0]), float(words[1])])
+    if not polygons:
+        sys.exit(f"Sin contorno en {url}")
+
+    path = work / "boundary.geojson"
+    path.write_text(json.dumps({"type": "MultiPolygon", "coordinates": polygons}))
+    points = [point for polygon in polygons for point in polygon[0]]
+    return path, [
+        round(min(point[0] for point in points), 4), round(min(point[1] for point in points), 4),
+        round(max(point[0] for point in points), 4), round(max(point[1] for point in points), 4),
+    ]
 
 
 def build_routing(work, target):
@@ -86,14 +109,14 @@ def build_region(region_id, build):
     extract = work / "region.osm.pbf"
     if not extract.exists():
         subprocess.run(["curl", "-fL", "--retry", "3", "-o", str(extract), region["osm"]], check=True)
-    bounds = region.get("bounds") or bounds_of(extract)
+    boundary, bounds = boundary_of(region, work)
 
     tiles = DIST / f"{region_id}.pmtiles"
     if not tiles.exists():
         subprocess.run(
             [
                 "pmtiles", "extract", f"https://build.protomaps.com/{build}.pmtiles", str(tiles),
-                "--bbox=" + ",".join(str(value) for value in bounds), f"--maxzoom={MAX_ZOOM}",
+                f"--region={boundary}", f"--maxzoom={MAX_ZOOM}",
             ],
             check=True,
         )

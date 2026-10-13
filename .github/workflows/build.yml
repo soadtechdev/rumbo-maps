@@ -59,7 +59,6 @@ jobs:
       - uses: actions/checkout@v4
       - name: Herramientas
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
           curl -fsSL -o pmtiles.tar.gz https://github.com/protomaps/go-pmtiles/releases/download/v1.31.2/go-pmtiles_1.31.2_Linux_x86_64.tar.gz
           sudo tar -xzf pmtiles.tar.gz -C /usr/local/bin pmtiles
       - name: Generar

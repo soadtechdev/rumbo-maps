@@ -17,7 +17,7 @@ gh workflow run build.yml                 # todas las zonas, con la última comp
 gh workflow run build.yml -f group=es     # solo un grupo de zonas
 ```
 
-Para probar una zona en local (con `pmtiles`, `osmium` y Docker):
+Para probar una zona en local (con `pmtiles` y Docker):
 
 ```sh
 ./build.py region es-vc 20261013
