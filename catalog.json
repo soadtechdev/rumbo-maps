@@ -456,6 +456,3318 @@
         "sha256": "c2365045612812f4354d525840e5fd250cfd38443d0a512d991345455c75589a",
         "graph": "es-2026.10.13"
       }
+    },
+    {
+      "id": "al",
+      "code": "AL",
+      "country": "AL",
+      "name": "Albania",
+      "summary": "Albania",
+      "bounds": [
+        18.8965,
+        39.6274,
+        21.0629,
+        42.6631
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/al.pmtiles",
+      "sizeBytes": 51547168,
+      "sha256": "04c53afe0c31819e99ee78d2978926247623c7caf24cad4ea457447b32a2af1f",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/al.valhalla.tar",
+        "sizeBytes": 57589760,
+        "sha256": "2ee549e6bf15eebe405a88cc777e52e88012d6fb4e9e4acd5ef5641e65c9c068",
+        "graph": "al-2026.10.13"
+      }
+    },
+    {
+      "id": "ad",
+      "code": "AD",
+      "country": "AD",
+      "name": "Andorra",
+      "summary": "Andorra",
+      "bounds": [
+        1.4124,
+        42.4276,
+        1.7875,
+        42.6572
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ad.pmtiles",
+      "sizeBytes": 4256334,
+      "sha256": "e93c524ebfcaba1c235cd96dc316ed099ca7ccf600cf262d8ce97e38ba4144f6",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ad.valhalla.tar",
+        "sizeBytes": 1566720,
+        "sha256": "48b980972fd8fa1374bd3ab253a73573670c20a1c166d19626af7aa63c667000",
+        "graph": "ad-2026.10.13"
+      }
+    },
+    {
+      "id": "at",
+      "code": "AT",
+      "country": "AT",
+      "name": "Austria",
+      "summary": "Austria",
+      "bounds": [
+        9.5268,
+        46.3698,
+        17.1641,
+        49.024
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/at.pmtiles",
+      "sizeBytes": 559954529,
+      "sha256": "108547547960e33ea5ccc88cf0fe0c80b237531eb369dfd11e0e72ee5e1e7a3d",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/at.valhalla.tar",
+        "sizeBytes": 604221440,
+        "sha256": "bda01f6e7d4feb2ed39a708959418ca8fcd3f7e203ecf63c8aee9b8b2ed44832",
+        "graph": "at-2026.10.13"
+      }
+    },
+    {
+      "id": "pt-20",
+      "code": "PT-20",
+      "country": "PT",
+      "name": "Azores",
+      "summary": "Azores",
+      "bounds": [
+        -31.5729,
+        35.6779,
+        -23.7181,
+        40.0757
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pt-20.pmtiles",
+      "sizeBytes": 12318152,
+      "sha256": "0dc2156f38aba56b449940d03e9f9e5b116c038e9beedbc8a49b61389df5152f",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pt-20.valhalla.tar",
+        "sizeBytes": 11827200,
+        "sha256": "d61a270f4fa086354ffce682397374295f2110af417f7820a67b4c79552c524d",
+        "graph": "pt-20-2026.10.13"
+      }
+    },
+    {
+      "id": "by",
+      "code": "BY",
+      "country": "BY",
+      "name": "Bielorrusia",
+      "summary": "Bielorrusia",
+      "bounds": [
+        23.1748,
+        51.2344,
+        32.7695,
+        56.1739
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/by.pmtiles",
+      "sizeBytes": 430512537,
+      "sha256": "65f990dec316d97ca825dd0f595674fcbaa6b7596734d14708489dc379d0e3e1",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/by.valhalla.tar",
+        "sizeBytes": 267663360,
+        "sha256": "bca0d0a0a5b779eeae0867e415f6ebf732aee87fa0953f61d5cb6aa717daba80",
+        "graph": "by-2026.10.13"
+      }
+    },
+    {
+      "id": "be",
+      "code": "BE",
+      "country": "BE",
+      "name": "Bélgica",
+      "summary": "Bélgica",
+      "bounds": [
+        2.3407,
+        49.4949,
+        6.4103,
+        51.5984
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/be.pmtiles",
+      "sizeBytes": 343746186,
+      "sha256": "8dc71e03cd80d236227c3f7d66d759ff680582acf7d09f97e72180314513f1a6",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/be.valhalla.tar",
+        "sizeBytes": 301127680,
+        "sha256": "a8ff9747f14b154fd2549d982e8416cb3ebb8e2e25bfe7b4c5fc1f4f768181e4",
+        "graph": "be-2026.10.13"
+      }
+    },
+    {
+      "id": "ba",
+      "code": "BA",
+      "country": "BA",
+      "name": "Bosnia y Herzegovina",
+      "summary": "Bosnia y Herzegovina",
+      "bounds": [
+        15.7156,
+        42.5524,
+        19.6264,
+        45.278
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ba.pmtiles",
+      "sizeBytes": 192196371,
+      "sha256": "abf0391b4ec3f3dc060ecacdb80892519300b790e15d297dadee3fa2753d66cf",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ba.valhalla.tar",
+        "sizeBytes": 99819520,
+        "sha256": "15c96b50ecd77adb885dde8f285ee8ed3c66758bf9422a135ec16924ac5896a5",
+        "graph": "ba-2026.10.13"
+      }
+    },
+    {
+      "id": "bg",
+      "code": "BG",
+      "country": "BG",
+      "name": "Bulgaria",
+      "summary": "Bulgaria",
+      "bounds": [
+        22.3487,
+        41.2268,
+        29.1882,
+        44.2178
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/bg.pmtiles",
+      "sizeBytes": 201815095,
+      "sha256": "96c8baaeacb9c0abaf86b0788db460ae7cb3bcffbbd6f2e54fdd8c3db30f187c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/bg.valhalla.tar",
+        "sizeBytes": 198266880,
+        "sha256": "461e4eadefc339b6a909c80d9702e1fa9333572fcf394291b9346c052ee504e0",
+        "graph": "bg-2026.10.13"
+      }
+    },
+    {
+      "id": "hr",
+      "code": "HR",
+      "country": "HR",
+      "name": "Croacia",
+      "summary": "Croacia",
+      "bounds": [
+        13.0892,
+        42.1648,
+        19.46,
+        46.5576
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/hr.pmtiles",
+      "sizeBytes": 221881406,
+      "sha256": "b1a7a3511773fe5bcb4d70389e49c87acf434dd38384d7f48862116054b0cf2e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/hr.valhalla.tar",
+        "sizeBytes": 153169920,
+        "sha256": "3b51eea412b9499138feced0650edd8b82c2aa05b2fdfd63642d31deae3536a9",
+        "graph": "hr-2026.10.13"
+      }
+    },
+    {
+      "id": "cy",
+      "code": "CY",
+      "country": "CY",
+      "name": "Chipre",
+      "summary": "Chipre",
+      "bounds": [
+        31.9524,
+        34.2337,
+        34.9615,
+        36.0032
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cy.pmtiles",
+      "sizeBytes": 30187352,
+      "sha256": "90cffe219a41c16ca86a18d694384e505eab14f41562f5be3e0cd02bbe3f48e1",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cy.valhalla.tar",
+        "sizeBytes": 57333760,
+        "sha256": "e8316c9ed13f8fad772429f822d537cdaab746ef13fc96a7afe0a00b704bf1b9",
+        "graph": "cy-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-jihomoravsky",
+      "code": "CZ-JIH",
+      "country": "CZ",
+      "name": "Jihomoravský kraj",
+      "summary": "Chequia",
+      "bounds": [
+        15.5402,
+        48.6101,
+        17.6495,
+        49.6347
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-jihomoravsky.pmtiles",
+      "sizeBytes": 53243736,
+      "sha256": "7041b3c04f69ccaa0a6f7cfd1d70809fb399c3e8a6a006fa507c78025baefe2f",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-jihomoravsky.valhalla.tar",
+        "sizeBytes": 80302080,
+        "sha256": "6f180f0253db82b2c6d63ec16b4434d6f32296068e6d1963a1be95b4d114b183",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-jihocesky",
+      "code": "CZ-JIH",
+      "country": "CZ",
+      "name": "Jihočeský kraj",
+      "summary": "Chequia",
+      "bounds": [
+        13.5339,
+        48.5429,
+        15.6064,
+        49.6212
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-jihocesky.pmtiles",
+      "sizeBytes": 80481595,
+      "sha256": "ee18a91b77baec211c0cfc425500dc61143960cfe93d2286a6faa6213668890c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-jihocesky.valhalla.tar",
+        "sizeBytes": 70451200,
+        "sha256": "3bdf83777ccc30ec4e92d998aecb9a78a6e1517f4ef06967f8d7ed8e9e3e7519",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-karlovarsky",
+      "code": "CZ-KAR",
+      "country": "CZ",
+      "name": "Karlovarský kraj",
+      "summary": "Chequia",
+      "bounds": [
+        12.0848,
+        49.8899,
+        13.3025,
+        50.4732
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-karlovarsky.pmtiles",
+      "sizeBytes": 25334502,
+      "sha256": "544ed7892912cf7373b8fff9e80246d2721fcd6bf223cc9779ea244f61290a09",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-karlovarsky.valhalla.tar",
+        "sizeBytes": 41277440,
+        "sha256": "5ddd0385b478f7964747aefb2a304790dc772735fba947e1bdcb4c3a81826bcf",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-vysocina",
+      "code": "CZ-VYS",
+      "country": "CZ",
+      "name": "Kraj Vysočina",
+      "summary": "Chequia",
+      "bounds": [
+        14.8869,
+        48.9362,
+        16.4196,
+        49.8613
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-vysocina.pmtiles",
+      "sizeBytes": 58692902,
+      "sha256": "baea97414f76b987b04c2c7d0891c005102fe95d2cc42ae89ea1b02ed882ec44",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-vysocina.valhalla.tar",
+        "sizeBytes": 71966720,
+        "sha256": "c39a7904a79e39de63574d6cefc627f350aa2b500bf269f9110b610fafa3accf",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-kralovehradecky",
+      "code": "CZ-KRA",
+      "country": "CZ",
+      "name": "Královéhradecký kraj",
+      "summary": "Chequia",
+      "bounds": [
+        15.1027,
+        50.0374,
+        16.5993,
+        50.7874
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-kralovehradecky.pmtiles",
+      "sizeBytes": 43931654,
+      "sha256": "decab02e4097eed697fb2226cfa398a243bf93f95f87b4ad343ac0c27a8af9ea",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-kralovehradecky.valhalla.tar",
+        "sizeBytes": 48128000,
+        "sha256": "5c9a03d32749d14649853ba46367544f67469e334318447b811ac63d33482123",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-liberecky",
+      "code": "CZ-LIB",
+      "country": "CZ",
+      "name": "Liberecký kraj",
+      "summary": "Chequia",
+      "bounds": [
+        14.342,
+        50.4711,
+        15.6344,
+        51.0317
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-liberecky.pmtiles",
+      "sizeBytes": 35547602,
+      "sha256": "72c60f858c998ea979d96a32a595780ed02420f4558df40f8f15555bd686b479",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-liberecky.valhalla.tar",
+        "sizeBytes": 52756480,
+        "sha256": "1b23abce453b0b3ff327289665186e46659fa01a2cbffa757c2f3d4505a2533f",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-moravskoslezky",
+      "code": "CZ-MOR",
+      "country": "CZ",
+      "name": "Moravskoslezský kraj",
+      "summary": "Chequia",
+      "bounds": [
+        17.1447,
+        49.3713,
+        18.8632,
+        50.3303
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-moravskoslezky.pmtiles",
+      "sizeBytes": 52028593,
+      "sha256": "da8f309be6ae0ad61857ea38dd45b8fb02b45ced539cbfb4952b40e0e80380a7",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-moravskoslezky.valhalla.tar",
+        "sizeBytes": 55203840,
+        "sha256": "84d3326e477a88f1b1e446c2f30f86b6f121613d6fdccd090eef7c0a0d8a2868",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-olomoucky",
+      "code": "CZ-OLO",
+      "country": "CZ",
+      "name": "Olomoucký kraj",
+      "summary": "Chequia",
+      "bounds": [
+        16.7091,
+        49.2674,
+        17.9203,
+        50.4523
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-olomoucky.pmtiles",
+      "sizeBytes": 41531071,
+      "sha256": "9b11310a136da1b130fe42f92c269ab016ff83d333bd96812ed12e3cfe3ce6c0",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-olomoucky.valhalla.tar",
+        "sizeBytes": 63559680,
+        "sha256": "8186cb40b1d6df4c0eab05e6c11418949c56ae52ae448b6df9e0ce2c0a6553ab",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-pardubicky",
+      "code": "CZ-PAR",
+      "country": "CZ",
+      "name": "Pardubický kraj",
+      "summary": "Chequia",
+      "bounds": [
+        15.3626,
+        49.5718,
+        16.868,
+        50.2131
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-pardubicky.pmtiles",
+      "sizeBytes": 38647693,
+      "sha256": "9fa88c1a44cda871849bf43f3a0cf4550e8fd102dedfbedbe351f900d5f13ece",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-pardubicky.valhalla.tar",
+        "sizeBytes": 72826880,
+        "sha256": "09a3e219bba7fa36f9249dc2dbf076a2dd91817cb4b9edf2b6b80467e69badeb",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-plzensky",
+      "code": "CZ-PLZ",
+      "country": "CZ",
+      "name": "Plzeňský kraj",
+      "summary": "Chequia",
+      "bounds": [
+        12.3889,
+        48.9339,
+        13.8425,
+        50.1057
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-plzensky.pmtiles",
+      "sizeBytes": 54326170,
+      "sha256": "d59ab8e4aadb358b584daca643caf056e58e9694e20d5a85b5b28e61ba4ced10",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-plzensky.valhalla.tar",
+        "sizeBytes": 57743360,
+        "sha256": "705d35ad87f2ff6416be89c47745b3e551b2c8905a6ef84638987178faf3f843",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-praha",
+      "code": "CZ-PRA",
+      "country": "CZ",
+      "name": "Praha",
+      "summary": "Chequia",
+      "bounds": [
+        14.2236,
+        49.9415,
+        14.707,
+        50.1776
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-praha.pmtiles",
+      "sizeBytes": 14812321,
+      "sha256": "bf7ae8c8d7cdd8b1fa635c5903d13443c1780564860ea46c7ef47fa2e3a40716",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-praha.valhalla.tar",
+        "sizeBytes": 51087360,
+        "sha256": "0f643ed638bd28bd5ea827daca95a2be89024e3def0ef0f0b66db232e35e34e8",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-stredocesky",
+      "code": "CZ-STR",
+      "country": "CZ",
+      "name": "Středočeský kraj (with Praha)",
+      "summary": "Chequia",
+      "bounds": [
+        13.3958,
+        49.5009,
+        15.5361,
+        50.6193
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-stredocesky.pmtiles",
+      "sizeBytes": 94523368,
+      "sha256": "5a349113291d720f487ec01aadbdd112fd523ce028820451d98fd23cadef0425",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-stredocesky.valhalla.tar",
+        "sizeBytes": 140277760,
+        "sha256": "fdb734589ed272f4f4d56b2f0a67609366620635d95081d1d79fa58f584bfbad",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-zlinsky",
+      "code": "CZ-ZLI",
+      "country": "CZ",
+      "name": "Zlínský kraj",
+      "summary": "Chequia",
+      "bounds": [
+        17.1081,
+        48.8374,
+        18.4505,
+        49.5412
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-zlinsky.pmtiles",
+      "sizeBytes": 36576461,
+      "sha256": "ecc380efc0125aa61347da08c604659d94eed5034793b25998a3651571f4b575",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-zlinsky.valhalla.tar",
+        "sizeBytes": 51415040,
+        "sha256": "f327a6d3c52ce4c20d7ba76071e269f91ba6e303e002d743909ae761d0e25570",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "cz-ustecky",
+      "code": "CZ-UST",
+      "country": "CZ",
+      "name": "Ústecký kraj",
+      "summary": "Chequia",
+      "bounds": [
+        12.9372,
+        50.0755,
+        14.6659,
+        51.0643
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-ustecky.pmtiles",
+      "sizeBytes": 47670334,
+      "sha256": "a386c35085b1871b7479f3330940ff005344213d8c53c3ba9de6f48b7449bba0",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/cz-ustecky.valhalla.tar",
+        "sizeBytes": 56934400,
+        "sha256": "ac69119795d850481f938fd7c0a3c8e4ebb8450b584082285d4dc3543901d9db",
+        "graph": "cz-2026.10.13"
+      }
+    },
+    {
+      "id": "dk",
+      "code": "DK",
+      "country": "DK",
+      "name": "Dinamarca",
+      "summary": "Dinamarca",
+      "bounds": [
+        7.7011,
+        54.4406,
+        15.6545,
+        58.0624
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/dk.pmtiles",
+      "sizeBytes": 293639088,
+      "sha256": "2e48fff5ea5749d2d52e54e1d26066ffedbcede7bf49bf49ec20e00838ebed8d",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/dk.valhalla.tar",
+        "sizeBytes": 347965440,
+        "sha256": "acdf319e5a67e2c091a3d2d584a8bbf81db526cd38df126a979379385dcb9aa4",
+        "graph": "dk-2026.10.13"
+      }
+    },
+    {
+      "id": "ee",
+      "code": "EE",
+      "country": "EE",
+      "name": "Estonia",
+      "summary": "Estonia",
+      "bounds": [
+        20.8517,
+        57.4976,
+        28.2143,
+        59.9971
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ee.pmtiles",
+      "sizeBytes": 122325322,
+      "sha256": "d22907b5c30c88e883c89621cab1027c3817f9a990e996b31df8ce896409b3dc",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ee.valhalla.tar",
+        "sizeBytes": 89825280,
+        "sha256": "6860dad22fe008c50d3014230d600499082431f12058ed21aa96deac2d7d262e",
+        "graph": "ee-2026.10.13"
+      }
+    },
+    {
+      "id": "fo",
+      "code": "FO",
+      "country": "FO",
+      "name": "Islas Feroe",
+      "summary": "Islas Feroe",
+      "bounds": [
+        -8.6902,
+        60.8663,
+        -5.5151,
+        62.9052
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fo.pmtiles",
+      "sizeBytes": 7777298,
+      "sha256": "96cb83f53efae7a56571afb3b612b798a3ac00f0a71b9e7c2c9de3e2ba5a58d9",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fo.valhalla.tar",
+        "sizeBytes": 5365760,
+        "sha256": "35aacd1523e074aadf4aed4caeea95f7f2a5eac84b3b6380f136bebe308e7068",
+        "graph": "fo-2026.10.13"
+      }
+    },
+    {
+      "id": "fi",
+      "code": "FI",
+      "country": "FI",
+      "name": "Finlandia",
+      "summary": "Finlandia",
+      "bounds": [
+        19.0243,
+        59.2878,
+        31.6159,
+        70.0996
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fi.pmtiles",
+      "sizeBytes": 1008592767,
+      "sha256": "03032cb04b4a9a1356f22d766411a91508f4b00d28555bb4e13cb2bcda403d58",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fi.valhalla.tar",
+        "sizeBytes": 548669440,
+        "sha256": "a8e38285959f6db03ad2ed54544226176306d502c7c883045985ee17abea66b7",
+        "graph": "fi-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-alsace",
+      "code": "FR-ALS",
+      "country": "FR",
+      "name": "Alsace",
+      "summary": "Francia",
+      "bounds": [
+        6.8389,
+        47.418,
+        8.2355,
+        49.079
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-alsace.pmtiles",
+      "sizeBytes": 69313992,
+      "sha256": "62f478ff59156661e688b03f0db30ae82b2751af029a098fdd37bcbd3712b70e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-alsace.valhalla.tar",
+        "sizeBytes": 139837440,
+        "sha256": "728e0327d1bb23f9755fbe6083617b4d52e2dec6dfcee6f745df78822f1ac6cc",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-aquitaine",
+      "code": "FR-AQU",
+      "country": "FR",
+      "name": "Aquitaine",
+      "summary": "Francia",
+      "bounds": [
+        -1.8428,
+        42.7733,
+        1.4506,
+        45.7172
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-aquitaine.pmtiles",
+      "sizeBytes": 164621990,
+      "sha256": "1e195a754fd3272f608e5e536c313c8a737026ac466f8fb3f72f28335319db25",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-aquitaine.valhalla.tar",
+        "sizeBytes": 323850240,
+        "sha256": "3f9bd63f1e4d2457792e09be90b8402e44cbc43cf096108424273daa2e85df7a",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-auvergne",
+      "code": "FR-AUV",
+      "country": "FR",
+      "name": "Auvergne",
+      "summary": "Francia",
+      "bounds": [
+        2.0605,
+        44.6146,
+        4.4929,
+        46.8067
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-auvergne.pmtiles",
+      "sizeBytes": 123211561,
+      "sha256": "8789c1debbfa776b9333e4eb037825e90c48cf00f9e95749df7184b6edc02f2c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-auvergne.valhalla.tar",
+        "sizeBytes": 316897280,
+        "sha256": "7a5ca6539d142ca1938be4378c080171966c1c986f293ed16e3c99a749162175",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-basse-normandie",
+      "code": "FR-BAS",
+      "country": "FR",
+      "name": "Basse-Normandie",
+      "summary": "Francia",
+      "bounds": [
+        -2.0875,
+        48.178,
+        0.9791,
+        49.8852
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-basse-normandie.pmtiles",
+      "sizeBytes": 87062171,
+      "sha256": "8540123295d56159087a74d9d448d40f8f595bae8c70e84ef6cb3b2150c5a3c3",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-basse-normandie.valhalla.tar",
+        "sizeBytes": 199239680,
+        "sha256": "b81964c6225e6457211bc3e2b770db268415eec8c1edcac24d5ac256fcf45984",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-bourgogne",
+      "code": "FR-BOU",
+      "country": "FR",
+      "name": "Bourgogne",
+      "summary": "Francia",
+      "bounds": [
+        2.8433,
+        46.1548,
+        5.52,
+        48.4014
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-bourgogne.pmtiles",
+      "sizeBytes": 160235460,
+      "sha256": "91960d79da6b9b8556505ca25c925f315395c12f0dd22db8ad3fdae00ed8f99c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-bourgogne.valhalla.tar",
+        "sizeBytes": 274933760,
+        "sha256": "21e3f0dfa4be086a82c26e408296a2d9e662436c128799a59b95c496e1b80b39",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-bretagne",
+      "code": "FR-BRE",
+      "country": "FR",
+      "name": "Bretagne",
+      "summary": "Francia",
+      "bounds": [
+        -5.8489,
+        47.0772,
+        -1.0145,
+        49.4002
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-bretagne.pmtiles",
+      "sizeBytes": 160596035,
+      "sha256": "7039fd6239f9328283513f7eae02e540955ca9f9da6a5c2bc37c9065493c16d5",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-bretagne.valhalla.tar",
+        "sizeBytes": 263946240,
+        "sha256": "847d1a8012287c74bfd9a905d3fbf5083dae69a80ae5b3f48cec13a3416d3da7",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-centre",
+      "code": "FR-CEN",
+      "country": "FR",
+      "name": "Centre",
+      "summary": "Francia",
+      "bounds": [
+        0.0515,
+        46.3459,
+        3.1299,
+        48.9423
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-centre.pmtiles",
+      "sizeBytes": 156448057,
+      "sha256": "2adfe6c16d91d9fc8955cfb703a27f876676c1937d145d50738c22207a3690ee",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-centre.valhalla.tar",
+        "sizeBytes": 302274560,
+        "sha256": "c1f88c3544cf80f9bb86b8f0b1029d052c734203d20ba9b5656498ff3ecd6b3a",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-champagne-ardenne",
+      "code": "FR-CHA",
+      "country": "FR",
+      "name": "Champagne Ardenne",
+      "summary": "Francia",
+      "bounds": [
+        3.3824,
+        47.5755,
+        5.8922,
+        50.1701
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-champagne-ardenne.pmtiles",
+      "sizeBytes": 87954641,
+      "sha256": "f29f747936943036f63124519bc455a6926292686031b3c499274769e8919844",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-champagne-ardenne.valhalla.tar",
+        "sizeBytes": 189952000,
+        "sha256": "301764fd1fe0501abf14019b47383f9dd9bf0f6b5eecf7974c19ef548d3be4c5",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-corse",
+      "code": "FR-COR",
+      "country": "FR",
+      "name": "Corse",
+      "summary": "Francia",
+      "bounds": [
+        8.3179,
+        41.311,
+        9.7512,
+        43.1659
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-corse.pmtiles",
+      "sizeBytes": 23892604,
+      "sha256": "8048417a2924b46336fb724e3490b17df48d89c78db62c3a870ee31ae59f4948",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-corse.valhalla.tar",
+        "sizeBytes": 21104640,
+        "sha256": "312a02ee697dabe48b848a052f10da0d378dea8ef3c8b6caac543610c77ccbf3",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-franche-comte",
+      "code": "FR-FRA",
+      "country": "FR",
+      "name": "Franche Comte",
+      "summary": "Francia",
+      "bounds": [
+        5.2508,
+        46.2597,
+        7.1444,
+        48.0254
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-franche-comte.pmtiles",
+      "sizeBytes": 97735588,
+      "sha256": "575186d4ef81969446c1266d44183faf559430a0407ae20717009b31eda9430a",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-franche-comte.valhalla.tar",
+        "sizeBytes": 162856960,
+        "sha256": "fe58048f8c58e9d7af6ef33003c327039f3a062fbd682ada542057fe88b3a1cb",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-guadeloupe",
+      "code": "FR-GUA",
+      "country": "FR",
+      "name": "Guadeloupe",
+      "summary": "Francia",
+      "bounds": [
+        -62.1524,
+        15.4907,
+        -60.6047,
+        16.8243
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-guadeloupe.pmtiles",
+      "sizeBytes": 7339405,
+      "sha256": "f878836281514bd13f334b2bdb417af6ba4c8ac26ae5de4a9c3609efe65763a2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-guadeloupe.valhalla.tar",
+        "sizeBytes": 10240,
+        "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-guyane",
+      "code": "FR-GF",
+      "country": "FR",
+      "name": "Guyane",
+      "summary": "Francia",
+      "bounds": [
+        -54.623,
+        2.0931,
+        -50.8667,
+        6.3703
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-guyane.pmtiles",
+      "sizeBytes": 17691549,
+      "sha256": "67f128ec238a70a5c1754733af0d23c30202186ed103c69795feed6bf23c6a81",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-guyane.valhalla.tar",
+        "sizeBytes": 10240,
+        "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-haute-normandie",
+      "code": "FR-HAU",
+      "country": "FR",
+      "name": "Haute-Normandie",
+      "summary": "Francia",
+      "bounds": [
+        0.0095,
+        48.6657,
+        1.804,
+        50.0877
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-haute-normandie.pmtiles",
+      "sizeBytes": 55730465,
+      "sha256": "9aa25389ac7e9bca0de2a388d7fdbf48d1013609730715ff25076f837af64719",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-haute-normandie.valhalla.tar",
+        "sizeBytes": 180367360,
+        "sha256": "3106949d2f7c26e60f0c4027170e36d38eb590d341f200496d76e9ad84f11592",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-ile-de-france",
+      "code": "FR-ILE",
+      "country": "FR",
+      "name": "Ile-de-France",
+      "summary": "Francia",
+      "bounds": [
+        1.4451,
+        48.1192,
+        3.5604,
+        49.2427
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-ile-de-france.pmtiles",
+      "sizeBytes": 98142978,
+      "sha256": "d77b8722418ef01de9cad908a91fc37b26f0405a416eeb75b5c4fae33fb74b98",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-ile-de-france.valhalla.tar",
+        "sizeBytes": 256092160,
+        "sha256": "a830de75caae12b2d94c8dc341d8cb8a15f1c8b9ed1ffee73ac925499baa27de",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-languedoc-roussillon",
+      "code": "FR-LAN",
+      "country": "FR",
+      "name": "Languedoc-Roussillon",
+      "summary": "Francia",
+      "bounds": [
+        1.6863,
+        42.3276,
+        4.848,
+        44.9782
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-languedoc-roussillon.pmtiles",
+      "sizeBytes": 133299945,
+      "sha256": "531d69adc7ae39b49dea67217beaeed517f59ba959955c48c11907b0fee8f0f8",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-languedoc-roussillon.valhalla.tar",
+        "sizeBytes": 304384000,
+        "sha256": "f7e34ea77abc9a314031eadda6cf50dd2fb738eae1ce115fb55aa6be499421d8",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-limousin",
+      "code": "FR-LIM",
+      "country": "FR",
+      "name": "Limousin",
+      "summary": "Francia",
+      "bounds": [
+        0.6271,
+        44.9184,
+        2.6138,
+        46.4578
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-limousin.pmtiles",
+      "sizeBytes": 86304419,
+      "sha256": "662407f2f7938a74d9c02ea08e4ddbbe5771847c5ead8dfde08113ac9fc7f8da",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-limousin.valhalla.tar",
+        "sizeBytes": 190453760,
+        "sha256": "563cff403bc409a01f6c2515d5681e4af13ee5e4e8b2e9bf165da4d81a982294",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-lorraine",
+      "code": "FR-LOR",
+      "country": "FR",
+      "name": "Lorraine",
+      "summary": "Francia",
+      "bounds": [
+        4.886,
+        47.8119,
+        7.6401,
+        49.6195
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-lorraine.pmtiles",
+      "sizeBytes": 115174046,
+      "sha256": "ef941b7bb7bf549189acc7aeb67a32c15a15934720bda052723fc03bc78cf39d",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-lorraine.valhalla.tar",
+        "sizeBytes": 199188480,
+        "sha256": "bae2f8da8b8853fae88dd056f2ae0a8847158d2ec7b5a02b8e0b547a932576f5",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-martinique",
+      "code": "FR-MAR",
+      "country": "FR",
+      "name": "Martinique",
+      "summary": "Francia",
+      "bounds": [
+        -61.6306,
+        14.1339,
+        -60.4275,
+        15.1517
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-martinique.pmtiles",
+      "sizeBytes": 4709611,
+      "sha256": "127e4aaa933182a37245df3a30c3423fe7d185c1fafe8442033bbb182091354f",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-martinique.valhalla.tar",
+        "sizeBytes": 10240,
+        "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-mayotte",
+      "code": "FR-MAY",
+      "country": "FR",
+      "name": "Mayotte",
+      "summary": "Francia",
+      "bounds": [
+        44.6265,
+        -13.4724,
+        45.6784,
+        -12.1441
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-mayotte.pmtiles",
+      "sizeBytes": 4361615,
+      "sha256": "86dadae0ab355eb9064e9b7d6bff65d48268e5b7b2a5540850e4f9429b4dae07",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-mayotte.valhalla.tar",
+        "sizeBytes": 10240,
+        "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-midi-pyrenees",
+      "code": "FR-MID",
+      "country": "FR",
+      "name": "Midi-Pyrenees",
+      "summary": "Francia",
+      "bounds": [
+        -0.3275,
+        42.5679,
+        3.4533,
+        45.0478
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-midi-pyrenees.pmtiles",
+      "sizeBytes": 231983767,
+      "sha256": "f3735d661dc6b4c93dc5e4016a61adabc3539436c6bbed10974f71bbf9a4b181",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-midi-pyrenees.valhalla.tar",
+        "sizeBytes": 393062400,
+        "sha256": "c2674a841080dabe565fb21a855d3039bdcc951001e85540a912494c708b1ac4",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-nord-pas-de-calais",
+      "code": "FR-NOR",
+      "country": "FR",
+      "name": "Nord-Pas-de-Calais",
+      "summary": "Francia",
+      "bounds": [
+        1.2783,
+        49.9676,
+        4.2366,
+        51.2812
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-nord-pas-de-calais.pmtiles",
+      "sizeBytes": 96122889,
+      "sha256": "70ac491f1e064f105ecc68849a4c0d4f210bc0f4f0ef0483b9da84ad1a24ede2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-nord-pas-de-calais.valhalla.tar",
+        "sizeBytes": 206407680,
+        "sha256": "779e48d009a0e8377bf164483511aa8d1780611e465d3fb05c85101b0c0b87ac",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-pays-de-la-loire",
+      "code": "FR-PAY",
+      "country": "FR",
+      "name": "Pays de la Loire",
+      "summary": "Francia",
+      "bounds": [
+        -2.6747,
+        46.2188,
+        0.919,
+        48.57
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-pays-de-la-loire.pmtiles",
+      "sizeBytes": 182385731,
+      "sha256": "e241a20b1354af10d7999e8d7f03058adf53722f7bfe60a5ca2228f0a8095285",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-pays-de-la-loire.valhalla.tar",
+        "sizeBytes": 341913600,
+        "sha256": "a0d1d6880161ac034dbf6a9a9e19a7d10aed7bb788dc8d144787fa90e7d4a9fb",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-picardie",
+      "code": "FR-PIC",
+      "country": "FR",
+      "name": "Picardie",
+      "summary": "Francia",
+      "bounds": [
+        1.3601,
+        48.836,
+        4.2567,
+        50.3713
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-picardie.pmtiles",
+      "sizeBytes": 83517570,
+      "sha256": "028ca708c08baea3f4f30c1a15953370b49fc72fb900c320d3ee7b93de8af80a",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-picardie.valhalla.tar",
+        "sizeBytes": 232980480,
+        "sha256": "0bcb6ed7bdd2fe488ce950f02e093b5e3289d6921cf6b848f2c2a039bac6cd60",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-poitou-charentes",
+      "code": "FR-POI",
+      "country": "FR",
+      "name": "Poitou-Charentes",
+      "summary": "Francia",
+      "bounds": [
+        -1.8986,
+        45.0868,
+        1.215,
+        47.1784
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-poitou-charentes.pmtiles",
+      "sizeBytes": 113397968,
+      "sha256": "59ce30338538b875465d8fb91926f19e14b3839e835ce28c68f9386412328fd2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-poitou-charentes.valhalla.tar",
+        "sizeBytes": 290682880,
+        "sha256": "f7acf97eefec0de07e341ca563446be1a5719f9660c7051145e1f0b335ab4ddf",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-provence-alpes-cote-d-azur",
+      "code": "FR-PRO",
+      "country": "FR",
+      "name": "Provence Alpes-Cote-d'Azur",
+      "summary": "Francia",
+      "bounds": [
+        4.1447,
+        42.3154,
+        7.7485,
+        45.1289
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-provence-alpes-cote-d-azur.pmtiles",
+      "sizeBytes": 158492284,
+      "sha256": "8bc48894a78815834d3ef270fd841998900e947304c0d666032b667b2408f69d",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-provence-alpes-cote-d-azur.valhalla.tar",
+        "sizeBytes": 303544320,
+        "sha256": "fad4934c6e27a3de98130cf3cb61c852da32c95cb54190b14821f83060db764b",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-reunion",
+      "code": "FR-REU",
+      "country": "FR",
+      "name": "Reunion",
+      "summary": "Francia",
+      "bounds": [
+        54.9469,
+        -21.7292,
+        56.12,
+        -20.5859
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-reunion.pmtiles",
+      "sizeBytes": 8644427,
+      "sha256": "be0458e7ddf15c1764fd85265145fb15e36e76acbb8120ab2927c610065d1a3b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-reunion.valhalla.tar",
+        "sizeBytes": 10240,
+        "sha256": "84ff92691f909a05b224e1c56abb4864f01b4f8e3c854e4bb4c7baf1d3f6d652",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "fr-rhone-alpes",
+      "code": "FR-RHO",
+      "country": "FR",
+      "name": "Rhone-Alpes",
+      "summary": "Francia",
+      "bounds": [
+        3.6861,
+        44.1127,
+        7.1921,
+        46.5225
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-rhone-alpes.pmtiles",
+      "sizeBytes": 289152311,
+      "sha256": "42326b6c319ce82543892bac9514a077e4c66ebd9afdb37b8578f74734bcf486",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/fr-rhone-alpes.valhalla.tar",
+        "sizeBytes": 550778880,
+        "sha256": "4bb13c84f589da4f46fb10d29d54f677201616e2be4998b5e44b5a563e4a043a",
+        "graph": "fr-2026.10.13"
+      }
+    },
+    {
+      "id": "ge",
+      "code": "GE",
+      "country": "GE",
+      "name": "Georgia",
+      "summary": "Georgia",
+      "bounds": [
+        39.8809,
+        41.0512,
+        46.7396,
+        43.5899
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ge.pmtiles",
+      "sizeBytes": 108694342,
+      "sha256": "afddfb37bdc4f35a185ddf6c57489f89555b77891c77e55c5792f07e64df6baf",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ge.valhalla.tar",
+        "sizeBytes": 104980480,
+        "sha256": "e417bee1bd5c5038b818173f4a78f405335516467620185d3625943d201fdc19",
+        "graph": "ge-2026.10.13"
+      }
+    },
+    {
+      "id": "de-baden-wuerttemberg",
+      "code": "DE-BAD",
+      "country": "DE",
+      "name": "Baden-Württemberg",
+      "summary": "Alemania",
+      "bounds": [
+        7.5065,
+        47.5308,
+        10.515,
+        49.7946
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-baden-wuerttemberg.pmtiles",
+      "sizeBytes": 337877079,
+      "sha256": "5217c59af966e75e56b04d913ce66fcabd23a3d692f3f9d1e4d5a90c7b64d683",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-baden-wuerttemberg.valhalla.tar",
+        "sizeBytes": 653742080,
+        "sha256": "484e87a6b61b1e860bf8da48d66b5520cd68f2076b8b38f7495fa82272301302",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-bayern",
+      "code": "DE-BAY",
+      "country": "DE",
+      "name": "Bayern",
+      "summary": "Alemania",
+      "bounds": [
+        8.9752,
+        47.2654,
+        13.8495,
+        50.5662
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-bayern.pmtiles",
+      "sizeBytes": 510821008,
+      "sha256": "cbf4862b09bbc637600e50c1ad555161cb9976944936554b1be2e0e473ddae2d",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-bayern.valhalla.tar",
+        "sizeBytes": 1004769280,
+        "sha256": "b01317652bd4724d6d60dc90fcc0156765e5e0c9218afa4e912de6d60ccf95f7",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-berlin",
+      "code": "DE-BER",
+      "country": "DE",
+      "name": "Berlin",
+      "summary": "Alemania",
+      "bounds": [
+        13.0828,
+        52.3345,
+        13.7622,
+        52.6783
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-berlin.pmtiles",
+      "sizeBytes": 26175758,
+      "sha256": "1a2b5cf6f5f850209f49c107b3234c1d0f49f62200b325672bd4180b95162d4a",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-berlin.valhalla.tar",
+        "sizeBytes": 110295040,
+        "sha256": "f6c769669b9b44816c7121b66fca67c5d63b6c92d04d020977442dc2e9cfcf32",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-brandenburg",
+      "code": "DE-BRA",
+      "country": "DE",
+      "name": "Brandenburg (mit Berlin)",
+      "summary": "Alemania",
+      "bounds": [
+        11.2606,
+        51.3561,
+        14.775,
+        53.563
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-brandenburg.pmtiles",
+      "sizeBytes": 158697811,
+      "sha256": "04f1f0bb858e54266586239dd5a60ea1c810ffeaec4e80aee629ab7f87bfb47b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-brandenburg.valhalla.tar",
+        "sizeBytes": 318330880,
+        "sha256": "3b0e512d952de4f1a819571969238b9e6ad44bb309639abd4adf5c4f4eaa7bc2",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-bremen",
+      "code": "DE-BRE",
+      "country": "DE",
+      "name": "Bremen",
+      "summary": "Alemania",
+      "bounds": [
+        8.481,
+        53.0103,
+        8.9913,
+        53.6106
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-bremen.pmtiles",
+      "sizeBytes": 11378370,
+      "sha256": "e12ad6506e8a7c99a434644158fc06297fa2f11a28c36b4c666f4e40187df5ee",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-bremen.valhalla.tar",
+        "sizeBytes": 95078400,
+        "sha256": "ee589fc62c2fd10d0819d4803c4610d499a547641815cb791615cb5240d47e54",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-hamburg",
+      "code": "DE-HAM",
+      "country": "DE",
+      "name": "Hamburg",
+      "summary": "Alemania",
+      "bounds": [
+        7.9678,
+        53.3918,
+        10.332,
+        54.0626
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-hamburg.pmtiles",
+      "sizeBytes": 19270180,
+      "sha256": "77ab69e9b61e5952202e5f1f3d9552f5a437dd26a7a3ada417ca1a0cdbfd77d4",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-hamburg.valhalla.tar",
+        "sizeBytes": 117084160,
+        "sha256": "40913699ade43d948414e445972ece56048d7a78b195e70736de8334f438f849",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-hessen",
+      "code": "DE-HES",
+      "country": "DE",
+      "name": "Hessen",
+      "summary": "Alemania",
+      "bounds": [
+        7.768,
+        49.3932,
+        10.246,
+        51.6592
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-hessen.pmtiles",
+      "sizeBytes": 192991433,
+      "sha256": "462bfff2def4655776d507ce7fba6bd5f1fb5d0c7b43cc2e8e6da16895c239e9",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-hessen.valhalla.tar",
+        "sizeBytes": 525793280,
+        "sha256": "28842e708f93507b53c8315b2139a228259379a2c64bf09736546c9bb540ec6c",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-mecklenburg-vorpommern",
+      "code": "DE-MEC",
+      "country": "DE",
+      "name": "Mecklenburg-Vorpommern",
+      "summary": "Alemania",
+      "bounds": [
+        10.5881,
+        53.1062,
+        14.4229,
+        54.9837
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-mecklenburg-vorpommern.pmtiles",
+      "sizeBytes": 111059755,
+      "sha256": "25262d8798e0d418d37fccffda0b107009fa1c56fcf12e2dd957e146dc606af2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-mecklenburg-vorpommern.valhalla.tar",
+        "sizeBytes": 171253760,
+        "sha256": "dff6c19374b8f1c1ab043889de257998a1065475381335488b8764b52e1665f8",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-niedersachsen",
+      "code": "DE-NIE",
+      "country": "DE",
+      "name": "Niedersachsen (mit Bremen)",
+      "summary": "Alemania",
+      "bounds": [
+        6.2953,
+        51.2935,
+        11.6073,
+        54.2396
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-niedersachsen.pmtiles",
+      "sizeBytes": 333562532,
+      "sha256": "a30f3f9b68cbd0773592d516ad30efd6f5766a34d948a5813861797dcd11e78e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-niedersachsen.valhalla.tar",
+        "sizeBytes": 547276800,
+        "sha256": "ee91b94d6d8b11437cc863cb071913e03af0fe4e9d4d34d678d7b9f53aa05f72",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-nordrhein-westfalen",
+      "code": "DE-NOR",
+      "country": "DE",
+      "name": "Nordrhein-Westfalen",
+      "summary": "Alemania",
+      "bounds": [
+        5.8644,
+        50.3209,
+        9.4683,
+        52.5335
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-nordrhein-westfalen.pmtiles",
+      "sizeBytes": 391774905,
+      "sha256": "e29ce1b9ff23742871dd929fe896bbc32276daded3cf99c9b163f8139f1870bb",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-nordrhein-westfalen.valhalla.tar",
+        "sizeBytes": 697989120,
+        "sha256": "8e79d97bad89bf4a42102127d26de45e766b7cf7914970fda24496e672b84fff",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-rheinland-pfalz",
+      "code": "DE-RHE",
+      "country": "DE",
+      "name": "Rheinland-Pfalz",
+      "summary": "Alemania",
+      "bounds": [
+        6.1091,
+        48.9638,
+        8.5112,
+        50.944
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-rheinland-pfalz.pmtiles",
+      "sizeBytes": 174457489,
+      "sha256": "296c8c2fa7ffc8b22e1f7833875a8d3453971e6e2d8bc8e672957b709e76bc95",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-rheinland-pfalz.valhalla.tar",
+        "sizeBytes": 473384960,
+        "sha256": "07916989a9d9dfbd658fc38f66b17793b3a77ce80b1b66f2c8a39fcc99e092b3",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-saarland",
+      "code": "DE-SAA",
+      "country": "DE",
+      "name": "Saarland",
+      "summary": "Alemania",
+      "bounds": [
+        6.3545,
+        49.1081,
+        7.4063,
+        49.6415
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-saarland.pmtiles",
+      "sizeBytes": 29263102,
+      "sha256": "d1c19b8bec5f7eaf9283b91818fb90422673da56cf772032efce7eb970fe9d3b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-saarland.valhalla.tar",
+        "sizeBytes": 58910720,
+        "sha256": "f1a54691caac451dc3f926d357511eb3c83339a9369de8b891a83cf6031752b9",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-sachsen",
+      "code": "DE-SAC",
+      "country": "DE",
+      "name": "Sachsen",
+      "summary": "Alemania",
+      "bounds": [
+        11.8668,
+        50.1666,
+        15.0508,
+        51.6874
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-sachsen.pmtiles",
+      "sizeBytes": 153430602,
+      "sha256": "df401869ecdeb1b149c783b97038668bf2218f1492bc736accc5999e3297cc04",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-sachsen.valhalla.tar",
+        "sizeBytes": 297359360,
+        "sha256": "49c7ca603277cc8c3d9fb8c516c693ecac393f4e3cbbc86a3609f566bd9df90e",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-sachsen-anhalt",
+      "code": "DE-SAC",
+      "country": "DE",
+      "name": "Sachsen-Anhalt",
+      "summary": "Alemania",
+      "bounds": [
+        10.5473,
+        50.9289,
+        13.2127,
+        53.0566
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-sachsen-anhalt.pmtiles",
+      "sizeBytes": 117510390,
+      "sha256": "c0e298cbd898744fd0e59ba74374c3aa577f4f627821118416054c80725cae88",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-sachsen-anhalt.valhalla.tar",
+        "sizeBytes": 271616000,
+        "sha256": "f7d9d541512d83b4d50429fb392c147493b0637903c915d5c6455a9a68395306",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-schleswig-holstein",
+      "code": "DE-SCH",
+      "country": "DE",
+      "name": "Schleswig-Holstein",
+      "summary": "Alemania",
+      "bounds": [
+        7.4646,
+        53.3569,
+        11.7993,
+        55.1463
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-schleswig-holstein.pmtiles",
+      "sizeBytes": 111906248,
+      "sha256": "5aa4553309da91d75f84bcec9c9af1567462d5e3211db0043bf5777fec01c756",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-schleswig-holstein.valhalla.tar",
+        "sizeBytes": 223723520,
+        "sha256": "5f9e7a222c89ee3238927346ab24fc7876bf8600f2439d74d3756a33f70848fd",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "de-thueringen",
+      "code": "DE-THU",
+      "country": "DE",
+      "name": "Thüringen",
+      "summary": "Alemania",
+      "bounds": [
+        9.8632,
+        50.1997,
+        12.6611,
+        51.6524
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-thueringen.pmtiles",
+      "sizeBytes": 117664359,
+      "sha256": "d0ba54d5e08fb6c821d3147f30890d07913b87c6e5ba7cf103a2310790f74668",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/de-thueringen.valhalla.tar",
+        "sizeBytes": 298362880,
+        "sha256": "551b56ca08472d8a4551d81b355d0d65efb4ebefb5d19c8d00bcc853b2daf889",
+        "graph": "de-2026.10.13"
+      }
+    },
+    {
+      "id": "gr",
+      "code": "GR",
+      "country": "GR",
+      "name": "Grecia",
+      "summary": "Grecia",
+      "bounds": [
+        18.9706,
+        34.5911,
+        29.6568,
+        41.7495
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gr.pmtiles",
+      "sizeBytes": 272047075,
+      "sha256": "86b6a8bd6d5fad5311f2e667fa28e30be708a77e4b693f4c341a2199bbc4edb8",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gr.valhalla.tar",
+        "sizeBytes": 507156480,
+        "sha256": "7c844fc961108426ca6e99892b1b70257428d8e0e67338473cd2830604ac22bb",
+        "graph": "gr-2026.10.13"
+      }
+    },
+    {
+      "id": "gg",
+      "code": "GG",
+      "country": "GG",
+      "name": "Guernsey y Jersey",
+      "summary": "Guernsey y Jersey",
+      "bounds": [
+        -3.5733,
+        49.0038,
+        -1.7916,
+        50.0695
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gg.pmtiles",
+      "sizeBytes": 3751303,
+      "sha256": "ed301493c1f490b3fea338651fe62505293c50381250f58d8357c61e7619bab0",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gg.valhalla.tar",
+        "sizeBytes": 4648960,
+        "sha256": "fead636c14eb9417218c627eedf7f496f8fb4fae289d9e83548410f2349c9610",
+        "graph": "gg-2026.10.13"
+      }
+    },
+    {
+      "id": "hu",
+      "code": "HU",
+      "country": "HU",
+      "name": "Hungría",
+      "summary": "Hungría",
+      "bounds": [
+        16.1085,
+        45.7321,
+        22.9065,
+        48.5892
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/hu.pmtiles",
+      "sizeBytes": 250858387,
+      "sha256": "896e7ad481910af66de0d542189b7fb318200c1d4a5ffd91a07cd05e809d6fb2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/hu.valhalla.tar",
+        "sizeBytes": 289392640,
+        "sha256": "78cc69563ae558790cb69aa2269d53a248498c6f6a61b3e455886eb4de6d9bc8",
+        "graph": "hu-2026.10.13"
+      }
+    },
+    {
+      "id": "is",
+      "code": "IS",
+      "country": "IS",
+      "name": "Islandia",
+      "summary": "Islandia",
+      "bounds": [
+        -25.7,
+        62.8455,
+        -12.4171,
+        67.5008
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/is.pmtiles",
+      "sizeBytes": 152356449,
+      "sha256": "2dc3fd57ae2e609e415ff8a78a060ad0923d08267a63610265ddb25c0d67c12b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/is.valhalla.tar",
+        "sizeBytes": 29747200,
+        "sha256": "609f862bfc9b3a363a4fdb6e5a517d249eb344c1e896d83ff7299b5e41f12189",
+        "graph": "is-2026.10.13"
+      }
+    },
+    {
+      "id": "ie",
+      "code": "IE",
+      "country": "IE",
+      "name": "Irlanda e Irlanda del Norte",
+      "summary": "Irlanda e Irlanda del Norte",
+      "bounds": [
+        -14.4022,
+        49.6,
+        -5.0593,
+        56.8655
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ie.pmtiles",
+      "sizeBytes": 275401066,
+      "sha256": "ceaebf3b839e1a8998857366c222b82bb8fe59d355b36736dd57ff17f1dd5d62",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ie.valhalla.tar",
+        "sizeBytes": 447672320,
+        "sha256": "1538cacb057125bd59d286d7459d47a78af33520ee29609fbfa5c38a4f131197",
+        "graph": "ie-2026.10.13"
+      }
+    },
+    {
+      "id": "im",
+      "code": "IM",
+      "country": "IM",
+      "name": "Isla de Man",
+      "summary": "Isla de Man",
+      "bounds": [
+        -5.4346,
+        53.7324,
+        -3.6887,
+        54.6706
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/im.pmtiles",
+      "sizeBytes": 5839903,
+      "sha256": "a67d21da63e78b8cf84abefc988222fb06f78f965c633f4173af7152b0d3a335",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/im.valhalla.tar",
+        "sizeBytes": 4096000,
+        "sha256": "bd1b5f814961969f0eecf3029a660bc37082d250043ca937a98ec60901b0cd06",
+        "graph": "im-2026.10.13"
+      }
+    },
+    {
+      "id": "it-centro",
+      "code": "IT-CEN",
+      "country": "IT",
+      "name": "Centro",
+      "summary": "Italia",
+      "bounds": [
+        9.3065,
+        40.2144,
+        14.6685,
+        44.4797
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-centro.pmtiles",
+      "sizeBytes": 255366240,
+      "sha256": "1a62131d89fc19ec8d085638b3875af94dee2740c295367c0acedae3480f1ea0",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-centro.valhalla.tar",
+        "sizeBytes": 467271680,
+        "sha256": "0d70d55bede3a94c13f2354e8c3d6fba8b651e3acefb309fd041b5c74c7096c3",
+        "graph": "it-2026.10.13"
+      }
+    },
+    {
+      "id": "it-isole",
+      "code": "IT-ISO",
+      "country": "IT",
+      "name": "Isole",
+      "summary": "Italia",
+      "bounds": [
+        7.7185,
+        35.0764,
+        15.7089,
+        41.5189
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-isole.pmtiles",
+      "sizeBytes": 121748034,
+      "sha256": "d5129dbe4353bb16894a334d263b215e1942808db6ea98f46e4461283fbacf3a",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-isole.valhalla.tar",
+        "sizeBytes": 252631040,
+        "sha256": "8b6e5a70ee9c93ab5351255c8dee59903928423368ab2b2c6f93997a84d13673",
+        "graph": "it-2026.10.13"
+      }
+    },
+    {
+      "id": "it-nord-est",
+      "code": "IT-NOR",
+      "country": "IT",
+      "name": "Nord-Est",
+      "summary": "Italia",
+      "bounds": [
+        9.1955,
+        43.7298,
+        13.9288,
+        47.1001
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-nord-est.pmtiles",
+      "sizeBytes": 379215471,
+      "sha256": "aa63bad7fe3ed1b0528d05f985dd075681284dc3f6fea3336a24558005c2b40f",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-nord-est.valhalla.tar",
+        "sizeBytes": 516945920,
+        "sha256": "d4a2b04eaf92c4c5052ea6574aa5445efaf2e57720591545bc51ec00b6764777",
+        "graph": "it-2026.10.13"
+      }
+    },
+    {
+      "id": "it-nord-ovest",
+      "code": "IT-NOR",
+      "country": "IT",
+      "name": "Nord-Ovest",
+      "summary": "Italia",
+      "bounds": [
+        6.6027,
+        43.481,
+        11.4334,
+        46.6412
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-nord-ovest.pmtiles",
+      "sizeBytes": 360700059,
+      "sha256": "c32139126d2f94e0ccf43b213793e1eddc00b59d90acf236f50cf450a202259e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-nord-ovest.valhalla.tar",
+        "sizeBytes": 541532160,
+        "sha256": "f9d9bda9558dfc15cdb9eadcb57649096ad8e4570f43b218398c052322918111",
+        "graph": "it-2026.10.13"
+      }
+    },
+    {
+      "id": "it-sud",
+      "code": "IT-SUD",
+      "country": "IT",
+      "name": "Sud",
+      "summary": "Italia",
+      "bounds": [
+        13.0013,
+        37.8015,
+        19.125,
+        42.9136
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-sud.pmtiles",
+      "sizeBytes": 271924569,
+      "sha256": "f6d01e7a8c3f40f8fe6fb5aff4b3e69f8485435dbedb40265bf369b5c6f4481c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/it-sud.valhalla.tar",
+        "sizeBytes": 420669440,
+        "sha256": "d48eaddc9fe91d2b8fa93541fd3034fef8aff15979a25f21a937c4a79e5930f5",
+        "graph": "it-2026.10.13"
+      }
+    },
+    {
+      "id": "xk",
+      "code": "XK",
+      "country": "XK",
+      "name": "Kosovo",
+      "summary": "Kosovo",
+      "bounds": [
+        20.0136,
+        41.8541,
+        21.7933,
+        43.2775
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/xk.pmtiles",
+      "sizeBytes": 28593802,
+      "sha256": "067fd06ce30402a0a6f7c5b58711e228aecf4154a6ed1bff3ef0c93a78576c88",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/xk.valhalla.tar",
+        "sizeBytes": 38993920,
+        "sha256": "55ec746b8b3444f330cfc696aabe56488fee606b3ae64f2930924812dc488e0d",
+        "graph": "xk-2026.10.13"
+      }
+    },
+    {
+      "id": "lv",
+      "code": "LV",
+      "country": "LV",
+      "name": "Letonia",
+      "summary": "Letonia",
+      "bounds": [
+        19.7335,
+        55.6611,
+        28.255,
+        58.0947
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/lv.pmtiles",
+      "sizeBytes": 156217220,
+      "sha256": "1e40952821419705ec0d0f1e2931f0d6fb88cc5b4847286f17dcdb3684ca1ab9",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/lv.valhalla.tar",
+        "sizeBytes": 118394880,
+        "sha256": "a79b39342f86a29384dd705ca617d482e0837a1c2ab662500f0100935fc34cae",
+        "graph": "lv-2026.10.13"
+      }
+    },
+    {
+      "id": "li",
+      "code": "LI",
+      "country": "LI",
+      "name": "Liechtenstein",
+      "summary": "Liechtenstein",
+      "bounds": [
+        9.4711,
+        47.0477,
+        9.6362,
+        47.2713
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/li.pmtiles",
+      "sizeBytes": 4646839,
+      "sha256": "035138b372a9e504a3629b8db8e0e00de1bd303719b1dcdfe89f96e680a2d497",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/li.valhalla.tar",
+        "sizeBytes": 2252800,
+        "sha256": "397ddcc19d695bb6c912d1c87fe4b88c5f5f449ce013471ec9480d5e2d1757f2",
+        "graph": "li-2026.10.13"
+      }
+    },
+    {
+      "id": "lt",
+      "code": "LT",
+      "country": "LT",
+      "name": "Lituania",
+      "summary": "Lituania",
+      "bounds": [
+        20.6186,
+        53.8922,
+        26.8387,
+        56.4533
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/lt.pmtiles",
+      "sizeBytes": 231962039,
+      "sha256": "6944dc29f7455d80b1af6d8e05307b297099a3a9a7b5d66c55ea7f39835d1a81",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/lt.valhalla.tar",
+        "sizeBytes": 163717120,
+        "sha256": "9e231fee110a907c00365d258f4b05811df77e09c144aff44d15354305d6f327",
+        "graph": "lt-2026.10.13"
+      }
+    },
+    {
+      "id": "lu",
+      "code": "LU",
+      "country": "LU",
+      "name": "Luxemburgo",
+      "summary": "Luxemburgo",
+      "bounds": [
+        5.733,
+        49.4455,
+        6.5322,
+        50.185
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/lu.pmtiles",
+      "sizeBytes": 41505544,
+      "sha256": "1c27b24c8b21e4a2a69d67bb845043d15971ad5242e7a467b3010c4c7339538b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/lu.valhalla.tar",
+        "sizeBytes": 27258880,
+        "sha256": "f4809b6914419e4da3db221ea0e8befac8e2326d3f44e01a4399c991f6eca3bc",
+        "graph": "lu-2026.10.13"
+      }
+    },
+    {
+      "id": "mk",
+      "code": "MK",
+      "country": "MK",
+      "name": "Macedonia del Norte",
+      "summary": "Macedonia del Norte",
+      "bounds": [
+        20.4467,
+        40.8476,
+        23.0401,
+        42.3797
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/mk.pmtiles",
+      "sizeBytes": 40183893,
+      "sha256": "a846a6bb1b00fff9a91d008e2a1abe89666914886cf3d8839b1b5cadc57c32c4",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/mk.valhalla.tar",
+        "sizeBytes": 32010240,
+        "sha256": "9e14fa68671377614db795200ae9eb191e77e84c9ee618c7fcb0cccd97d70e0b",
+        "graph": "mk-2026.10.13"
+      }
+    },
+    {
+      "id": "mt",
+      "code": "MT",
+      "country": "MT",
+      "name": "Malta",
+      "summary": "Malta",
+      "bounds": [
+        14.0,
+        35.5198,
+        14.8561,
+        36.333
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/mt.pmtiles",
+      "sizeBytes": 4300731,
+      "sha256": "fcb751f31c11164c82f20c96ebf70022e8499badf4fe44626fc2a8c98a7d7bd3",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/mt.valhalla.tar",
+        "sizeBytes": 10342400,
+        "sha256": "759edfad8c8b38457dd47c184e7954c7dbd41cfdfc216f0a4022f7530e0e1cc8",
+        "graph": "mt-2026.10.13"
+      }
+    },
+    {
+      "id": "md",
+      "code": "MD",
+      "country": "MD",
+      "name": "Moldavia",
+      "summary": "Moldavia",
+      "bounds": [
+        26.6123,
+        45.4616,
+        30.1925,
+        48.494
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/md.pmtiles",
+      "sizeBytes": 81190797,
+      "sha256": "925d4204c07cf5c5c94e896cd1d787d15ac6062fb9a59e0de39232f3b90116a2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/md.valhalla.tar",
+        "sizeBytes": 102584320,
+        "sha256": "2048dce126551e035d8b55d328d15f1b61793f4d451f4a8b649fc0a5f37c8d13",
+        "graph": "md-2026.10.13"
+      }
+    },
+    {
+      "id": "mc",
+      "code": "MC",
+      "country": "MC",
+      "name": "Mónaco",
+      "summary": "Mónaco",
+      "bounds": [
+        7.4086,
+        43.4838,
+        7.5957,
+        43.7529
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/mc.pmtiles",
+      "sizeBytes": 1552327,
+      "sha256": "214d55f9c91511b4332b5d2587bec2732ab32bbc4b4b57cfe695ae36edd17dee",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/mc.valhalla.tar",
+        "sizeBytes": 358400,
+        "sha256": "eabe4adbe62af2cd428120e6a958ecbfaf4ab54f60fb141bd78c142b8a96c5e3",
+        "graph": "mc-2026.10.13"
+      }
+    },
+    {
+      "id": "me",
+      "code": "ME",
+      "country": "ME",
+      "name": "Montenegro",
+      "summary": "Montenegro",
+      "bounds": [
+        18.1728,
+        41.6162,
+        20.3588,
+        43.5622
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/me.pmtiles",
+      "sizeBytes": 41070926,
+      "sha256": "9dbcc70d8ca161db96c84f7f3305bd84f420105efd8e12f5d82ca2713265f391",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/me.valhalla.tar",
+        "sizeBytes": 25712640,
+        "sha256": "3bfa05a460126b7787af4f92023afaeaf590d0995bb39f688b3356635cc98f3a",
+        "graph": "me-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-drenthe",
+      "code": "NL-DRE",
+      "country": "NL",
+      "name": "Drenthe",
+      "summary": "Países Bajos",
+      "bounds": [
+        6.1186,
+        52.6109,
+        7.0954,
+        53.2051
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-drenthe.pmtiles",
+      "sizeBytes": 35725731,
+      "sha256": "0c6b3855d80818c7843ec00529bf3ace66bbc4d6d3dd34bb670943ede9ae3fa3",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-drenthe.valhalla.tar",
+        "sizeBytes": 75489280,
+        "sha256": "cff74877404b826054b8d916fdb7448fbbc71893bede9793595509f3d82ded19",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-flevoland",
+      "code": "NL-FLE",
+      "country": "NL",
+      "name": "Flevoland",
+      "summary": "Países Bajos",
+      "bounds": [
+        5.0596,
+        52.2483,
+        6.0183,
+        52.8452
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-flevoland.pmtiles",
+      "sizeBytes": 20237978,
+      "sha256": "d78896dfe990e98b28a2f0608f7e14b8f926d1ea679e648a30a0ec8985202b91",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-flevoland.valhalla.tar",
+        "sizeBytes": 90900480,
+        "sha256": "f74bf23b04cb0e7cb73c57915c487b2fe109cb0ff1318bbda2b0eefc6bca6838",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-friesland",
+      "code": "NL-FRI",
+      "country": "NL",
+      "name": "Friesland",
+      "summary": "Países Bajos",
+      "bounds": [
+        4.5973,
+        52.7636,
+        6.4284,
+        53.6809
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-friesland.pmtiles",
+      "sizeBytes": 48629360,
+      "sha256": "27478412e89d210caf080d4b53bc954447a9a50144af7ec56dc53bab336508e0",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-friesland.valhalla.tar",
+        "sizeBytes": 83517440,
+        "sha256": "5845ace971a80efe4c9b512015b3e97725875a5ee11380e07a133330005ea388",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-gelderland",
+      "code": "NL-GEL",
+      "country": "NL",
+      "name": "Gelderland",
+      "summary": "Países Bajos",
+      "bounds": [
+        4.9926,
+        51.7323,
+        6.8358,
+        52.5232
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-gelderland.pmtiles",
+      "sizeBytes": 80385990,
+      "sha256": "d3455efc3fc304355c2cfd2e562c7f0ba6e7cca7a5f4cb02afe5f6bf398340ff",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-gelderland.valhalla.tar",
+        "sizeBytes": 200642560,
+        "sha256": "9910819867816f3bb5c843e5875aab986471946b7047199bd9f188d3273057ba",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-groningen",
+      "code": "NL-GRO",
+      "country": "NL",
+      "name": "Groningen",
+      "summary": "Países Bajos",
+      "bounds": [
+        6.1665,
+        52.8373,
+        7.2305,
+        53.6573
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-groningen.pmtiles",
+      "sizeBytes": 29258879,
+      "sha256": "53a7633f3e6e45755ab172dd195399c3247b880ac527dce5247b707987603e0e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-groningen.valhalla.tar",
+        "sizeBytes": 64901120,
+        "sha256": "0d059fa89c311307a01547222906b71890b07aa0f98dbdce332b83ede31a8186",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-limburg",
+      "code": "NL-LIM",
+      "country": "NL",
+      "name": "Limburg",
+      "summary": "Países Bajos",
+      "bounds": [
+        5.5633,
+        50.7475,
+        6.2294,
+        51.7799
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-limburg.pmtiles",
+      "sizeBytes": 43957562,
+      "sha256": "85aedb46978c44b2fa723e6260f00cd3ede8338e1fb928dfd1526ee788b5602a",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-limburg.valhalla.tar",
+        "sizeBytes": 91443200,
+        "sha256": "ec06e23c1867889ba458fb4cb14a712bd9fe9fe00c750965e328a31eb80584e1",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-noord-brabant",
+      "code": "NL-NOO",
+      "country": "NL",
+      "name": "Noord-Brabant",
+      "summary": "Países Bajos",
+      "bounds": [
+        4.1892,
+        51.2181,
+        6.0494,
+        51.8318
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-noord-brabant.pmtiles",
+      "sizeBytes": 77916027,
+      "sha256": "f2baae26fabc01f7670931706d2381d273b5051295bb6342aee3a9f3c4cc0f41",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-noord-brabant.valhalla.tar",
+        "sizeBytes": 152954880,
+        "sha256": "880ef92404ff280175bbbc4bd67d6ae12298dc513e2206ed5b59d6c2c48260a8",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-noord-holland",
+      "code": "NL-NOO",
+      "country": "NL",
+      "name": "Noord-Holland",
+      "summary": "Países Bajos",
+      "bounds": [
+        3.8969,
+        52.165,
+        5.3785,
+        53.2895
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-noord-holland.pmtiles",
+      "sizeBytes": 59299888,
+      "sha256": "cc07e0a6aa223efe424babdc5c518784c10711692a5b7d45f17208ec19711802",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-noord-holland.valhalla.tar",
+        "sizeBytes": 137635840,
+        "sha256": "567f099f7e3180e71f32a423eb21d641a1c9f4b8bed6f56963c87ef20f9875c8",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-overijssel",
+      "code": "NL-OVE",
+      "country": "NL",
+      "name": "Overijssel",
+      "summary": "Países Bajos",
+      "bounds": [
+        5.7768,
+        52.1135,
+        7.0751,
+        52.8554
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-overijssel.pmtiles",
+      "sizeBytes": 53835693,
+      "sha256": "25e136ac8650d7d60300fca90f12b2a7717aa6f83704f58bf9be6587083cca3a",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-overijssel.valhalla.tar",
+        "sizeBytes": 103628800,
+        "sha256": "efd9a71e63300ca549dfe1166c2b91bb214411e5947a92efc87def75a67261c2",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-utrecht",
+      "code": "NL-UTR",
+      "country": "NL",
+      "name": "Utrecht",
+      "summary": "Países Bajos",
+      "bounds": [
+        4.7908,
+        51.8561,
+        5.6283,
+        52.3049
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-utrecht.pmtiles",
+      "sizeBytes": 38100049,
+      "sha256": "3a762876065e5e488f69f1dda689b2a810adf67ac525df78d8bdd98919bbaa27",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-utrecht.valhalla.tar",
+        "sizeBytes": 143697920,
+        "sha256": "a3a77dd0886a2a7b94ba043f2efe8d42c956b475e093553d57e1f41755643814",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-zeeland",
+      "code": "NL-ZEE",
+      "country": "NL",
+      "name": "Zeeland",
+      "summary": "Países Bajos",
+      "bounds": [
+        3.2339,
+        51.1972,
+        4.2784,
+        51.8701
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-zeeland.pmtiles",
+      "sizeBytes": 23413033,
+      "sha256": "0946a38d90595b938f77b6113d9a2c4fc33c249178c55013693909b330ebfbb1",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-zeeland.valhalla.tar",
+        "sizeBytes": 61880320,
+        "sha256": "150fca4cef14c835171a2622b2b890e1512a2c2b7008e1f3295ff0940a9f3e65",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "nl-zuid-holland",
+      "code": "NL-ZUI",
+      "country": "NL",
+      "name": "Zuid-Holland",
+      "summary": "Países Bajos",
+      "bounds": [
+        3.3453,
+        51.6425,
+        5.0324,
+        52.4761
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-zuid-holland.pmtiles",
+      "sizeBytes": 63472241,
+      "sha256": "494106c732c3ec62c93b50ee2a18d1f70ddb3f29afdc92b3073fb52366ea8ea3",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/nl-zuid-holland.valhalla.tar",
+        "sizeBytes": 175237120,
+        "sha256": "1973ff217c54ec599ba473e1c3725f51c37ba1fa8101fdf90ac60fb554b40899",
+        "graph": "nl-2026.10.13"
+      }
+    },
+    {
+      "id": "no-nord-norge",
+      "code": "NO-NOR",
+      "country": "NO",
+      "name": "Nord-Norge<br />(Northern Norway)",
+      "summary": "Noruega",
+      "bounds": [
+        7.8402,
+        64.9392,
+        33.6397,
+        72.4056
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-nord-norge.pmtiles",
+      "sizeBytes": 561837212,
+      "sha256": "e98f712c8fb865662b0d1d6a530efa6cd507590659abe248cd48127edcc0a054",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-nord-norge.valhalla.tar",
+        "sizeBytes": 66693120,
+        "sha256": "3a30782a5d7579b499a8b1809bdecdb2f5a2700f1605959f58fbcf16e2182096",
+        "graph": "no-2026.10.13"
+      }
+    },
+    {
+      "id": "no-sorlandet",
+      "code": "NO-SOR",
+      "country": "NO",
+      "name": "Sørlandet<br />(Southern Norway)",
+      "summary": "Noruega",
+      "bounds": [
+        5.6987,
+        57.5844,
+        10.1043,
+        59.6747
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-sorlandet.pmtiles",
+      "sizeBytes": 101167860,
+      "sha256": "3bf7345629f6fab115ed02743284b85b390d307905e322645183c1a290e122ac",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-sorlandet.valhalla.tar",
+        "sizeBytes": 62033920,
+        "sha256": "a1fccacc66c6a98028e97168d3d2344d0049b7e239f7380956ab9c565abe3355",
+        "graph": "no-2026.10.13"
+      }
+    },
+    {
+      "id": "no-trondelag",
+      "code": "NO-TRO",
+      "country": "NO",
+      "name": "Trøndelag<br />(Central Norway)",
+      "summary": "Noruega",
+      "bounds": [
+        5.7909,
+        62.2553,
+        14.3354,
+        65.9496
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-trondelag.pmtiles",
+      "sizeBytes": 274935899,
+      "sha256": "0d36e10a7a703be5859ea42266024991666a366660e0cc5b1715ff9db5e9995b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-trondelag.valhalla.tar",
+        "sizeBytes": 60098560,
+        "sha256": "ba206fe19974302619b409267c3640960040613e00350afd478d16ad24d1f8f4",
+        "graph": "no-2026.10.13"
+      }
+    },
+    {
+      "id": "no-vestlandet",
+      "code": "NO-VES",
+      "country": "NO",
+      "name": "Vestlandet<br />(Western Norway)",
+      "summary": "Noruega",
+      "bounds": [
+        2.3291,
+        57.6312,
+        9.3747,
+        65.1236
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-vestlandet.pmtiles",
+      "sizeBytes": 271736470,
+      "sha256": "c10dcbd1c72e6e143f40db46aaa4a2c215a2bf4184871b63a2cec5619717598c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-vestlandet.valhalla.tar",
+        "sizeBytes": 140584960,
+        "sha256": "c20a5d5f7c7fdb6e589a985796527cd4167043cfb0ebc57da658bdded5a9a359",
+        "graph": "no-2026.10.13"
+      }
+    },
+    {
+      "id": "no-ostlandet",
+      "code": "NO-OST",
+      "country": "NO",
+      "name": "Østlandet<br />(Eastern Norway)",
+      "summary": "Noruega",
+      "bounds": [
+        7.0954,
+        58.5968,
+        12.8807,
+        62.6973
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-ostlandet.pmtiles",
+      "sizeBytes": 494367939,
+      "sha256": "b2ef519302e751f49eba82205fc1e8d1af0e03116352be166dd4c8222291c092",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/no-ostlandet.valhalla.tar",
+        "sizeBytes": 253931520,
+        "sha256": "a48a1c9c1b1b5b63b1ce169e0c81f18d8f14d660ecb850a4a59504168a40dd5e",
+        "graph": "no-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-dolnoslaskie",
+      "code": "PL-DOL",
+      "country": "PL",
+      "name": "Województwo dolnośląskie<br />(Lower Silesian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        14.8084,
+        50.0825,
+        17.8058,
+        51.8142
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-dolnoslaskie.pmtiles",
+      "sizeBytes": 115039603,
+      "sha256": "74a0d7dbe06da2c5f76e88e98b1412b73bef5dd30d78d7c77b091428bc4927d2",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-dolnoslaskie.valhalla.tar",
+        "sizeBytes": 166789120,
+        "sha256": "4b183bbdfff5836382cccbe6b5e4a2648c95634bc490f89bfb4c2479789d5321",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-kujawsko-pomorskie",
+      "code": "PL-KUJ",
+      "country": "PL",
+      "name": "Województwo kujawsko-pomorskie<br />(Kuyavian-Pomeranian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        17.2394,
+        52.3211,
+        19.7724,
+        53.7917
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-kujawsko-pomorskie.pmtiles",
+      "sizeBytes": 89212385,
+      "sha256": "28eb07e71745bd53d001a93addd40ca01fa13e79183b7948a809fdafa377da3c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-kujawsko-pomorskie.valhalla.tar",
+        "sizeBytes": 123043840,
+        "sha256": "6b1ce8651614e5e2e23ee8cc91a7cc4408021cd90b1cbb4e194cd9e7e3596f30",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-lubelskie",
+      "code": "PL-LUB",
+      "country": "PL",
+      "name": "Województwo lubelskie<br />(Lublin Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        21.6029,
+        50.2365,
+        24.161,
+        52.3004
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-lubelskie.pmtiles",
+      "sizeBytes": 108271235,
+      "sha256": "df32ed9233fa791878fa154adf94c0cda5240d50ddc78218dc3922c7f99e6b7c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-lubelskie.valhalla.tar",
+        "sizeBytes": 149381120,
+        "sha256": "760bd6ff659837be45ea542701303aa18f8c8be27234da10b52e4641a4535701",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-lubuskie",
+      "code": "PL-LUB",
+      "country": "PL",
+      "name": "Województwo lubuskie<br />(Lubusz Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        14.4955,
+        51.3486,
+        16.43,
+        53.1281
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-lubuskie.pmtiles",
+      "sizeBytes": 57290971,
+      "sha256": "9395f4a8198076c5eaede5115567ca067c3e0c5fa8dc2a16432e6a96e0e82de6",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-lubuskie.valhalla.tar",
+        "sizeBytes": 109322240,
+        "sha256": "1bb322eb581bcdf423d6b67a5e233ecb90ef208227606c1c182517e599bcb0ad",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-mazowieckie",
+      "code": "PL-MAZ",
+      "country": "PL",
+      "name": "Województwo mazowieckie<br />(Mazovian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        19.2336,
+        50.9845,
+        23.1564,
+        53.5116
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-mazowieckie.pmtiles",
+      "sizeBytes": 215676757,
+      "sha256": "ac8cccff8e1ddaad153c5fb93c2f669734b5cb40f260707b1a8e7451f1cf0d60",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-mazowieckie.valhalla.tar",
+        "sizeBytes": 269588480,
+        "sha256": "79beb83a4ebe5f31b61c32ea1ac1cde9442d3e48a8f8334a90a35bc173478677",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-malopolskie",
+      "code": "PL-MAL",
+      "country": "PL",
+      "name": "Województwo małopolskie<br />(Lesser Poland Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        19.0749,
+        49.1649,
+        21.4333,
+        50.5322
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-malopolskie.pmtiles",
+      "sizeBytes": 126908176,
+      "sha256": "f0b1dc30574f0de2a328b9b2ec0c806375ad858b661d8741bf32197e2f43a79e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-malopolskie.valhalla.tar",
+        "sizeBytes": 233564160,
+        "sha256": "1e1dff734337dc583f650e628a19755e951962ec76ae823992b467e7ef1a690d",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-opolskie",
+      "code": "PL-OPO",
+      "country": "PL",
+      "name": "Województwo opolskie<br />(Opole Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        16.9015,
+        49.9577,
+        18.7022,
+        51.2014
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-opolskie.pmtiles",
+      "sizeBytes": 43628515,
+      "sha256": "06f3aaa85f3bb1e46f10f351faa1c02bb28fbdf8242b633862979f936616f10c",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-opolskie.valhalla.tar",
+        "sizeBytes": 109342720,
+        "sha256": "a370e91b696071b96da7631e37f8e7d37550da6721f7d175e5eb36ffce3e1dd5",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-podkarpackie",
+      "code": "PL-POD",
+      "country": "PL",
+      "name": "Województwo podkarpackie<br />(Subcarpathian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        21.1343,
+        48.9864,
+        23.5536,
+        50.8259
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-podkarpackie.pmtiles",
+      "sizeBytes": 116225683,
+      "sha256": "765373fde24de22ba4746d51c0843ea1b543360092709f7359c555a835091d36",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-podkarpackie.valhalla.tar",
+        "sizeBytes": 164177920,
+        "sha256": "6bed33423cbd7aa39d01d75115b58428e4d039dbd14fc473c7d49bd8f81c595d",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-podlaskie",
+      "code": "PL-POD",
+      "country": "PL",
+      "name": "Województwo podlaskie<br />(Podlaskie Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        21.5846,
+        52.2711,
+        23.9614,
+        54.4254
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-podlaskie.pmtiles",
+      "sizeBytes": 85711008,
+      "sha256": "f879de3ca63b1b35bff5dadfbda873fe4d24310b143b3d09061e3878e3352e30",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-podlaskie.valhalla.tar",
+        "sizeBytes": 87388160,
+        "sha256": "43bbfdbe48c8b2d5a1b7696cecf8f7e725492fbceccee927db0b6aaaa91306a6",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-pomorskie",
+      "code": "PL-POM",
+      "country": "PL",
+      "name": "Województwo pomorskie<br />(Pomeranian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        16.687,
+        53.4806,
+        19.6607,
+        55.0795
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-pomorskie.pmtiles",
+      "sizeBytes": 87917421,
+      "sha256": "a6ae0bdf4f0413ed0ea6ee3d66866dbeba3e55ff347987a2ec3b2ffceabd9ed6",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-pomorskie.valhalla.tar",
+        "sizeBytes": 126443520,
+        "sha256": "65fb925a1cc068492c2b799f9e207a6dbebca77e9c4418b91263bb8423b1789d",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-warminsko-mazurskie",
+      "code": "PL-WAR",
+      "country": "PL",
+      "name": "Województwo warmińsko-mazurskie<br />(Warmian-Masurian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        19.1167,
+        53.1257,
+        22.8206,
+        54.5146
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-warminsko-mazurskie.pmtiles",
+      "sizeBytes": 92540939,
+      "sha256": "2214e4b73f8a236d34209ef0a963a8d75d73a7db17df40ca8ef854dd2e3a14e1",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-warminsko-mazurskie.valhalla.tar",
+        "sizeBytes": 115456000,
+        "sha256": "951e108f4c14d9228414b336ff52b240cbacd43da65e4ca6c55523b7b3356bcb",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-wielkopolskie",
+      "code": "PL-WIE",
+      "country": "PL",
+      "name": "Województwo wielkopolskie<br />(Greater Poland Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        15.7604,
+        51.084,
+        19.1293,
+        53.681
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-wielkopolskie.pmtiles",
+      "sizeBytes": 109198303,
+      "sha256": "44602537be0ccc9c7d604f93a0393269a3792266ced4088b76abed2c55795e0b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-wielkopolskie.valhalla.tar",
+        "sizeBytes": 177397760,
+        "sha256": "fbb89eb91e1927fd895c708d76d4749d6ed1990268a9cf1f9c2e3f49c4debce2",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-zachodniopomorskie",
+      "code": "PL-ZAC",
+      "country": "PL",
+      "name": "Województwo zachodniopomorskie<br />(West Pomeranian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        13.9902,
+        52.6174,
+        16.9885,
+        55.0066
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-zachodniopomorskie.pmtiles",
+      "sizeBytes": 83863252,
+      "sha256": "d55bb66fe8e845bbe3bcf93d7cb258677ab9ac2027aaff19bdcb00725e8f582e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-zachodniopomorskie.valhalla.tar",
+        "sizeBytes": 113899520,
+        "sha256": "abb1bb9bdbf3393433f94d49fc2fe43016736c25a5eca2524d6dc81c57271d37",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-lodzkie",
+      "code": "PL-LOD",
+      "country": "PL",
+      "name": "Województwo łódzkie<br />(Łódź Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        18.0623,
+        50.8309,
+        20.6691,
+        52.4062
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-lodzkie.pmtiles",
+      "sizeBytes": 101669691,
+      "sha256": "effaa0c6e9682703df5f0893ba580672094f8f2c3c5c725fb928d734ca380104",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-lodzkie.valhalla.tar",
+        "sizeBytes": 159969280,
+        "sha256": "4565d4198fb62b967245014ecefb2398a3d5b800368bfdc435372da875d69a55",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-slaskie",
+      "code": "PL-SLA",
+      "country": "PL",
+      "name": "Województwo śląskie<br />(Silesian Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        18.0221,
+        49.38,
+        19.9854,
+        51.1129
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-slaskie.pmtiles",
+      "sizeBytes": 105831206,
+      "sha256": "5f56baaec9285e9c086f6d55218c0ec7f9508924a8ef55cd1583d8c01c92d87e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-slaskie.valhalla.tar",
+        "sizeBytes": 196945920,
+        "sha256": "6997945b8b4314c39ee1643b9dd5afd9ece174d4a0de9981ddcaecaa7e3d6e45",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pl-swietokrzyskie",
+      "code": "PL-SWI",
+      "country": "PL",
+      "name": "Województwo świętokrzyskie<br />(Świętokrzyskie Voivodeship)",
+      "summary": "Polonia",
+      "bounds": [
+        19.699,
+        50.1797,
+        21.8758,
+        51.3482
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-swietokrzyskie.pmtiles",
+      "sizeBytes": 72980821,
+      "sha256": "dc68040f0eced33ae3c1fb91c15bd4a8413e5b3eb1bff4d3682c6447d19abc8b",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pl-swietokrzyskie.valhalla.tar",
+        "sizeBytes": 135823360,
+        "sha256": "03cccfd8e702fae487b1373b125fa4e451225b27e901a66471faaa624e69b344",
+        "graph": "pl-2026.10.13"
+      }
+    },
+    {
+      "id": "pt",
+      "code": "PT",
+      "country": "PT",
+      "name": "Portugal",
+      "summary": "Portugal",
+      "bounds": [
+        -31.6,
+        29.7,
+        -6.1795,
+        42.1639
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pt.pmtiles",
+      "sizeBytes": 302234142,
+      "sha256": "e102e212c7be51e8ba5c36195b62bd9c7b37a5d3625c9f8fe846ba4d22df4b76",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/pt.valhalla.tar",
+        "sizeBytes": 463185920,
+        "sha256": "1db2b0970835df3741159be8fd093988c6ec4e7a6e3d67c595edc41aea38bb8a",
+        "graph": "pt-2026.10.13"
+      }
+    },
+    {
+      "id": "ro",
+      "code": "RO",
+      "country": "RO",
+      "name": "Rumanía",
+      "summary": "Rumanía",
+      "bounds": [
+        20.2418,
+        43.6125,
+        30.279,
+        48.2695
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ro.pmtiles",
+      "sizeBytes": 395544345,
+      "sha256": "63c002c7f8c0a8c0503ccd979ca3916f6b1f7fddbe33fea389a49fa0d19f4a30",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ro.valhalla.tar",
+        "sizeBytes": 334725120,
+        "sha256": "6a84641768e8196f035a1876555bb74570933bd49983240c26972be5b98c1553",
+        "graph": "ro-2026.10.13"
+      }
+    },
+    {
+      "id": "rs",
+      "code": "RS",
+      "country": "RS",
+      "name": "Serbia",
+      "summary": "Serbia",
+      "bounds": [
+        18.8089,
+        42.2298,
+        23.0103,
+        46.1921
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/rs.pmtiles",
+      "sizeBytes": 179320004,
+      "sha256": "ac6e557e784e00fd5dfcf48c992029741019b60ea4f579e5a9a571a04a4bef3e",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/rs.valhalla.tar",
+        "sizeBytes": 185118720,
+        "sha256": "f2f71ef645c2b34002c085c6f2ef3ce22923d1c6f7cb3da67487aa14d45bb1ed",
+        "graph": "rs-2026.10.13"
+      }
+    },
+    {
+      "id": "sk",
+      "code": "SK",
+      "country": "SK",
+      "name": "Eslovaquia",
+      "summary": "Eslovaquia",
+      "bounds": [
+        16.8307,
+        47.7265,
+        22.5705,
+        49.6186
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/sk.pmtiles",
+      "sizeBytes": 225240521,
+      "sha256": "b845cbfb38230bf4edac69b3a09df4a7738eef1a00462435cbc32e8cb8d424e4",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/sk.valhalla.tar",
+        "sizeBytes": 216463360,
+        "sha256": "09a418dc4e3b97f6452405d99a7d1d2dc4f189bbdf5af769165f2181653efa84",
+        "graph": "sk-2026.10.13"
+      }
+    },
+    {
+      "id": "si",
+      "code": "SI",
+      "country": "SI",
+      "name": "Eslovenia",
+      "summary": "Eslovenia",
+      "bounds": [
+        13.3051,
+        45.4208,
+        16.6003,
+        46.8796
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/si.pmtiles",
+      "sizeBytes": 248760826,
+      "sha256": "c6378ff5908cd08e42c17f46cab9f62e6a14fb48e9dbf81991a0d18816a2ada9",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/si.valhalla.tar",
+        "sizeBytes": 128460800,
+        "sha256": "3919eeb64a70d88c33ba95a8c20456afa2765c4721f73b8a52ba531f8d199ef7",
+        "graph": "si-2026.10.13"
+      }
+    },
+    {
+      "id": "se",
+      "code": "SE",
+      "country": "SE",
+      "name": "Suecia",
+      "summary": "Suecia",
+      "bounds": [
+        10.5414,
+        55.0265,
+        24.2247,
+        69.0664
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/se.pmtiles",
+      "sizeBytes": 1272964178,
+      "sha256": "af18d79ea44a8d7e80d6632239056d865a2097e10ab2389a03a2f3908ec1c052",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/se.valhalla.tar",
+        "sizeBytes": 592527360,
+        "sha256": "2079fc0fe780b4ec0fdb07e4b2be4e6ae821d30b835dd292138b2d6a7113388e",
+        "graph": "se-2026.10.13"
+      }
+    },
+    {
+      "id": "ch",
+      "code": "CH",
+      "country": "CH",
+      "name": "Suiza",
+      "summary": "Suiza",
+      "bounds": [
+        5.9544,
+        45.8164,
+        10.4958,
+        47.8113
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ch.pmtiles",
+      "sizeBytes": 295594669,
+      "sha256": "c174a17ea8624864a89105b6d21afdd3607ce10806157c3165b20a6140e18cd9",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ch.valhalla.tar",
+        "sizeBytes": 377231360,
+        "sha256": "c920af2238b8a05097cb9097a440da320d3d3a752b40affb32f720b0f43a305e",
+        "graph": "ch-2026.10.13"
+      }
+    },
+    {
+      "id": "tr",
+      "code": "TR",
+      "country": "TR",
+      "name": "Turquía",
+      "summary": "Turquía",
+      "bounds": [
+        25.524,
+        35.717,
+        44.8599,
+        43.0748
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/tr.pmtiles",
+      "sizeBytes": 690695361,
+      "sha256": "988613d65bfbe426b2b69eac259e49fea4b3aa70dfcebd98628bc37849244ffb",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/tr.valhalla.tar",
+        "sizeBytes": 1050265600,
+        "sha256": "ec6bbf7e92bda1794a825d632507a059d60f7fb8bba2a621a33097fcdd8b60d0",
+        "graph": "tr-2026.10.13"
+      }
+    },
+    {
+      "id": "ua",
+      "code": "UA",
+      "country": "UA",
+      "name": "Ucrania",
+      "summary": "Ucrania",
+      "bounds": [
+        22.1326,
+        44.0086,
+        40.2381,
+        52.3865
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ua.pmtiles",
+      "sizeBytes": 1064773290,
+      "sha256": "69f562731acf99bb6fa3eb1d33296903f8b6b45bfdb79412915006f38050d919",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/ua.valhalla.tar",
+        "sizeBytes": 809584640,
+        "sha256": "dce5d9484a5ddd7a3ae272a3ac3e85ca78037b70438b8c47aeac18f49a5c474f",
+        "graph": "ua-2026.10.13"
+      }
+    },
+    {
+      "id": "gb-england",
+      "code": "GB-ENG",
+      "country": "GB",
+      "name": "England",
+      "summary": "Reino Unido",
+      "bounds": [
+        -7.1012,
+        49.5781,
+        2.2499,
+        56.07
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gb-england.pmtiles",
+      "sizeBytes": 888094503,
+      "sha256": "c0da70cdf9adf2f107dd069e6050080c6a891e898b6bd6a83cfebcb0c8ce8455",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gb-england.valhalla.tar",
+        "sizeBytes": 1484677120,
+        "sha256": "1f362ac8a6807e95ddf5872ff311b535a85c7e485f68426a4c5056f175918078",
+        "graph": "gb-2026.10.13"
+      }
+    },
+    {
+      "id": "gb-scotland",
+      "code": "GB-SCO",
+      "country": "GB",
+      "name": "Scotland",
+      "summary": "Reino Unido",
+      "bounds": [
+        -14.8615,
+        54.54,
+        0.2161,
+        61.1356
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gb-scotland.pmtiles",
+      "sizeBytes": 261151569,
+      "sha256": "6174a48d2a528dbde12400a12a9483091d14ed6cc0246cbad3692d25c30949df",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gb-scotland.valhalla.tar",
+        "sizeBytes": 242073600,
+        "sha256": "316f5d035c5db0410e081b21564bc99102a9bdbdf1043b5b9f22bcc41443dc94",
+        "graph": "gb-2026.10.13"
+      }
+    },
+    {
+      "id": "gb-wales",
+      "code": "GB-WAL",
+      "country": "GB",
+      "name": "Wales",
+      "summary": "Reino Unido",
+      "bounds": [
+        -6.1832,
+        51.04,
+        -2.648,
+        53.7663
+      ],
+      "version": "2026.10.13",
+      "dataDate": "2026-10-13",
+      "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gb-wales.pmtiles",
+      "sizeBytes": 110888078,
+      "sha256": "a3837393c9f9c8ed10ad49b10131568ecdd742896f4289a836abaa3d9208e1b3",
+      "routing": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/gb-wales.valhalla.tar",
+        "sizeBytes": 266711040,
+        "sha256": "7be94be1c85a4192bf295d41cd6ce6c0ab074d3d7f96450e8778e7d4483536ef",
+        "graph": "gb-2026.10.13"
+      }
     }
   ]
 }
