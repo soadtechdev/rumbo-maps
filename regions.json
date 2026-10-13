@@ -1,18 +1,173 @@
 [
   {
+    "id": "es-an",
+    "code": "ES-AN",
+    "country": "ES",
+    "group": "es",
+    "name": "Andalucía",
+    "summary": "Almería, Cádiz, Córdoba, Granada, Huelva, Jaén, Málaga y Sevilla",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/andalucia-latest.osm.pbf"
+  },
+  {
+    "id": "es-ar",
+    "code": "ES-AR",
+    "country": "ES",
+    "group": "es",
+    "name": "Aragón",
+    "summary": "Huesca, Teruel y Zaragoza",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/aragon-latest.osm.pbf"
+  },
+  {
+    "id": "es-as",
+    "code": "ES-AS",
+    "country": "ES",
+    "group": "es",
+    "name": "Asturias",
+    "summary": "Principado de Asturias",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/asturias-latest.osm.pbf"
+  },
+  {
+    "id": "es-ib",
+    "code": "ES-IB",
+    "country": "ES",
+    "group": "es",
+    "name": "Islas Baleares",
+    "summary": "Mallorca, Menorca, Ibiza y Formentera",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/illes_balears-latest.osm.pbf"
+  },
+  {
+    "id": "es-cn",
+    "code": "ES-CN",
+    "country": "ES",
+    "group": "es",
+    "name": "Canarias",
+    "summary": "Las Palmas y Santa Cruz de Tenerife",
+    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/canarias-latest.osm.pbf"
+  },
+  {
+    "id": "es-cb",
+    "code": "ES-CB",
+    "country": "ES",
+    "group": "es",
+    "name": "Cantabria",
+    "summary": "Cantabria",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/cantabria-latest.osm.pbf"
+  },
+  {
+    "id": "es-cm",
+    "code": "ES-CM",
+    "country": "ES",
+    "group": "es",
+    "name": "Castilla-La Mancha",
+    "summary": "Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/castilla_la_mancha-latest.osm.pbf"
+  },
+  {
+    "id": "es-cl",
+    "code": "ES-CL",
+    "country": "ES",
+    "group": "es",
+    "name": "Castilla y León",
+    "summary": "Ávila, Burgos, León, Palencia, Salamanca, Segovia, Soria, Valladolid y Zamora",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/castilla_y_leon-latest.osm.pbf"
+  },
+  {
+    "id": "es-ct",
+    "code": "ES-CT",
+    "country": "ES",
+    "group": "es",
+    "name": "Cataluña",
+    "summary": "Barcelona, Girona, Lleida y Tarragona",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/catalunya-latest.osm.pbf"
+  },
+  {
+    "id": "es-ce",
+    "code": "ES-CE",
+    "country": "ES",
+    "group": "es",
+    "name": "Ceuta",
+    "summary": "Ciudad autónoma de Ceuta",
+    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/ceuta-latest.osm.pbf"
+  },
+  {
     "id": "es-vc",
     "code": "ES-VC",
+    "country": "ES",
+    "group": "es",
     "name": "Comunidad Valenciana",
     "summary": "Castellón, Valencia y Alicante",
-    "file": "comunidad-valenciana.pmtiles",
-    "bounds": [
-      -1.55,
-      37.83,
-      0.7,
-      40.8
-    ],
-    "maxZoom": 14,
-    "routingFile": "comunidad-valenciana.valhalla.tar",
     "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunitat_valenciana-latest.osm.pbf"
+  },
+  {
+    "id": "es-ex",
+    "code": "ES-EX",
+    "country": "ES",
+    "group": "es",
+    "name": "Extremadura",
+    "summary": "Badajoz y Cáceres",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/extremadura-latest.osm.pbf"
+  },
+  {
+    "id": "es-ga",
+    "code": "ES-GA",
+    "country": "ES",
+    "group": "es",
+    "name": "Galicia",
+    "summary": "A Coruña, Lugo, Ourense y Pontevedra",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/galicia-latest.osm.pbf"
+  },
+  {
+    "id": "es-ri",
+    "code": "ES-RI",
+    "country": "ES",
+    "group": "es",
+    "name": "La Rioja",
+    "summary": "La Rioja",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/la_rioja-latest.osm.pbf"
+  },
+  {
+    "id": "es-md",
+    "code": "ES-MD",
+    "country": "ES",
+    "group": "es",
+    "name": "Madrid",
+    "summary": "Comunidad de Madrid",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunidad_de_madrid-latest.osm.pbf"
+  },
+  {
+    "id": "es-ml",
+    "code": "ES-ML",
+    "country": "ES",
+    "group": "es",
+    "name": "Melilla",
+    "summary": "Ciudad autónoma de Melilla",
+    "osm": "https://download.openstreetmap.fr/extracts/africa/spain/melilla-latest.osm.pbf"
+  },
+  {
+    "id": "es-mc",
+    "code": "ES-MC",
+    "country": "ES",
+    "group": "es",
+    "name": "Murcia",
+    "summary": "Región de Murcia",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/region_de_murcia-latest.osm.pbf"
+  },
+  {
+    "id": "es-nc",
+    "code": "ES-NC",
+    "country": "ES",
+    "group": "es",
+    "name": "Navarra",
+    "summary": "Comunidad Foral de Navarra",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/comunidad_foral_de_navarra-latest.osm.pbf"
+  },
+  {
+    "id": "es-pv",
+    "code": "ES-PV",
+    "country": "ES",
+    "group": "es",
+    "name": "País Vasco",
+    "summary": "Álava, Gipuzkoa y Bizkaia",
+    "osm": "https://download.openstreetmap.fr/extracts/europe/spain/euskadi-latest.osm.pbf"
   }
 ]

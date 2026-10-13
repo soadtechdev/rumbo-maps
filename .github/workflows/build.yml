@@ -1,0 +1,98 @@
+name: Generar mapas
+
+# Genera el mapa y el grafo de carreteras de cada zona, los publica en una Release y actualiza el
+# catálogo. Se lanza a mano o sola el día 2 de cada mes.
+on:
+  workflow_dispatch:
+    inputs:
+      group:
+        description: "Grupo de zonas de regions.json (es…); vacío, todas"
+        required: false
+        default: ""
+      build:
+        description: "Compilación de Protomaps, AAAAMMDD; vacío, la última"
+        required: false
+        default: ""
+  schedule:
+    - cron: "0 3 2 * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      regions: ${{ steps.plan.outputs.regions }}
+      build: ${{ steps.plan.outputs.build }}
+      version: ${{ steps.plan.outputs.version }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          build="${{ inputs.build }}"
+          if [ -z "$build" ]; then
+            build=$(curl -fsSL https://build-metadata.protomaps.dev/builds.json | python3 -c "import json,sys; print(json.load(sys.stdin)[-1]['key'][:8])")
+          fi
+          version="${build:0:4}.${build:4:2}.${build:6:2}"
+          echo "build=$build" >> "$GITHUB_OUTPUT"
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+          echo "regions=$(./build.py matrix "${{ inputs.group }}")" >> "$GITHUB_OUTPUT"
+          gh release view "$version" >/dev/null 2>&1 || gh release create "$version" --title "$version" \
+            --notes "Datos de OpenStreetMap del ${build:6:2}/${build:4:2}/${build:0:4}."
+
+  region:
+    needs: plan
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        region: ${{ fromJson(needs.plan.outputs.regions) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Herramientas
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq osmium-tool
+          curl -fsSL -o pmtiles.tar.gz https://github.com/protomaps/go-pmtiles/releases/download/v1.31.2/go-pmtiles_1.31.2_Linux_x86_64.tar.gz
+          sudo tar -xzf pmtiles.tar.gz -C /usr/local/bin pmtiles
+      - name: Generar
+        run: ./build.py region "${{ matrix.region }}" "${{ needs.plan.outputs.build }}"
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload "${{ needs.plan.outputs.version }}" --clobber \
+            "dist/${{ matrix.region }}.pmtiles" "dist/${{ matrix.region }}.valhalla.tar"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: package-${{ matrix.region }}
+          path: dist/${{ matrix.region }}.json
+
+  catalog:
+    needs: [plan, region]
+    # Aunque alguna zona falle, las que salieron bien entran en el catálogo.
+    if: ${{ always() && needs.plan.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: package-*
+          path: fragments
+          merge-multiple: true
+      - name: Catálogo
+        run: |
+          ./build.py catalog "${{ needs.plan.outputs.build }}" fragments
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git diff --cached --quiet || git commit -m "Catálogo ${{ needs.plan.outputs.version }}"
+          git pull --rebase
+          git push
