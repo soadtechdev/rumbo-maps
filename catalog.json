@@ -701,7 +701,7 @@
       "id": "cz-jihomoravsky",
       "code": "CZ-JIH",
       "country": "CZ",
-      "name": "Jihomoravský kraj",
+      "name": "Moravia Meridional",
       "summary": "Chequia",
       "bounds": [
         15.5402,
@@ -725,7 +725,7 @@
       "id": "cz-jihocesky",
       "code": "CZ-JIH",
       "country": "CZ",
-      "name": "Jihočeský kraj",
+      "name": "Bohemia Meridional",
       "summary": "Chequia",
       "bounds": [
         13.5339,
@@ -749,7 +749,7 @@
       "id": "cz-karlovarsky",
       "code": "CZ-KAR",
       "country": "CZ",
-      "name": "Karlovarský kraj",
+      "name": "Karlovy Vary",
       "summary": "Chequia",
       "bounds": [
         12.0848,
@@ -773,7 +773,7 @@
       "id": "cz-vysocina",
       "code": "CZ-VYS",
       "country": "CZ",
-      "name": "Kraj Vysočina",
+      "name": "Vysočina",
       "summary": "Chequia",
       "bounds": [
         14.8869,
@@ -797,7 +797,7 @@
       "id": "cz-kralovehradecky",
       "code": "CZ-KRA",
       "country": "CZ",
-      "name": "Královéhradecký kraj",
+      "name": "Hradec Králové",
       "summary": "Chequia",
       "bounds": [
         15.1027,
@@ -821,7 +821,7 @@
       "id": "cz-liberecky",
       "code": "CZ-LIB",
       "country": "CZ",
-      "name": "Liberecký kraj",
+      "name": "Liberec",
       "summary": "Chequia",
       "bounds": [
         14.342,
@@ -845,7 +845,7 @@
       "id": "cz-moravskoslezky",
       "code": "CZ-MOR",
       "country": "CZ",
-      "name": "Moravskoslezský kraj",
+      "name": "Moravia-Silesia",
       "summary": "Chequia",
       "bounds": [
         17.1447,
@@ -869,7 +869,7 @@
       "id": "cz-olomoucky",
       "code": "CZ-OLO",
       "country": "CZ",
-      "name": "Olomoucký kraj",
+      "name": "Olomouc",
       "summary": "Chequia",
       "bounds": [
         16.7091,
@@ -893,7 +893,7 @@
       "id": "cz-pardubicky",
       "code": "CZ-PAR",
       "country": "CZ",
-      "name": "Pardubický kraj",
+      "name": "Pardubice",
       "summary": "Chequia",
       "bounds": [
         15.3626,
@@ -917,7 +917,7 @@
       "id": "cz-plzensky",
       "code": "CZ-PLZ",
       "country": "CZ",
-      "name": "Plzeňský kraj",
+      "name": "Pilsen",
       "summary": "Chequia",
       "bounds": [
         12.3889,
@@ -941,7 +941,7 @@
       "id": "cz-praha",
       "code": "CZ-PRA",
       "country": "CZ",
-      "name": "Praha",
+      "name": "Praga",
       "summary": "Chequia",
       "bounds": [
         14.2236,
@@ -965,7 +965,7 @@
       "id": "cz-stredocesky",
       "code": "CZ-STR",
       "country": "CZ",
-      "name": "Středočeský kraj (with Praha)",
+      "name": "Bohemia Central (con Praga)",
       "summary": "Chequia",
       "bounds": [
         13.3958,
@@ -989,7 +989,7 @@
       "id": "cz-zlinsky",
       "code": "CZ-ZLI",
       "country": "CZ",
-      "name": "Zlínský kraj",
+      "name": "Zlín",
       "summary": "Chequia",
       "bounds": [
         17.1081,
@@ -1013,7 +1013,7 @@
       "id": "cz-ustecky",
       "code": "CZ-UST",
       "country": "CZ",
-      "name": "Ústecký kraj",
+      "name": "Ústí nad Labem",
       "summary": "Chequia",
       "bounds": [
         12.9372,
@@ -1133,7 +1133,7 @@
       "id": "fr-alsace",
       "code": "FR-ALS",
       "country": "FR",
-      "name": "Alsace",
+      "name": "Alsacia",
       "summary": "Francia",
       "bounds": [
         6.8389,
@@ -1157,7 +1157,7 @@
       "id": "fr-aquitaine",
       "code": "FR-AQU",
       "country": "FR",
-      "name": "Aquitaine",
+      "name": "Aquitania",
       "summary": "Francia",
       "bounds": [
         -1.8428,
@@ -1181,7 +1181,7 @@
       "id": "fr-auvergne",
       "code": "FR-AUV",
       "country": "FR",
-      "name": "Auvergne",
+      "name": "Auvernia",
       "summary": "Francia",
       "bounds": [
         2.0605,
@@ -1205,7 +1205,7 @@
       "id": "fr-basse-normandie",
       "code": "FR-BAS",
       "country": "FR",
-      "name": "Basse-Normandie",
+      "name": "Baja Normandía",
       "summary": "Francia",
       "bounds": [
         -2.0875,
@@ -1229,7 +1229,7 @@
       "id": "fr-bourgogne",
       "code": "FR-BOU",
       "country": "FR",
-      "name": "Bourgogne",
+      "name": "Borgoña",
       "summary": "Francia",
       "bounds": [
         2.8433,
@@ -1253,7 +1253,7 @@
       "id": "fr-bretagne",
       "code": "FR-BRE",
       "country": "FR",
-      "name": "Bretagne",
+      "name": "Bretaña",
       "summary": "Francia",
       "bounds": [
         -5.8489,
@@ -1277,7 +1277,7 @@
       "id": "fr-centre",
       "code": "FR-CEN",
       "country": "FR",
-      "name": "Centre",
+      "name": "Centro-Valle del Loira",
       "summary": "Francia",
       "bounds": [
         0.0515,
@@ -1301,7 +1301,7 @@
       "id": "fr-champagne-ardenne",
       "code": "FR-CHA",
       "country": "FR",
-      "name": "Champagne Ardenne",
+      "name": "Champaña-Ardenas",
       "summary": "Francia",
       "bounds": [
         3.3824,
@@ -1325,7 +1325,7 @@
       "id": "fr-corse",
       "code": "FR-COR",
       "country": "FR",
-      "name": "Corse",
+      "name": "Córcega",
       "summary": "Francia",
       "bounds": [
         8.3179,
@@ -1349,7 +1349,7 @@
       "id": "fr-franche-comte",
       "code": "FR-FRA",
       "country": "FR",
-      "name": "Franche Comte",
+      "name": "Franco Condado",
       "summary": "Francia",
       "bounds": [
         5.2508,
@@ -1373,7 +1373,7 @@
       "id": "fr-guadeloupe",
       "code": "FR-GUA",
       "country": "FR",
-      "name": "Guadeloupe",
+      "name": "Guadalupe",
       "summary": "Francia",
       "bounds": [
         -62.1524,
@@ -1397,7 +1397,7 @@
       "id": "fr-guyane",
       "code": "FR-GF",
       "country": "FR",
-      "name": "Guyane",
+      "name": "Guayana Francesa",
       "summary": "Francia",
       "bounds": [
         -54.623,
@@ -1421,7 +1421,7 @@
       "id": "fr-haute-normandie",
       "code": "FR-HAU",
       "country": "FR",
-      "name": "Haute-Normandie",
+      "name": "Alta Normandía",
       "summary": "Francia",
       "bounds": [
         0.0095,
@@ -1445,7 +1445,7 @@
       "id": "fr-ile-de-france",
       "code": "FR-ILE",
       "country": "FR",
-      "name": "Ile-de-France",
+      "name": "Isla de Francia",
       "summary": "Francia",
       "bounds": [
         1.4451,
@@ -1469,7 +1469,7 @@
       "id": "fr-languedoc-roussillon",
       "code": "FR-LAN",
       "country": "FR",
-      "name": "Languedoc-Roussillon",
+      "name": "Languedoc-Rosellón",
       "summary": "Francia",
       "bounds": [
         1.6863,
@@ -1493,7 +1493,7 @@
       "id": "fr-limousin",
       "code": "FR-LIM",
       "country": "FR",
-      "name": "Limousin",
+      "name": "Lemosín",
       "summary": "Francia",
       "bounds": [
         0.6271,
@@ -1517,7 +1517,7 @@
       "id": "fr-lorraine",
       "code": "FR-LOR",
       "country": "FR",
-      "name": "Lorraine",
+      "name": "Lorena",
       "summary": "Francia",
       "bounds": [
         4.886,
@@ -1541,7 +1541,7 @@
       "id": "fr-martinique",
       "code": "FR-MAR",
       "country": "FR",
-      "name": "Martinique",
+      "name": "Martinica",
       "summary": "Francia",
       "bounds": [
         -61.6306,
@@ -1589,7 +1589,7 @@
       "id": "fr-midi-pyrenees",
       "code": "FR-MID",
       "country": "FR",
-      "name": "Midi-Pyrenees",
+      "name": "Mediodía-Pirineos",
       "summary": "Francia",
       "bounds": [
         -0.3275,
@@ -1613,7 +1613,7 @@
       "id": "fr-nord-pas-de-calais",
       "code": "FR-NOR",
       "country": "FR",
-      "name": "Nord-Pas-de-Calais",
+      "name": "Norte-Paso de Calais",
       "summary": "Francia",
       "bounds": [
         1.2783,
@@ -1637,7 +1637,7 @@
       "id": "fr-pays-de-la-loire",
       "code": "FR-PAY",
       "country": "FR",
-      "name": "Pays de la Loire",
+      "name": "País del Loira",
       "summary": "Francia",
       "bounds": [
         -2.6747,
@@ -1661,7 +1661,7 @@
       "id": "fr-picardie",
       "code": "FR-PIC",
       "country": "FR",
-      "name": "Picardie",
+      "name": "Picardía",
       "summary": "Francia",
       "bounds": [
         1.3601,
@@ -1709,7 +1709,7 @@
       "id": "fr-provence-alpes-cote-d-azur",
       "code": "FR-PRO",
       "country": "FR",
-      "name": "Provence Alpes-Cote-d'Azur",
+      "name": "Provenza-Alpes-Costa Azul",
       "summary": "Francia",
       "bounds": [
         4.1447,
@@ -1733,7 +1733,7 @@
       "id": "fr-reunion",
       "code": "FR-REU",
       "country": "FR",
-      "name": "Reunion",
+      "name": "Reunión",
       "summary": "Francia",
       "bounds": [
         54.9469,
@@ -1757,7 +1757,7 @@
       "id": "fr-rhone-alpes",
       "code": "FR-RHO",
       "country": "FR",
-      "name": "Rhone-Alpes",
+      "name": "Ródano-Alpes",
       "summary": "Francia",
       "bounds": [
         3.6861,
@@ -1805,7 +1805,7 @@
       "id": "de-baden-wuerttemberg",
       "code": "DE-BAD",
       "country": "DE",
-      "name": "Baden-Württemberg",
+      "name": "Baden-Wurtemberg",
       "summary": "Alemania",
       "bounds": [
         7.5065,
@@ -1829,7 +1829,7 @@
       "id": "de-bayern",
       "code": "DE-BAY",
       "country": "DE",
-      "name": "Bayern",
+      "name": "Baviera",
       "summary": "Alemania",
       "bounds": [
         8.9752,
@@ -1853,7 +1853,7 @@
       "id": "de-berlin",
       "code": "DE-BER",
       "country": "DE",
-      "name": "Berlin",
+      "name": "Berlín",
       "summary": "Alemania",
       "bounds": [
         13.0828,
@@ -1877,7 +1877,7 @@
       "id": "de-brandenburg",
       "code": "DE-BRA",
       "country": "DE",
-      "name": "Brandenburg (mit Berlin)",
+      "name": "Brandeburgo (con Berlín)",
       "summary": "Alemania",
       "bounds": [
         11.2606,
@@ -1925,7 +1925,7 @@
       "id": "de-hamburg",
       "code": "DE-HAM",
       "country": "DE",
-      "name": "Hamburg",
+      "name": "Hamburgo",
       "summary": "Alemania",
       "bounds": [
         7.9678,
@@ -1949,7 +1949,7 @@
       "id": "de-hessen",
       "code": "DE-HES",
       "country": "DE",
-      "name": "Hessen",
+      "name": "Hesse",
       "summary": "Alemania",
       "bounds": [
         7.768,
@@ -1973,7 +1973,7 @@
       "id": "de-mecklenburg-vorpommern",
       "code": "DE-MEC",
       "country": "DE",
-      "name": "Mecklenburg-Vorpommern",
+      "name": "Mecklemburgo-Pomerania Occidental",
       "summary": "Alemania",
       "bounds": [
         10.5881,
@@ -1997,7 +1997,7 @@
       "id": "de-niedersachsen",
       "code": "DE-NIE",
       "country": "DE",
-      "name": "Niedersachsen (mit Bremen)",
+      "name": "Baja Sajonia (con Bremen)",
       "summary": "Alemania",
       "bounds": [
         6.2953,
@@ -2021,7 +2021,7 @@
       "id": "de-nordrhein-westfalen",
       "code": "DE-NOR",
       "country": "DE",
-      "name": "Nordrhein-Westfalen",
+      "name": "Renania del Norte-Westfalia",
       "summary": "Alemania",
       "bounds": [
         5.8644,
@@ -2045,7 +2045,7 @@
       "id": "de-rheinland-pfalz",
       "code": "DE-RHE",
       "country": "DE",
-      "name": "Rheinland-Pfalz",
+      "name": "Renania-Palatinado",
       "summary": "Alemania",
       "bounds": [
         6.1091,
@@ -2069,7 +2069,7 @@
       "id": "de-saarland",
       "code": "DE-SAA",
       "country": "DE",
-      "name": "Saarland",
+      "name": "Sarre",
       "summary": "Alemania",
       "bounds": [
         6.3545,
@@ -2093,7 +2093,7 @@
       "id": "de-sachsen",
       "code": "DE-SAC",
       "country": "DE",
-      "name": "Sachsen",
+      "name": "Sajonia",
       "summary": "Alemania",
       "bounds": [
         11.8668,
@@ -2117,7 +2117,7 @@
       "id": "de-sachsen-anhalt",
       "code": "DE-SAC",
       "country": "DE",
-      "name": "Sachsen-Anhalt",
+      "name": "Sajonia-Anhalt",
       "summary": "Alemania",
       "bounds": [
         10.5473,
@@ -2165,7 +2165,7 @@
       "id": "de-thueringen",
       "code": "DE-THU",
       "country": "DE",
-      "name": "Thüringen",
+      "name": "Turingia",
       "summary": "Alemania",
       "bounds": [
         9.8632,
@@ -2333,7 +2333,7 @@
       "id": "it-centro",
       "code": "IT-CEN",
       "country": "IT",
-      "name": "Centro",
+      "name": "Centro de Italia",
       "summary": "Italia",
       "bounds": [
         9.3065,
@@ -2357,7 +2357,7 @@
       "id": "it-isole",
       "code": "IT-ISO",
       "country": "IT",
-      "name": "Isole",
+      "name": "Sicilia y Cerdeña",
       "summary": "Italia",
       "bounds": [
         7.7185,
@@ -2381,7 +2381,7 @@
       "id": "it-nord-est",
       "code": "IT-NOR",
       "country": "IT",
-      "name": "Nord-Est",
+      "name": "Noreste de Italia",
       "summary": "Italia",
       "bounds": [
         9.1955,
@@ -2405,7 +2405,7 @@
       "id": "it-nord-ovest",
       "code": "IT-NOR",
       "country": "IT",
-      "name": "Nord-Ovest",
+      "name": "Noroeste de Italia",
       "summary": "Italia",
       "bounds": [
         6.6027,
@@ -2429,7 +2429,7 @@
       "id": "it-sud",
       "code": "IT-SUD",
       "country": "IT",
-      "name": "Sud",
+      "name": "Sur de Italia",
       "summary": "Italia",
       "bounds": [
         13.0013,
@@ -2693,7 +2693,7 @@
       "id": "nl-drenthe",
       "code": "NL-DRE",
       "country": "NL",
-      "name": "Drenthe",
+      "name": "Drente",
       "summary": "Países Bajos",
       "bounds": [
         6.1186,
@@ -2741,7 +2741,7 @@
       "id": "nl-friesland",
       "code": "NL-FRI",
       "country": "NL",
-      "name": "Friesland",
+      "name": "Frisia",
       "summary": "Países Bajos",
       "bounds": [
         4.5973,
@@ -2765,7 +2765,7 @@
       "id": "nl-gelderland",
       "code": "NL-GEL",
       "country": "NL",
-      "name": "Gelderland",
+      "name": "Güeldres",
       "summary": "Países Bajos",
       "bounds": [
         4.9926,
@@ -2789,7 +2789,7 @@
       "id": "nl-groningen",
       "code": "NL-GRO",
       "country": "NL",
-      "name": "Groningen",
+      "name": "Groninga",
       "summary": "Países Bajos",
       "bounds": [
         6.1665,
@@ -2813,7 +2813,7 @@
       "id": "nl-limburg",
       "code": "NL-LIM",
       "country": "NL",
-      "name": "Limburg",
+      "name": "Limburgo",
       "summary": "Países Bajos",
       "bounds": [
         5.5633,
@@ -2837,7 +2837,7 @@
       "id": "nl-noord-brabant",
       "code": "NL-NOO",
       "country": "NL",
-      "name": "Noord-Brabant",
+      "name": "Brabante Septentrional",
       "summary": "Países Bajos",
       "bounds": [
         4.1892,
@@ -2861,7 +2861,7 @@
       "id": "nl-noord-holland",
       "code": "NL-NOO",
       "country": "NL",
-      "name": "Noord-Holland",
+      "name": "Holanda Septentrional",
       "summary": "Países Bajos",
       "bounds": [
         3.8969,
@@ -2933,7 +2933,7 @@
       "id": "nl-zeeland",
       "code": "NL-ZEE",
       "country": "NL",
-      "name": "Zeeland",
+      "name": "Zelanda",
       "summary": "Países Bajos",
       "bounds": [
         3.2339,
@@ -2957,7 +2957,7 @@
       "id": "nl-zuid-holland",
       "code": "NL-ZUI",
       "country": "NL",
-      "name": "Zuid-Holland",
+      "name": "Holanda Meridional",
       "summary": "Países Bajos",
       "bounds": [
         3.3453,
@@ -2981,7 +2981,7 @@
       "id": "no-nord-norge",
       "code": "NO-NOR",
       "country": "NO",
-      "name": "Nord-Norge<br />(Northern Norway)",
+      "name": "Norte de Noruega",
       "summary": "Noruega",
       "bounds": [
         7.8402,
@@ -3005,7 +3005,7 @@
       "id": "no-sorlandet",
       "code": "NO-SOR",
       "country": "NO",
-      "name": "Sørlandet<br />(Southern Norway)",
+      "name": "Sur de Noruega",
       "summary": "Noruega",
       "bounds": [
         5.6987,
@@ -3029,7 +3029,7 @@
       "id": "no-trondelag",
       "code": "NO-TRO",
       "country": "NO",
-      "name": "Trøndelag<br />(Central Norway)",
+      "name": "Trøndelag",
       "summary": "Noruega",
       "bounds": [
         5.7909,
@@ -3053,7 +3053,7 @@
       "id": "no-vestlandet",
       "code": "NO-VES",
       "country": "NO",
-      "name": "Vestlandet<br />(Western Norway)",
+      "name": "Noruega Occidental",
       "summary": "Noruega",
       "bounds": [
         2.3291,
@@ -3077,7 +3077,7 @@
       "id": "no-ostlandet",
       "code": "NO-OST",
       "country": "NO",
-      "name": "Østlandet<br />(Eastern Norway)",
+      "name": "Noruega Oriental",
       "summary": "Noruega",
       "bounds": [
         7.0954,
@@ -3101,7 +3101,7 @@
       "id": "pl-dolnoslaskie",
       "code": "PL-DOL",
       "country": "PL",
-      "name": "Województwo dolnośląskie<br />(Lower Silesian Voivodeship)",
+      "name": "Baja Silesia",
       "summary": "Polonia",
       "bounds": [
         14.8084,
@@ -3125,7 +3125,7 @@
       "id": "pl-kujawsko-pomorskie",
       "code": "PL-KUJ",
       "country": "PL",
-      "name": "Województwo kujawsko-pomorskie<br />(Kuyavian-Pomeranian Voivodeship)",
+      "name": "Cuyavia y Pomerania",
       "summary": "Polonia",
       "bounds": [
         17.2394,
@@ -3149,7 +3149,7 @@
       "id": "pl-lubelskie",
       "code": "PL-LUB",
       "country": "PL",
-      "name": "Województwo lubelskie<br />(Lublin Voivodeship)",
+      "name": "Lublin",
       "summary": "Polonia",
       "bounds": [
         21.6029,
@@ -3173,7 +3173,7 @@
       "id": "pl-lubuskie",
       "code": "PL-LUB",
       "country": "PL",
-      "name": "Województwo lubuskie<br />(Lubusz Voivodeship)",
+      "name": "Lubusz",
       "summary": "Polonia",
       "bounds": [
         14.4955,
@@ -3197,7 +3197,7 @@
       "id": "pl-mazowieckie",
       "code": "PL-MAZ",
       "country": "PL",
-      "name": "Województwo mazowieckie<br />(Mazovian Voivodeship)",
+      "name": "Mazovia",
       "summary": "Polonia",
       "bounds": [
         19.2336,
@@ -3221,7 +3221,7 @@
       "id": "pl-malopolskie",
       "code": "PL-MAL",
       "country": "PL",
-      "name": "Województwo małopolskie<br />(Lesser Poland Voivodeship)",
+      "name": "Pequeña Polonia",
       "summary": "Polonia",
       "bounds": [
         19.0749,
@@ -3245,7 +3245,7 @@
       "id": "pl-opolskie",
       "code": "PL-OPO",
       "country": "PL",
-      "name": "Województwo opolskie<br />(Opole Voivodeship)",
+      "name": "Opole",
       "summary": "Polonia",
       "bounds": [
         16.9015,
@@ -3269,7 +3269,7 @@
       "id": "pl-podkarpackie",
       "code": "PL-POD",
       "country": "PL",
-      "name": "Województwo podkarpackie<br />(Subcarpathian Voivodeship)",
+      "name": "Subcarpacia",
       "summary": "Polonia",
       "bounds": [
         21.1343,
@@ -3293,7 +3293,7 @@
       "id": "pl-podlaskie",
       "code": "PL-POD",
       "country": "PL",
-      "name": "Województwo podlaskie<br />(Podlaskie Voivodeship)",
+      "name": "Podlaquia",
       "summary": "Polonia",
       "bounds": [
         21.5846,
@@ -3317,7 +3317,7 @@
       "id": "pl-pomorskie",
       "code": "PL-POM",
       "country": "PL",
-      "name": "Województwo pomorskie<br />(Pomeranian Voivodeship)",
+      "name": "Pomerania",
       "summary": "Polonia",
       "bounds": [
         16.687,
@@ -3341,7 +3341,7 @@
       "id": "pl-warminsko-mazurskie",
       "code": "PL-WAR",
       "country": "PL",
-      "name": "Województwo warmińsko-mazurskie<br />(Warmian-Masurian Voivodeship)",
+      "name": "Varmia y Masuria",
       "summary": "Polonia",
       "bounds": [
         19.1167,
@@ -3365,7 +3365,7 @@
       "id": "pl-wielkopolskie",
       "code": "PL-WIE",
       "country": "PL",
-      "name": "Województwo wielkopolskie<br />(Greater Poland Voivodeship)",
+      "name": "Gran Polonia",
       "summary": "Polonia",
       "bounds": [
         15.7604,
@@ -3389,7 +3389,7 @@
       "id": "pl-zachodniopomorskie",
       "code": "PL-ZAC",
       "country": "PL",
-      "name": "Województwo zachodniopomorskie<br />(West Pomeranian Voivodeship)",
+      "name": "Pomerania Occidental",
       "summary": "Polonia",
       "bounds": [
         13.9902,
@@ -3413,7 +3413,7 @@
       "id": "pl-lodzkie",
       "code": "PL-LOD",
       "country": "PL",
-      "name": "Województwo łódzkie<br />(Łódź Voivodeship)",
+      "name": "Łódź",
       "summary": "Polonia",
       "bounds": [
         18.0623,
@@ -3437,7 +3437,7 @@
       "id": "pl-slaskie",
       "code": "PL-SLA",
       "country": "PL",
-      "name": "Województwo śląskie<br />(Silesian Voivodeship)",
+      "name": "Silesia",
       "summary": "Polonia",
       "bounds": [
         18.0221,
@@ -3461,7 +3461,7 @@
       "id": "pl-swietokrzyskie",
       "code": "PL-SWI",
       "country": "PL",
-      "name": "Województwo świętokrzyskie<br />(Świętokrzyskie Voivodeship)",
+      "name": "Santa Cruz",
       "summary": "Polonia",
       "bounds": [
         19.699,
@@ -3701,7 +3701,7 @@
       "id": "gb-england",
       "code": "GB-ENG",
       "country": "GB",
-      "name": "England",
+      "name": "Inglaterra",
       "summary": "Reino Unido",
       "bounds": [
         -7.1012,
@@ -3725,7 +3725,7 @@
       "id": "gb-scotland",
       "code": "GB-SCO",
       "country": "GB",
-      "name": "Scotland",
+      "name": "Escocia",
       "summary": "Reino Unido",
       "bounds": [
         -14.8615,
@@ -3749,7 +3749,7 @@
       "id": "gb-wales",
       "code": "GB-WAL",
       "country": "GB",
-      "name": "Wales",
+      "name": "Gales",
       "summary": "Reino Unido",
       "bounds": [
         -6.1832,

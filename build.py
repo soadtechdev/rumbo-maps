@@ -225,6 +225,10 @@ def build_catalog(fragments):
         if routing.exists():
             package["routing"] = json.loads(routing.read_text())
         packages[package["id"]] = package
+    # Nombres y descripciones salen siempre de regions.json: corregirlos no obliga a generar de nuevo.
+    for region in regions():
+        if region["id"] in packages:
+            packages[region["id"]].update(name=region["name"], summary=region["summary"])
     order = [region["id"] for region in regions()]
     listed = sorted(packages.values(), key=lambda package: order.index(package["id"]) if package["id"] in order else len(order))
     path.write_text(json.dumps({"formatVersion": 1, "packages": listed}, ensure_ascii=False, indent=2) + "\n")

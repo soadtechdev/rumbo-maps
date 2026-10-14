@@ -11,6 +11,7 @@ España no se toca: sus comunidades están escritas a mano, con sus nombres en e
 """
 import json
 import pathlib
+import sys
 import urllib.request
 
 INDEX = "https://download.geofabrik.de/index-v1-nogeom.json"
@@ -31,6 +32,47 @@ COUNTRIES = {
     "poland": "Polonia", "portugal": "Portugal", "romania": "Rumanía", "serbia": "Serbia", "slovakia": "Eslovaquia",
     "slovenia": "Eslovenia", "sweden": "Suecia", "switzerland": "Suiza", "turkey": "Turquía", "ukraine": "Ucrania",
     "united-kingdom": "Reino Unido",
+}
+
+
+# Nombre en español de cada región, por su identificador en regions.json. Geofabrik los da en el
+# idioma local y a veces con HTML («Nord-Norge<br />(Northern Norway)»).
+REGIONS = {
+    "cz-jihomoravsky": "Moravia Meridional", "cz-jihocesky": "Bohemia Meridional", "cz-karlovarsky": "Karlovy Vary",
+    "cz-vysocina": "Vysočina", "cz-kralovehradecky": "Hradec Králové", "cz-liberecky": "Liberec",
+    "cz-moravskoslezky": "Moravia-Silesia", "cz-olomoucky": "Olomouc", "cz-pardubicky": "Pardubice",
+    "cz-plzensky": "Pilsen", "cz-praha": "Praga", "cz-stredocesky": "Bohemia Central (con Praga)", "cz-zlinsky": "Zlín",
+    "cz-ustecky": "Ústí nad Labem",
+    "fr-alsace": "Alsacia", "fr-aquitaine": "Aquitania", "fr-auvergne": "Auvernia", "fr-basse-normandie": "Baja Normandía",
+    "fr-bourgogne": "Borgoña", "fr-bretagne": "Bretaña", "fr-centre": "Centro-Valle del Loira",
+    "fr-champagne-ardenne": "Champaña-Ardenas", "fr-corse": "Córcega", "fr-franche-comte": "Franco Condado",
+    "fr-guadeloupe": "Guadalupe", "fr-guyane": "Guayana Francesa", "fr-haute-normandie": "Alta Normandía",
+    "fr-ile-de-france": "Isla de Francia", "fr-languedoc-roussillon": "Languedoc-Rosellón", "fr-limousin": "Lemosín",
+    "fr-lorraine": "Lorena", "fr-martinique": "Martinica", "fr-mayotte": "Mayotte", "fr-midi-pyrenees": "Mediodía-Pirineos",
+    "fr-nord-pas-de-calais": "Norte-Paso de Calais", "fr-pays-de-la-loire": "País del Loira", "fr-picardie": "Picardía",
+    "fr-poitou-charentes": "Poitou-Charentes", "fr-provence-alpes-cote-d-azur": "Provenza-Alpes-Costa Azul",
+    "fr-reunion": "Reunión", "fr-rhone-alpes": "Ródano-Alpes",
+    "de-baden-wuerttemberg": "Baden-Wurtemberg", "de-bayern": "Baviera", "de-berlin": "Berlín",
+    "de-brandenburg": "Brandeburgo (con Berlín)", "de-bremen": "Bremen", "de-hamburg": "Hamburgo", "de-hessen": "Hesse",
+    "de-mecklenburg-vorpommern": "Mecklemburgo-Pomerania Occidental", "de-niedersachsen": "Baja Sajonia (con Bremen)",
+    "de-nordrhein-westfalen": "Renania del Norte-Westfalia", "de-rheinland-pfalz": "Renania-Palatinado",
+    "de-saarland": "Sarre", "de-sachsen": "Sajonia", "de-sachsen-anhalt": "Sajonia-Anhalt",
+    "de-schleswig-holstein": "Schleswig-Holstein", "de-thueringen": "Turingia",
+    "it-centro": "Centro de Italia", "it-isole": "Sicilia y Cerdeña", "it-nord-est": "Noreste de Italia",
+    "it-nord-ovest": "Noroeste de Italia", "it-sud": "Sur de Italia",
+    "nl-drenthe": "Drente", "nl-flevoland": "Flevoland", "nl-friesland": "Frisia", "nl-gelderland": "Güeldres",
+    "nl-groningen": "Groninga", "nl-limburg": "Limburgo", "nl-noord-brabant": "Brabante Septentrional",
+    "nl-noord-holland": "Holanda Septentrional", "nl-overijssel": "Overijssel", "nl-utrecht": "Utrecht",
+    "nl-zeeland": "Zelanda", "nl-zuid-holland": "Holanda Meridional",
+    "no-nord-norge": "Norte de Noruega", "no-sorlandet": "Sur de Noruega", "no-trondelag": "Trøndelag",
+    "no-vestlandet": "Noruega Occidental", "no-ostlandet": "Noruega Oriental",
+    "pl-dolnoslaskie": "Baja Silesia", "pl-kujawsko-pomorskie": "Cuyavia y Pomerania", "pl-lubelskie": "Lublin",
+    "pl-lubuskie": "Lubusz", "pl-mazowieckie": "Mazovia", "pl-malopolskie": "Pequeña Polonia", "pl-opolskie": "Opole",
+    "pl-podkarpackie": "Subcarpacia", "pl-podlaskie": "Podlaquia", "pl-pomorskie": "Pomerania",
+    "pl-warminsko-mazurskie": "Varmia y Masuria", "pl-wielkopolskie": "Gran Polonia",
+    "pl-zachodniopomorskie": "Pomerania Occidental", "pl-lodzkie": "Łódź", "pl-slaskie": "Silesia",
+    "pl-swietokrzyskie": "Santa Cruz",
+    "gb-england": "Inglaterra", "gb-scotland": "Escocia", "gb-wales": "Gales",
 }
 
 
@@ -62,10 +104,12 @@ def main():
             continue
         for part in sorted(parts, key=lambda feature: feature["name"]):
             code = (part.get("iso3166-2") or [f"{alpha2}-{part['id'][:3].upper()}"])[0]
+            region_id = f"{alpha2.lower()}-{part['id'].split('/')[-1]}"
+            if region_id not in REGIONS:
+                sys.exit(f"Falta el nombre en español de {region_id} ({part['name']}) en REGIONS")
             europe.append({
-                "id": f"{alpha2.lower()}-{part['id'].split('/')[-1]}", "code": code, "country": alpha2, "group": "eu",
-                "graph": graph,
-                "name": part["name"], "summary": name, "osm": part["urls"]["pbf"],
+                "id": region_id, "code": code, "country": alpha2, "group": "eu", "graph": graph,
+                "name": REGIONS[region_id], "summary": name, "osm": part["urls"]["pbf"],
             })
 
     path = ROOT / "regions.json"
