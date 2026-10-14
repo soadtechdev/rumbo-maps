@@ -122,9 +122,12 @@ jobs:
           git pull --rebase
           git push
       - name: Limpiar versiones antiguas
-        # El catálogo ya apunta a la nueva. Se conserva la anterior, por si alguien la está bajando.
+        # Se borran las Releases a las que ya no apunta ningún paquete del catálogo, salvo la más
+        # reciente de ellas, por si alguien la está bajando.
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          gh release list --limit 100 --json tagName,createdAt -q 'sort_by(.createdAt) | reverse | .[2:] | .[].tagName' |
+          used=$(python3 -c "import json; print(' '.join({p['url'].split('/')[-2] for p in json.load(open('catalog.json'))['packages']}))")
+          gh release list --limit 100 --json tagName,createdAt -q 'sort_by(.createdAt) | reverse | .[].tagName' |
+            grep -v -x -F -f <(echo "$used" | tr ' ' '\n') | tail -n +2 |
             while read -r tag; do gh release delete "$tag" --yes --cleanup-tag; done

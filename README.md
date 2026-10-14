@@ -11,7 +11,7 @@ Mapas sin conexión de Rumbo, la app de navegación para volver a casa cuando no
 
 ## Publicar una versión
 
-Lo hace sola la tarea **Generar mapas** (Actions), el día 2 de cada mes: genera cada zona, sube sus ficheros a una Release con el nombre de la versión, actualiza `catalog.json` y borra las Releases anteriores a la penúltima. También se lanza a mano:
+Lo hace sola la tarea **Generar mapas** (Actions), el día 2 de cada mes: genera cada zona, sube sus ficheros a una Release con el nombre de la versión, actualiza `catalog.json` y borra las Releases que el catálogo ya no usa. También se lanza a mano:
 
 ```sh
 gh workflow run build.yml                 # todas las zonas, con la última compilación
