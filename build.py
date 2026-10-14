@@ -254,6 +254,22 @@ def country_extract(graph_id):
     return extract
 
 
+STREET_WORDS = {
+    "de", "del", "la", "las", "el", "los", "d", "l", "les", "dels", "y", "i", "a", "al",
+    "calle", "c", "cl", "carrer", "cr", "avenida", "av", "avda", "avinguda", "plaza", "pl", "pza", "placa",
+    "paseo", "po", "passeig", "pg", "camino", "cm", "cami", "ronda", "carretera", "ctra", "travesia", "trv",
+}
+
+
+def street_key(name):
+    """El nombre de una calle sin tildes, mayúsculas, tipo de vía ni artículos: «Calle Sueca»,
+    «Carrer de Sueca» y «Calle de Sueca» son «sueca». Lo mismo que hace la app al buscar."""
+    import unicodedata
+    folded = "".join(c for c in unicodedata.normalize("NFD", name.lower()) if unicodedata.category(c) != "Mn")
+    words = [word for word in re.split(r"[\s'’,./-]+", folded) if word and word not in STREET_WORDS]
+    return " ".join(words) or folded
+
+
 def build_addresses(graph_id, version):
     """Los portales con número del país de una red, repartidos entre sus zonas.
 
@@ -274,6 +290,7 @@ def build_addresses(graph_id, version):
             super().__init__()
             self.municipalities = []
             self.ways = {}
+            self.ways_by_key = {}
             self.addresses = []
 
         def node(self, node):
@@ -286,7 +303,9 @@ def build_addresses(graph_id, version):
             if "highway" in tags and "name" in tags:
                 middle = way.nodes[len(way.nodes) // 2]
                 if middle.location.valid():
-                    self.ways.setdefault(tags["name"], []).append((tags.get("name:es") or tags["name"], middle.location.lat, middle.location.lon))
+                    entry = (tags.get("name:es") or tags["name"], middle.location.lat, middle.location.lon)
+                    self.ways.setdefault(tags["name"], []).append(entry)
+                    self.ways_by_key.setdefault(street_key(tags["name"]), []).append(entry)
             if "addr:housenumber" in tags and "addr:street" in tags:
                 points = [(node.location.lat, node.location.lon) for node in way.nodes if node.location.valid()]
                 if points:
@@ -307,12 +326,18 @@ def build_addresses(graph_id, version):
     print(f"{graph_id}: {len(reader.addresses)} portales, {len(reader.municipalities)} municipios")
 
     def spanish_name(street, latitude, longitude):
-        best, best_distance = street, 1.5
-        for spanish, way_latitude, way_longitude in reader.ways.get(street, ()):
-            distance = math.hypot((way_latitude - latitude) * 111, (way_longitude - longitude) * 111 * math.cos(math.radians(latitude)))
-            if distance < best_distance:
-                best, best_distance = spanish, distance
-        return best
+        """El nombre de la vía cercana que lleva el portal: la de su mismo nombre o, si el portal lo
+        escribe a su manera («Calle Sueca», «Carrer Sueca»), la que se llama igual sin tipo de vía,
+        artículos ni tildes («Calle de Sueca»)."""
+        for candidates in (reader.ways.get(street, ()), reader.ways_by_key.get(street_key(street), ())):
+            best, best_distance = None, 1.5
+            for spanish, way_latitude, way_longitude in candidates:
+                distance = math.hypot((way_latitude - latitude) * 111, (way_longitude - longitude) * 111 * math.cos(math.radians(latitude)))
+                if distance < best_distance:
+                    best, best_distance = spanish, distance
+            if best:
+                return best
+        return street
 
     points = shapely.points([address[3] for address in reader.addresses], [address[2] for address in reader.addresses])
     municipality = [None] * len(points)
@@ -330,14 +355,18 @@ def build_addresses(graph_id, version):
         if not town:
             continue
         spanish = spanish_name(street, latitude, longitude)
-        key = (spanish, "" if street == spanish else street, town)
-        groups[zone].setdefault(key, []).append((number.strip(), round(latitude * 1e5), round(longitude * 1e5)))
+        # Una calle por nombre y municipio; el nombre original, el primero que no sea el castellano.
+        entry = groups[zone].setdefault((spanish, town), {"native": "", "numbers": {}})
+        if street != spanish and not entry["native"]:
+            entry["native"] = street
+        # Un mismo portal puede estar dos veces (el nodo y el edificio): vale el primero.
+        entry["numbers"].setdefault(number.strip().upper().replace(" ", ""), (round(latitude * 1e5), round(longitude * 1e5)))
 
     for region, group in zip(zones, groups):
         streets = []
-        for (spanish, native, town), numbers in sorted(group.items()):
-            numbers.sort(key=lambda number: (len(number[0]), number[0]))
-            streets.append([spanish, native, town, [n[0] for n in numbers], [n[1] for n in numbers], [n[2] for n in numbers]])
+        for (spanish, town), entry in sorted(group.items()):
+            numbers = sorted(entry["numbers"].items(), key=lambda item: (len(item[0]), item[0]))
+            streets.append([spanish, entry["native"], town, [n for n, _ in numbers], [c[0] for _, c in numbers], [c[1] for _, c in numbers]])
         target = DIST / f"{region['id']}.addresses.json.gz"
         with gzip.open(target, "wb", compresslevel=9) as file:
             file.write(json.dumps({"format": 1, "streets": streets}, ensure_ascii=False, separators=(",", ":")).encode())
