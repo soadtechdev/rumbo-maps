@@ -258,7 +258,12 @@
           [-3.835, 36.735],
           [-3.875, 36.72]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-an.addresses.json.gz",
+        "sizeBytes": 1776117,
+        "sha256": "45a5c864b0bd8898e4e55f708c7c608149be1d7480bfa9734d65e68f21fd1339"
+      }
     },
     {
       "id": "es-ar",
@@ -510,7 +515,12 @@
           [-1.82, 40.425],
           [-1.79, 40.44]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ar.addresses.json.gz",
+        "sizeBytes": 539697,
+        "sha256": "304ea05d7410513b62d3b2db0a37ccfe9d1791ea80233f7d44a87e0308ef8712"
+      }
     },
     {
       "id": "es-as",
@@ -650,7 +660,12 @@
           [-7.195, 43.37],
           [-7.2, 43.405]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-as.addresses.json.gz",
+        "sizeBytes": 160000,
+        "sha256": "63eba0a6bba678675f8c5a9e2c1bb7cba96b921f70c46fe4da707a04bdf24504"
+      }
     },
     {
       "id": "es-ib",
@@ -838,7 +853,12 @@
           [1.49, 38.765],
           [1.455, 38.795]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ib.addresses.json.gz",
+        "sizeBytes": 909958,
+        "sha256": "7af992d94946d96bc0a1c80cb7a6783432c4a34b2b4616c882573a94d11a3993"
+      }
     },
     {
       "id": "es-cn",
@@ -1079,7 +1099,12 @@
           [-18.155, 27.685],
           [-18.18, 27.715]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cn.addresses.json.gz",
+        "sizeBytes": 537713,
+        "sha256": "4c3cc9fefdf9de2645bd5125d28c0c497ec994b5caafcd934ff6c6e8fecb8d75"
+      }
     },
     {
       "id": "es-cb",
@@ -1197,7 +1222,12 @@
           [-4.87, 43.115],
           [-4.865, 43.19]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cb.addresses.json.gz",
+        "sizeBytes": 232669,
+        "sha256": "8077d583006678e764f285e33dc385f6c145101321e38f5a46006c0f1d00bb5f"
+      }
     },
     {
       "id": "es-cm",
@@ -1528,7 +1558,12 @@
           [-1.495, 39.45],
           [-1.47, 39.44]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cm.addresses.json.gz",
+        "sizeBytes": 603034,
+        "sha256": "ebec94c23bf82caaa50b96bb36953df575f4bf330a77d6b63c7fee2dc5b9d180"
+      }
     },
     {
       "id": "es-cl",
@@ -1958,7 +1993,12 @@
           [-2.5, 42.685],
           [-2.5, 42.635]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-cl.addresses.json.gz",
+        "sizeBytes": 1317021,
+        "sha256": "a93b62ae452a1c4acc8d04e9e59ffb1cb7457dc74064851711b5a96dd73c1ffa"
+      }
     },
     {
       "id": "es-ct",
@@ -2159,7 +2199,12 @@
           [0.14, 40.745],
           [0.15, 40.77]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ct.addresses.json.gz",
+        "sizeBytes": 3454257,
+        "sha256": "a42c63cb5b988e23bf425a84dce4abf77287585e9b466233faf4a473b1ac95a0"
+      }
     },
     {
       "id": "es-ce",
@@ -2202,7 +2247,12 @@
           [-5.412, 35.911],
           [-5.424, 35.91]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ce.addresses.json.gz",
+        "sizeBytes": 1176,
+        "sha256": "4c6b922083908abdc6877cc0b155d1b896fb95c5377fe2299a0c488a50c45652"
+      }
     },
     {
       "id": "es-vc",
@@ -2424,7 +2474,12 @@
           [-1.39, 40.0],
           [-1.415, 40.045]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-vc.addresses.json.gz",
+        "sizeBytes": 1841630,
+        "sha256": "b7b7b1faf696ce745f56447517ecbf054ffda2764e5fb52ea5df91054d41aac4"
+      }
     },
     {
       "id": "es-ex",
@@ -2645,7 +2700,12 @@
           [-7.355, 38.425],
           [-7.34, 38.495]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ex.addresses.json.gz",
+        "sizeBytes": 278778,
+        "sha256": "c6c6ed6444c76070e610c217374f9250f6d2871d5bbaad26c130ec4c9fd09c5e"
+      }
     },
     {
       "id": "es-ga",
@@ -2894,7 +2954,12 @@
           [-6.985, 42.52],
           [-6.96, 42.54]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ga.addresses.json.gz",
+        "sizeBytes": 708027,
+        "sha256": "aa8eba785bdd13f546838f6783d85340a1307c265afb3c545c71b88d3ebd6874"
+      }
     },
     {
       "id": "es-ri",
@@ -2996,7 +3061,12 @@
           [-3.105, 42.51],
           [-3.15, 42.53]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ri.addresses.json.gz",
+        "sizeBytes": 48186,
+        "sha256": "a50dfe9dddcd8b2578784cad48699ad04318f9cdec47b86d86f972d77d15ddc3"
+      }
     },
     {
       "id": "es-md",
@@ -3128,7 +3198,12 @@
           [-4.58, 40.185],
           [-4.595, 40.205]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-md.addresses.json.gz",
+        "sizeBytes": 1494273,
+        "sha256": "21bb5f4532a5d5021fe3efa96b5965eb615c904703414553a8bfe587c8229fa4"
+      }
     },
     {
       "id": "es-ml",
@@ -3187,7 +3262,12 @@
           [-4.315, 35.155],
           [-4.32, 35.175]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-ml.addresses.json.gz",
+        "sizeBytes": 1337,
+        "sha256": "00ebc0d9a70127ecc49adc2e685c3f74b7efb2d87ee5e5b2ed9fdaa0cc731d48"
+      }
     },
     {
       "id": "es-mc",
@@ -3303,7 +3383,12 @@
           [-2.365, 38.02],
           [-2.365, 38.04]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-mc.addresses.json.gz",
+        "sizeBytes": 137649,
+        "sha256": "99a0853e5be5789524b410481658e3f0d61eeb7f254bc08ee4a87c5a50b17439"
+      }
     },
     {
       "id": "es-nc",
@@ -3466,7 +3551,12 @@
           [-1.205, 42.39],
           [-1.205, 42.425]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-nc.addresses.json.gz",
+        "sizeBytes": 224298,
+        "sha256": "bf647f7ddfc7f072d2475a1f6591e3a01983061a2b0ac379efd4a9343678ab03"
+      }
     },
     {
       "id": "es-pv",
@@ -3590,7 +3680,12 @@
           [-3.235, 42.97],
           [-3.14, 42.955]
         ]
-      ]
+      ],
+      "addresses": {
+        "url": "https://github.com/soadtechdev/rumbo-maps/releases/download/2026.10.13/es-pv.addresses.json.gz",
+        "sizeBytes": 907404,
+        "sha256": "f8304073d1d3faeee9d8a4af902f952cbd8fbfb60b91107744c91faabeb9b25a"
+      }
     },
     {
       "id": "al",
