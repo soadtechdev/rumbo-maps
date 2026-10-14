@@ -121,3 +121,10 @@ jobs:
           git diff --cached --quiet || git commit -m "Catálogo ${{ needs.plan.outputs.version }}"
           git pull --rebase
           git push
+      - name: Limpiar versiones antiguas
+        # El catálogo ya apunta a la nueva. Se conserva la anterior, por si alguien la está bajando.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release list --limit 100 --json tagName,createdAt -q 'sort_by(.createdAt) | reverse | .[2:] | .[].tagName' |
+            while read -r tag; do gh release delete "$tag" --yes --cleanup-tag; done
