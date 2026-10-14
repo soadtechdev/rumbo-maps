@@ -20,7 +20,9 @@ Necesita `pmtiles` y Docker.
 """
 import hashlib
 import json
+import math
 import pathlib
+import re
 import subprocess
 import sys
 import tarfile
@@ -119,6 +121,34 @@ def border_points(rings, step=0.02):
     return points
 
 
+def outline_of(rings, tolerance=0.01):
+    """El contorno simplificado (a un kilómetro, más o menos) para que el iPhone sepa qué puntos
+    cubre el mapa sin cargar el contorno entero: anillos de [longitud, latitud] con tres decimales."""
+    def simplify(points):
+        # Douglas-Peucker: se queda con el punto más alejado de la recta entre los extremos.
+        if len(points) < 3:
+            return points
+        (x1, y1), (x2, y2) = points[0], points[-1]
+        length = math.hypot(x2 - x1, y2 - y1)
+        def distance(point):
+            if length == 0:
+                return math.hypot(point[0] - x1, point[1] - y1)
+            return abs((x2 - x1) * (y1 - point[1]) - (x1 - point[0]) * (y2 - y1)) / length
+        index, farthest = max(((i, distance(point)) for i, point in enumerate(points[1:-1], 1)), key=lambda item: item[1])
+        if farthest <= tolerance:
+            return [points[0], points[-1]]
+        return simplify(points[:index + 1])[:-1] + simplify(points[index:])
+
+    outline = []
+    for ring in rings:
+        # El anillo cerrado se parte en dos mitades para que sus extremos no coincidan.
+        middle = len(ring) // 2
+        simple = simplify(ring[:middle + 1])[:-1] + simplify(ring[middle:])
+        if len(simple) >= 4:
+            outline.append([[round(x, 3), round(y, 3)] for x, y in simple])
+    return outline
+
+
 # Mapas
 
 def build_map(region_id, build):
@@ -145,6 +175,7 @@ def build_map(region_id, build):
         "name": region["name"],
         "summary": region["summary"],
         "bounds": bounds_of(rings),
+        "outline": outline_of(rings),
         "version": version,
         "dataDate": f"{build[:4]}-{build[4:6]}-{build[6:]}",
         **published(version, tiles),
@@ -226,12 +257,19 @@ def build_catalog(fragments):
             package["routing"] = json.loads(routing.read_text())
         packages[package["id"]] = package
     # Nombres y descripciones salen siempre de regions.json: corregirlos no obliga a generar de nuevo.
+    # El contorno de los paquetes que aún no lo traen se añade aquí, por la misma razón.
     for region in regions():
         if region["id"] in packages:
-            packages[region["id"]].update(name=region["name"], summary=region["summary"])
+            package = packages[region["id"]]
+            package.update(name=region["name"], summary=region["summary"])
+            if "outline" not in package:
+                package["outline"] = outline_of(rings_of(region))
     order = [region["id"] for region in regions()]
     listed = sorted(packages.values(), key=lambda package: order.index(package["id"]) if package["id"] in order else len(order))
-    path.write_text(json.dumps({"formatVersion": 1, "packages": listed}, ensure_ascii=False, indent=2) + "\n")
+    text = json.dumps({"formatVersion": 1, "packages": listed}, ensure_ascii=False, indent=2)
+    # Cada punto de un contorno, en una línea: con un número por línea el fichero se multiplica.
+    text = re.sub(r"\[\s+(-?[\d.]+),\s+(-?[\d.]+)\s+\]", r"[\1, \2]", text)
+    path.write_text(text + "\n")
     print(f"catalog.json: {len(listed)} paquete(s)")
 
 
