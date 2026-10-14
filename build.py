@@ -3,6 +3,7 @@
 
     ./build.py map es-vc 20261013      El mapa de una zona, en dist/.
     ./build.py graph es 20261013       Una red de carreteras entera, repartida entre sus zonas.
+    ./build.py addresses es 2026.10.13 Los portales de un país, repartidos entre sus zonas.
     ./build.py catalog [carpeta]       Reúne en catalog.json lo generado.
     ./build.py plan [grupo]            Zonas y redes de regions.json y graphs.json, para la tarea automática.
 
@@ -15,8 +16,12 @@ después se reparte: así las teselas de dos zonas encajan entre sí y una ruta 
 otra. Las teselas de redes distintas no se pueden mezclar; por eso cada paquete dice de qué red
 salió («es-2026.10.13»).
 
+Del mismo extracto de OpenStreetMap salen las direcciones: cada portal con número, agrupado por
+calle y municipio (el de sus límites administrativos, no el pueblo más cercano), para buscar
+«Calle de la Rioja, 73, Leganés» sin conexión. El mapa de Protomaps no trae portales.
+
 Los ficheros se publican como adjuntos de una Release con el nombre de la versión (2026.10.13).
-Necesita `pmtiles` y Docker.
+Necesita `pmtiles` y Docker; las direcciones, los módulos de Python `osmium` y `shapely`.
 """
 import hashlib
 import json
@@ -189,10 +194,7 @@ def build_map(region_id, build):
 def build_graph(graph_id, build):
     version = version_of(build)
     work = DIST / "work" / graph_id
-    work.mkdir(parents=True, exist_ok=True)
-    extract = work / "region.osm.pbf"
-    if not extract.exists():
-        subprocess.run(["curl", "-fL", "--retry", "3", "-o", str(extract), graphs()[graph_id]["osm"]], check=True)
+    country_extract(graph_id)
 
     tiles = work / "tiles"
     if not tiles.exists():
@@ -240,6 +242,109 @@ def build_graph(graph_id, build):
         print(f"{region['name']}: {len(owned)} teselas de carreteras, {target.stat().st_size >> 20} MB")
 
 
+# Direcciones
+
+def country_extract(graph_id):
+    """El extracto de OpenStreetMap de una red, descargado una sola vez."""
+    work = DIST / "work" / graph_id
+    work.mkdir(parents=True, exist_ok=True)
+    extract = work / "region.osm.pbf"
+    if not extract.exists():
+        subprocess.run(["curl", "-fL", "--retry", "3", "-o", str(extract), graphs()[graph_id]["osm"]], check=True)
+    return extract
+
+
+def build_addresses(graph_id, version):
+    """Los portales con número del país de una red, repartidos entre sus zonas.
+
+    Cada zona recibe un .addresses.json.gz con sus calles: el nombre en castellano (el de la vía
+    con ese nombre más cercana, si lo tiene), el original si es otro, el municipio y sus portales
+    con sus coordenadas en cienmilésimas de grado.
+    """
+    import gzip
+    import osmium
+    import shapely
+    from shapely import wkb
+    from shapely.strtree import STRtree
+
+    factory = osmium.geom.WKBFactory()
+
+    class Reader(osmium.SimpleHandler):
+        def __init__(self):
+            super().__init__()
+            self.municipalities = []
+            self.ways = {}
+            self.addresses = []
+
+        def node(self, node):
+            tags = node.tags
+            if "addr:housenumber" in tags and "addr:street" in tags and node.location.valid():
+                self.addresses.append((tags["addr:street"], tags["addr:housenumber"], node.location.lat, node.location.lon, tags.get("addr:city")))
+
+        def way(self, way):
+            tags = way.tags
+            if "highway" in tags and "name" in tags:
+                middle = way.nodes[len(way.nodes) // 2]
+                if middle.location.valid():
+                    self.ways.setdefault(tags["name"], []).append((tags.get("name:es") or tags["name"], middle.location.lat, middle.location.lon))
+            if "addr:housenumber" in tags and "addr:street" in tags:
+                points = [(node.location.lat, node.location.lon) for node in way.nodes if node.location.valid()]
+                if points:
+                    latitude = sum(point[0] for point in points) / len(points)
+                    longitude = sum(point[1] for point in points) / len(points)
+                    self.addresses.append((tags["addr:street"], tags["addr:housenumber"], latitude, longitude, tags.get("addr:city")))
+
+        def area(self, area):
+            tags = area.tags
+            if tags.get("boundary") == "administrative" and tags.get("admin_level") == "8" and "name" in tags:
+                try:
+                    self.municipalities.append((wkb.loads(factory.create_multipolygon(area), hex=True), tags.get("name:es") or tags["name"]))
+                except Exception:
+                    pass
+
+    reader = Reader()
+    reader.apply_file(str(country_extract(graph_id)), locations=True)
+    print(f"{graph_id}: {len(reader.addresses)} portales, {len(reader.municipalities)} municipios")
+
+    def spanish_name(street, latitude, longitude):
+        best, best_distance = street, 1.5
+        for spanish, way_latitude, way_longitude in reader.ways.get(street, ()):
+            distance = math.hypot((way_latitude - latitude) * 111, (way_longitude - longitude) * 111 * math.cos(math.radians(latitude)))
+            if distance < best_distance:
+                best, best_distance = spanish, distance
+        return best
+
+    points = shapely.points([address[3] for address in reader.addresses], [address[2] for address in reader.addresses])
+    municipality = [None] * len(points)
+    tree = STRtree([polygon for polygon, _ in reader.municipalities])
+    for point, found in zip(*tree.query(points, predicate="within")):
+        municipality[point] = reader.municipalities[found][1]
+
+    zones = [region for region in regions() if region.get("graph") == graph_id]
+    shapes = [shapely.MultiPolygon([shapely.Polygon(ring) for ring in rings_of(region)]) for region in zones]
+    groups = [dict() for _ in zones]
+    zone_tree = STRtree(shapes)
+    for point, zone in zip(*zone_tree.query(points, predicate="within")):
+        street, number, latitude, longitude, city = reader.addresses[point]
+        town = municipality[point] or city
+        if not town:
+            continue
+        spanish = spanish_name(street, latitude, longitude)
+        key = (spanish, "" if street == spanish else street, town)
+        groups[zone].setdefault(key, []).append((number.strip(), round(latitude * 1e5), round(longitude * 1e5)))
+
+    for region, group in zip(zones, groups):
+        streets = []
+        for (spanish, native, town), numbers in sorted(group.items()):
+            numbers.sort(key=lambda number: (len(number[0]), number[0]))
+            streets.append([spanish, native, town, [n[0] for n in numbers], [n[1] for n in numbers], [n[2] for n in numbers]])
+        target = DIST / f"{region['id']}.addresses.json.gz"
+        with gzip.open(target, "wb", compresslevel=9) as file:
+            file.write(json.dumps({"format": 1, "streets": streets}, ensure_ascii=False, separators=(",", ":")).encode())
+        (DIST / f"{region['id']}.addresses.json").write_text(json.dumps(published(version, target), indent=2) + "\n")
+        print(f"{region['name']}: {sum(len(street[3]) for street in streets)} portales en {len(streets)} calles, {target.stat().st_size >> 10} KB")
+
+
 # Catálogo
 
 def build_catalog(fragments):
@@ -256,6 +361,11 @@ def build_catalog(fragments):
         if routing.exists():
             package["routing"] = json.loads(routing.read_text())
         packages[package["id"]] = package
+    # Las direcciones pueden generarse solas, sin rehacer el mapa: se añaden al paquete que haya.
+    for fragment in sorted(fragments.glob("*.addresses.json")):
+        region_id = fragment.name.removesuffix(".addresses.json")
+        if region_id in packages:
+            packages[region_id]["addresses"] = json.loads(fragment.read_text())
     # Nombres y descripciones salen siempre de regions.json: corregirlos no obliga a generar de nuevo.
     # El contorno de los paquetes que aún no lo traen se añade aquí, por la misma razón.
     for region in regions():
@@ -279,6 +389,8 @@ def main():
         build_map(arguments[1], arguments[2])
     elif len(arguments) == 3 and arguments[0] == "graph":
         build_graph(arguments[1], arguments[2])
+    elif len(arguments) == 3 and arguments[0] == "addresses":
+        build_addresses(arguments[1], arguments[2])
     elif arguments and arguments[0] == "catalog":
         build_catalog(arguments[1] if len(arguments) > 1 else DIST)
     elif arguments and arguments[0] == "plan":

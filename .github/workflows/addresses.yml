@@ -1,0 +1,85 @@
+name: Generar direcciones
+
+# Solo las direcciones, sin rehacer mapas ni redes: los portales de cada zona, publicados junto a
+# la versión que ya tiene en el catálogo. La tarea mensual las genera con todo lo demás.
+on:
+  workflow_dispatch:
+    inputs:
+      group:
+        description: "Grupo de zonas (es, eu…); vacío, todas"
+        required: false
+        default: ""
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      networks: ${{ steps.plan.outputs.networks }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: plan
+        run: |
+          # Cada red, con la versión (la Release) en la que están publicados sus paquetes.
+          networks=$(./build.py plan "${{ inputs.group }}" | python3 -c "
+          import json, sys
+          graphs = json.load(sys.stdin)['graphs']
+          packages = json.load(open('catalog.json'))['packages']
+          found = []
+          for graph in graphs:
+              versions = {p['url'].split('/')[-2] for p in packages if p.get('routing', {}).get('graph', '').rsplit('-', 1)[0] == graph}
+              if len(versions) == 1:
+                  found.append({'graph': graph, 'version': versions.pop()})
+          print(json.dumps(found))
+          ")
+          echo "networks=$networks" >> "$GITHUB_OUTPUT"
+
+  addresses:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        network: ${{ fromJson(needs.plan.outputs.networks) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generar
+        run: |
+          pip install --quiet osmium shapely
+          ./build.py addresses "${{ matrix.network.graph }}" "${{ matrix.network.version }}"
+      - name: Publicar
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release upload "${{ matrix.network.version }}" --clobber dist/*.addresses.json.gz
+      - uses: actions/upload-artifact@v4
+        with:
+          name: addresses-${{ matrix.network.graph }}
+          path: dist/*.addresses.json
+
+  catalog:
+    needs: [plan, addresses]
+    if: ${{ !cancelled() && needs.plan.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: fragments
+          merge-multiple: true
+      - name: Catálogo
+        run: |
+          ./build.py catalog fragments
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add catalog.json
+          git diff --cached --quiet || git commit -m "Direcciones en el catálogo"
+          git pull --rebase
+          git push

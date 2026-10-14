@@ -91,14 +91,21 @@ jobs:
         run: sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/lib/android /opt/hostedtoolcache/CodeQL
       - name: Generar
         run: ./build.py graph "${{ matrix.graph }}" "${{ needs.plan.outputs.build }}"
+      - name: Direcciones
+        # Del mismo extracto que la red: los portales con número de cada zona.
+        run: |
+          pip install --quiet osmium shapely
+          ./build.py addresses "${{ matrix.graph }}" "${{ needs.plan.outputs.version }}"
       - name: Publicar
         env:
           GH_TOKEN: ${{ github.token }}
-        run: gh release upload "${{ needs.plan.outputs.version }}" --clobber dist/*.valhalla.tar
+        run: gh release upload "${{ needs.plan.outputs.version }}" --clobber dist/*.valhalla.tar dist/*.addresses.json.gz
       - uses: actions/upload-artifact@v4
         with:
           name: routing-${{ matrix.graph }}
-          path: dist/*.routing.json
+          path: |
+            dist/*.routing.json
+            dist/*.addresses.json
 
   catalog:
     needs: [plan, map, graph]
